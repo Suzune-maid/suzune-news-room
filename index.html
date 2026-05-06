@@ -186,6 +186,16 @@
     .detail h4 { margin: 0 0 7px; font-size: 1rem; color: var(--blue-dark); letter-spacing: 0; }
     .detail p { color: var(--ink); margin: 0; }
     .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 2px; }
+    .keyword-tags { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 9px; }
+    .keyword-tag {
+      color: var(--violet-dark);
+      background: #f8f5ff;
+      border: 1px solid #e2dbff;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 0.84rem;
+      font-weight: 700;
+    }
     .links a {
       display: inline-flex;
       align-items: center;
@@ -211,6 +221,16 @@
     .error-card h3 { margin: 0 0 8px; font-size: 1.08rem; }
     .error-card p { margin: 0; color: #86536b; }
     .loading { color: var(--muted); background: rgba(255,255,255,0.9); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+    .selection-note {
+      margin: 2px 0 12px;
+      color: #55627d;
+      background: rgba(255,255,255,0.84);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 11px 14px;
+      font-size: 0.95rem;
+      box-shadow: 0 5px 14px rgba(84, 99, 152, 0.06);
+    }
     .top-button {
       position: fixed;
       right: 16px;
@@ -261,9 +281,10 @@
       </div>
     </header>
     <nav id="filters" class="filters" aria-label="分類篩選"></nav>
+    <div id="selectionNote" class="selection-note" hidden></div>
     <main>
       <section id="pinnedSection" aria-labelledby="pinnedTitle">
-        <h2 id="pinnedTitle" class="section-title">今日最重要 5 件事</h2>
+        <h2 id="pinnedTitle" class="section-title">昨天最重要 5 件事</h2>
         <div id="pinned" class="pinned"></div>
       </section>
       <section aria-labelledby="cardsTitle">
@@ -286,6 +307,7 @@
     const cardsEl = document.getElementById('cards');
     const emptyEl = document.getElementById('empty');
     const pinnedSection = document.getElementById('pinnedSection');
+    const selectionNote = document.getElementById('selectionNote');
     const topButton = document.getElementById('topButton');
 
     document.getElementById('builtAt').textContent = '載入中';
@@ -307,6 +329,7 @@
 
     function showLoading(message) {
       pinnedSection.hidden = true;
+      selectionNote.hidden = true;
       emptyEl.hidden = true;
       pinnedEl.replaceChildren();
       cardsEl.innerHTML = `<div class="loading">${escapeHtml(message || '載入中')}</div>`;
@@ -314,6 +337,7 @@
 
     function showError(message) {
       pinnedSection.hidden = true;
+      selectionNote.hidden = true;
       emptyEl.hidden = true;
       pinnedEl.replaceChildren();
       cardsEl.innerHTML = `
@@ -327,7 +351,8 @@
     function textIncludes(card, query) {
       if (!query) return true;
       const haystack = [
-        card.title, card.summary, card.detailSummary, card.why, card.categoryLabel,
+        card.title, card.summary, card.detailSummary, card.why, card.categoryLabel, card.selectionReason,
+        ...(card.matchedInterestKeywords || []),
         ...(card.sources || []).map(source => source.source + ' ' + source.url),
         ...(card.articles || []).map(article => [article.title, article.summary, article.source, article.source_group, article.url].join(' '))
       ].join(' ').toLowerCase();
@@ -363,6 +388,7 @@
           <p>${escapeHtml(card.detailSummary || card.summary || '尚無摘要')}</p>
         </div>
         ${card.why ? `<div class="detail-section"><h4>為什麼值得注意</h4><p>${escapeHtml(card.why)}</p></div>` : ''}
+        ${card.selectionReason ? `<div class="detail-section"><h4>為什麼被選上</h4><p>${escapeHtml(card.selectionReason)}</p>${renderKeywordTags(card.matchedInterestKeywords || [])}</div>` : ''}
         ${card.articles && card.articles.length ? `<div class="detail-section"><h4>事件內報導</h4><div class="links">${renderArticleLinks(card.articles)}</div></div>` : ''}
         <div class="detail-section">
           <h4>來源報導</h4>
@@ -397,6 +423,12 @@
       `).join('');
     }
 
+    function renderKeywordTags(keywords) {
+      const clean = (keywords || []).filter(Boolean);
+      if (!clean.length) return '';
+      return `<div class="keyword-tags">${clean.map(keyword => `<span class="keyword-tag">${escapeHtml(keyword)}</span>`).join('')}</div>`;
+    }
+
     function escapeHtml(value) {
       return String(value || '').replace(/[&<>"']/g, char => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -411,6 +443,13 @@
       const dateData = dayCache.get(state.date) || { pinned: [], cards: [] };
       const pinned = (dateData.pinned || []).filter(passes);
       const cards = (dateData.cards || []).filter(passes);
+      const selection = dateData.selection || {};
+      if (selection.candidateEventCount) {
+        selectionNote.textContent = `本日從 ${selection.candidateEventCount} 則事件中精選 ${selection.displayedCardCount || cards.length} 則；其餘 ${selection.hiddenCardCount || 0} 則已收起。`;
+        selectionNote.hidden = false;
+      } else {
+        selectionNote.hidden = true;
+      }
       pinnedEl.replaceChildren(...pinned.map(makeCard));
       cardsEl.replaceChildren(...cards.map(makeCard));
       pinnedSection.hidden = pinned.length === 0;
