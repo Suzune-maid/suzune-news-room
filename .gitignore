@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Runtime collection archive (local-only by default)
+/archive/news/daily/
+/archive/news/digests/
+/archive/news/source_health/
+
+# Temporary files
+*.tmp
+.DS_Store

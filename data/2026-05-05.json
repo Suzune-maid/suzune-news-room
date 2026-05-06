@@ -1,0 +1,4236 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-06T11:17:31+08:00",
+  "digest_markdown": "",
+  "categoryLabels": {
+    "taiwan": "台灣／公共議題",
+    "world": "國際",
+    "finance": "財經／市場",
+    "tech_ai": "科技／AI",
+    "society_life": "社會／生活"
+  },
+  "categories": [
+    {
+      "key": "taiwan",
+      "label": "台灣／公共議題"
+    },
+    {
+      "key": "world",
+      "label": "國際"
+    },
+    {
+      "key": "finance",
+      "label": "財經／市場"
+    },
+    {
+      "key": "tech_ai",
+      "label": "科技／AI"
+    },
+    {
+      "key": "society_life",
+      "label": "社會／生活"
+    }
+  ],
+  "source_status": [
+    {
+      "category": "finance",
+      "collected_at": "2026-05-05T23:16:11.064333+08:00",
+      "date": "2026-05-05",
+      "items": 24,
+      "label": "財經／市場",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-05-05/finance.jsonl",
+      "sources": [
+        {
+          "error": null,
+          "found": 40,
+          "kept": 12,
+          "name": "自由時報財經",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/rss/business.xml"
+        },
+        {
+          "error": null,
+          "found": 0,
+          "kept": 0,
+          "name": "經濟日報",
+          "ok": true,
+          "url": "https://money.udn.com/rssfeed/news/1001/5591/5592?ch=money"
+        },
+        {
+          "error": null,
+          "found": 100,
+          "kept": 12,
+          "name": "Google News 財經",
+          "ok": true,
+          "url": "https://news.google.com/rss/search?q=財經&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ],
+      "file": "finance.status.json"
+    },
+    {
+      "category": "society_life",
+      "collected_at": "2026-05-05T23:16:16.727356+08:00",
+      "date": "2026-05-05",
+      "items": 48,
+      "label": "社會／生活",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-05-05/society_life.jsonl",
+      "sources": [
+        {
+          "error": null,
+          "found": 40,
+          "kept": 12,
+          "name": "自由時報社會",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/rss/society.xml"
+        },
+        {
+          "error": null,
+          "found": 40,
+          "kept": 12,
+          "name": "自由時報生活",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/rss/life.xml"
+        },
+        {
+          "error": null,
+          "found": 50,
+          "kept": 12,
+          "name": "ETtoday 社會",
+          "ok": true,
+          "url": "https://feeds.feedburner.com/ettoday/society"
+        },
+        {
+          "error": null,
+          "found": 50,
+          "kept": 12,
+          "name": "ETtoday 生活",
+          "ok": true,
+          "url": "https://feeds.feedburner.com/ettoday/lifestyle"
+        }
+      ],
+      "file": "society_life.status.json"
+    },
+    {
+      "category": "taiwan",
+      "collected_at": "2026-05-05T23:15:50.900982+08:00",
+      "date": "2026-05-05",
+      "items": 36,
+      "label": "台灣／公共議題",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-05-05/taiwan.jsonl",
+      "sources": [
+        {
+          "error": null,
+          "found": 40,
+          "kept": 12,
+          "name": "自由時報政治",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/rss/politics.xml"
+        },
+        {
+          "error": null,
+          "found": 25,
+          "kept": 12,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/xml/newsfeed.xml"
+        },
+        {
+          "error": null,
+          "found": 0,
+          "kept": 0,
+          "name": "UDN 要聞",
+          "ok": true,
+          "url": "https://udn.com/rssfeed/news/2/6638?ch=news"
+        },
+        {
+          "error": null,
+          "found": 100,
+          "kept": 12,
+          "name": "Google News 台灣政治",
+          "ok": true,
+          "url": "https://news.google.com/rss/search?q=台灣%20政治&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ],
+      "file": "taiwan.status.json"
+    },
+    {
+      "category": "tech_ai",
+      "collected_at": "2026-05-05T23:16:13.710055+08:00",
+      "date": "2026-05-05",
+      "items": 46,
+      "label": "科技／AI",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-05-05/tech_ai.jsonl",
+      "sources": [
+        {
+          "error": null,
+          "found": 40,
+          "kept": 12,
+          "name": "科技新報",
+          "ok": true,
+          "url": "https://technews.tw/feed/"
+        },
+        {
+          "error": null,
+          "found": 30,
+          "kept": 12,
+          "name": "iThome",
+          "ok": true,
+          "url": "https://www.ithome.com.tw/rss"
+        },
+        {
+          "error": null,
+          "found": 10,
+          "kept": 10,
+          "name": "INSIDE",
+          "ok": true,
+          "url": "https://www.inside.com.tw/feed/rss"
+        },
+        {
+          "error": null,
+          "found": 100,
+          "kept": 12,
+          "name": "Google News AI科技",
+          "ok": true,
+          "url": "https://news.google.com/rss/search?q=AI%20科技&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ],
+      "file": "tech_ai.status.json"
+    },
+    {
+      "category": "world",
+      "collected_at": "2026-05-05T23:16:10.299004+08:00",
+      "date": "2026-05-05",
+      "items": 36,
+      "label": "國際",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-05-05/world.jsonl",
+      "sources": [
+        {
+          "error": null,
+          "found": 40,
+          "kept": 12,
+          "name": "自由時報國際",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/rss/world.xml"
+        },
+        {
+          "error": null,
+          "found": 38,
+          "kept": 12,
+          "name": "BBC 中文繁體",
+          "ok": true,
+          "url": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml"
+        },
+        {
+          "error": null,
+          "found": 15,
+          "kept": 12,
+          "name": "端傳媒",
+          "ok": true,
+          "url": "https://theinitium.com/rss/"
+        },
+        {
+          "error": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+          "found": 0,
+          "kept": 0,
+          "name": "Google News 國際",
+          "ok": false,
+          "url": "https://news.google.com/rss/search?q=國際&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ],
+      "file": "world.status.json"
+    }
+  ],
+  "pinned": [],
+  "cards": [
+    {
+      "id": "2026-05-05-raw-137",
+      "date": "2026-05-05",
+      "title": "F-16伴飛史瓦帝尼國王專機畫面曝蕭美琴：台灣要一直與世界同行| 政治 - Newtalk新聞",
+      "summary": "F-16伴飛史瓦帝尼國王專機畫面曝蕭美琴：台灣要一直與世界同行| 政治 Newtalk新聞",
+      "detailSummary": "F-16伴飛史瓦帝尼國王專機畫面曝蕭美琴：台灣要一直與世界同行| 政治 Newtalk新聞",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5id29MWEJMeGw5WDNkcVJOcGpOTENLWEIzN1EybjF3cEd6NDZxX2tfR1UtT1pEWE5jMjN4b0piX3FDZGhKNERqc0Rhelg2LVExSUpGTGV6TGhBTHc?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T04:32:11+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-166",
+      "date": "2026-05-05",
+      "title": "【獨家】踐踏台灣學術自由促統 政大中國籍博士生在海外發表「武統論文」惹議 - 上報Up Media",
+      "summary": "【獨家】踐踏台灣學術自由促統 政大中國籍博士生在海外發表「武統論文」惹議 上報Up Media",
+      "detailSummary": "【獨家】踐踏台灣學術自由促統 政大中國籍博士生在海外發表「武統論文」惹議 上報Up Media",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UZ1hZX1JaQi1sUzBwZXVFT1A4NldyUFVLakNZdDVGanRKbTdTZGJnREFkQ01UUGtwYnRPSGVqUGtQQUN2NU04NTBwREJiY05QRW5XUmdTdkVRcXdyN0dUM0xuZWtDYUU?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-04T11:30:00+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-37",
+      "date": "2026-05-05",
+      "title": "伴飛？賴清德返國飛到這地方 低空突出現美軍直升機",
+      "summary": "總統賴清德無懼中國外交打壓，突襲出訪友邦史瓦帝尼，今天（5日）上午10點多順利返抵國門。",
+      "detailSummary": "總統賴清德無懼中國外交打壓，突襲出訪友邦史瓦帝尼，今天（5日）上午10點多順利返抵國門。賴總統一行人還在返程時，有大批網友在線上緊盯史瓦帝尼國王專機動態，反紫光奇遊團成員許美華分...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426671",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:08:29+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-35",
+      "date": "2026-05-05",
+      "title": "俄國高薪徵才誘騙赴前線作戰 近7個月約600秘魯人受騙",
+      "summary": "俄羅斯軍隊因兵源短缺，招募外籍傭兵到烏俄前線參戰早已不是秘密，但現在卻傳出以「高薪當保全」等誘騙手段，將包括秘魯等國的受害者送到戰區。",
+      "detailSummary": "俄羅斯軍隊因兵源短缺，招募外籍傭兵到烏俄前線參戰早已不是秘密，但現在卻傳出以「高薪當保全」等誘騙手段，將包括秘魯等國的受害者送到戰區。在秘魯當局出面營救後，有6名秘魯人在星期一搭機返國，有關當局目前已經以人口販運針對這類案件展開調查。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806908",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T21:10:11+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-59",
+      "date": "2026-05-05",
+      "title": "兒科住院醫師招聘率逐年下降 醫界籲調整公費生制度留才",
+      "summary": "台灣兒科醫學會統計，兒科住院醫師招聘率逐年下滑，醫界建議政府調整公費生制度，讓醫師留在醫學中心兒科服務，可抵銷下鄉義務，以確保急重症醫療不至於斷層。",
+      "detailSummary": "台灣兒科醫學會統計，兒科住院醫師招聘率逐年下滑，醫界建議政府調整公費生制度，讓醫師留在醫學中心兒科服務，可抵銷下鄉義務，以確保急重症醫療不至於斷層。對此衛福部表示，今（2026）年第3期公費醫學生計畫首度納入小兒外科等任務科，且不限定偏鄉；另外今年也挹注249億元，包括調升兒科重症住院、門診診察費等，鼓勵醫師留任兒科。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806892",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:32:13+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-30",
+      "date": "2026-05-05",
+      "title": "內幕》北京48小時瘋狂鎖航無效 賴清德訪史早埋「反制」伏筆",
+      "summary": "總統賴清德完成非洲友邦史瓦帝尼訪問順利返台，國安官員透露，早在宣布「暫緩」出訪前，國安外交團隊已有「北京施壓航經國家取消飛航許可」的預擬劇本，因此我方得以立即啟動對案；回程中國再..…",
+      "detailSummary": "總統賴清德完成非洲友邦史瓦帝尼訪問順利返台，國安官員透露，早在宣布「暫緩」出訪前，國安外交團隊已有「北京施壓航經國家取消飛航許可」的預擬劇本，因此我方得以立即啟動對案；回程中國再...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426712",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:30:00+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-31",
+      "date": "2026-05-05",
+      "title": "內幕》避開北京干擾——賴清德返程「微笑曲線」 4引擎專機戰略密碼",
+      "summary": "總統賴清德昨晚搭乘史瓦帝尼國王專機，今天上午返回台灣，航程出現的「微笑曲線」引發關注，國安官員透露，這是在「安全第一」原則下，成功避開北京干擾的結果，並揭密選用「四引擎飛機」的戰..…",
+      "detailSummary": "總統賴清德昨晚搭乘史瓦帝尼國王專機，今天上午返回台灣，航程出現的「微笑曲線」引發關注，國安官員透露，這是在「安全第一」原則下，成功避開北京干擾的結果，並揭密選用「四引擎飛機」的戰...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426713",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:30:00+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-57",
+      "date": "2026-05-05",
+      "title": "北市12行政區啟動清消防鼠害 投藥場所將設告示",
+      "summary": "台北市近期老鼠問題引發關注，台北市長蔣萬安今（5）日親上火線說明，強調北市近期沒有新增漢他病毒個案，12個行政區近期要再度進行大清消。",
+      "detailSummary": "台北市近期老鼠問題引發關注，台北市長蔣萬安今（5）日親上火線說明，強調北市近期沒有新增漢他病毒個案，12個行政區近期要再度進行大清消。北市府將從3大措施滅鼠，強調物理防治優先，必要時才會投藥；也將率全國之先，在公共區域所有投放點設置告示，以及提供「鼠類偵防師」服務，協助家戶防治。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806897",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:33:19+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-62",
+      "date": "2026-05-05",
+      "title": "北市鼠患議題延燒 殷瑋轟錯假訊息多：「這難道不是認知作戰？ 」",
+      "summary": "台北鼠患議題延燒，台北市長蔣萬安今（5）天下午率相關局處首長召開鼠害防治記者會，說明北市府的因應作為，台北市政府研考會主委殷瑋晚間接受廣播專訪時表示，網路很多錯假訊息，製造台北...…",
+      "detailSummary": "台北鼠患議題延燒，台北市長蔣萬安今（5）天下午率相關局處首長召開鼠害防治記者會，說明北市府的因應作為，台北市政府研考會主委殷瑋晚間接受廣播專訪時表示，網路很多錯假訊息，製造台北...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426650",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T20:29:35+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-18",
+      "date": "2026-05-05",
+      "title": "台中租屋補貼審查慢半拍租屋族乾等 議員批未苦民所苦",
+      "summary": "中央300億擴大租金補貼方案自2023年改由地方審查申請案，台中市多名議員接獲不少人陳情久等不到租金補貼，租屋族生活壓力未紓解，質疑市府未能「苦民所苦」，租屋補助審查慢半拍，讓...…",
+      "detailSummary": "中央300億擴大租金補貼方案自2023年改由地方審查申請案，台中市多名議員接獲不少人陳情久等不到租金補貼，租屋族生活壓力未紓解，質疑市府未能「苦民所苦」，租屋補助審查慢半拍，讓...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426689",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:59:09+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-58",
+      "date": "2026-05-05",
+      "title": "台股證券開戶逾1420萬人 19歲以下族群首度破5%",
+      "summary": "今（5）日台股加權指數，收盤再度站穩4萬點，收在40769點。",
+      "detailSummary": "今（5）日台股加權指數，收盤再度站穩4萬點，收在40769點。根據證交所統計，累計到今（2026）年4月證券開戶人數突破1420萬人，等於全台每5個人中，就有約3人投資股市。如果以年齡層來區分，0到19歲族群占總開戶數比重，除了逐月增加，今年4月首度突破5%，顯示投資族群有年輕化趨勢。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806894",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:32:46+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-120",
+      "date": "2026-05-05",
+      "title": "史王大力協助！賴清德訪史國圓滿落幕...涉外人士分析重要意義：台灣有權利走向世界為國際貢獻 - 放言Fount Media",
+      "summary": "史王大力協助！",
+      "detailSummary": "史王大力協助！賴清德訪史國圓滿落幕...涉外人士分析重要意義：台灣有權利走向世界為國際貢獻 放言Fount Media",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YaDVzSlhKejh4bFlxMjZodl8wUThGTk80X2JoazQ4eklYNjNFYUdjNDBya2ZILWwxOXNuRHdqMjBQeUMySDhUMS1WcVNnVm1KNGc?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T10:11:20+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-6",
+      "date": "2026-05-05",
+      "title": "史瓦帝尼國王專機前身曝光 他揭4發動機、繞飛1.4萬公里直抵台灣「天註定」",
+      "summary": "總統賴清德突破中國外交封鎖，成功出訪友邦史瓦帝尼，並於今天（5日）返抵國門。",
+      "detailSummary": "總統賴清德突破中國外交封鎖，成功出訪友邦史瓦帝尼，並於今天（5日）返抵國門。針對賴總統搭乘的空巴A340-300（Airbus A340-300）從史瓦帝尼直飛台灣，繞遠路飛了約...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426735",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T22:41:52+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-60",
+      "date": "2026-05-05",
+      "title": "家族持分小琉球農地涉違建 李四川：其他人若違法該拆就拆",
+      "summary": "新北選戰持續升溫，今（5）日下午藍綠參選人出席同一場活動，李四川和蘇巧慧也禮貌握手。",
+      "detailSummary": "新北選戰持續升溫，今（5）日下午藍綠參選人出席同一場活動，李四川和蘇巧慧也禮貌握手。不過外界關注，國民黨參選人李四川家族持分的小琉球農地傳出違建爭議，李四川表示，如果土地有違建該拆就拆，絕無例外；縣府則表示將會到場稽查，如有違規最高可開罰30萬元。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806891",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:31:40+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-41",
+      "date": "2026-05-05",
+      "title": "巴基斯坦喀拉蚩高溫近46℃ 中暑民眾擠滿急診室",
+      "summary": "南亞地區最近熱浪來襲、氣溫不斷飆升，巴基斯坦南部大城喀拉蚩氣溫一度飆破42°C，甚至上看46°C，大批民眾中暑或腸胃不適，擠爆急診室。",
+      "detailSummary": "南亞地區最近熱浪來襲、氣溫不斷飆升，巴基斯坦南部大城喀拉蚩氣溫一度飆破42°C，甚至上看46°C，大批民眾中暑或腸胃不適，擠爆急診室。鄰國印度的交通警察在烈日下執勤，有人自備秘密武器，就是裝了太陽能風扇的特製警帽，既消暑又吸睛。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806905",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T21:00:12+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-34",
+      "date": "2026-05-05",
+      "title": "巴西私人客機墜毀市區 正副駕駛、1乘客罹難",
+      "summary": "這兩日接連發生飛安事故，巴西一架小飛機剛起飛幾分鐘，高度就快速下降，機師好像試圖要避開高樓，卻撞上一棟3層樓高的公寓，然後墜落在停車場。",
+      "detailSummary": "這兩日接連發生飛安事故，巴西一架小飛機剛起飛幾分鐘，高度就快速下降，機師好像試圖要避開高樓，卻撞上一棟3層樓高的公寓，然後墜落在停車場。飛機上的正副駕駛當場喪命，3名乘客送醫之後，也有1人傷重不治。不幸中的大幸是撞擊點在樓梯間，降低了損害，地面上沒有人員受傷。另一個驚險的場景是在美國紐澤西州，一架客機在降落時沒有抓好高度，竟然擦撞高速公路上的卡車和路燈，讓目擊者驚聲尖叫。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806912",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T21:10:11+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-106",
+      "date": "2026-05-05",
+      "title": "徐春鶯恐失台灣身分？林俊憲：回你美好祖國 - PChome Online 新聞",
+      "summary": "徐春鶯恐失台灣身分？",
+      "detailSummary": "徐春鶯恐失台灣身分？林俊憲：回你美好祖國 PChome Online 新聞",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUXJBYlZ0ckdqYWk5ZWtHZTZWRHYwTnJCX3hzbTNoV2FrY2VUeDIwRThOUkRBcDlzTFRDbm14RXRzVThKX3hTM0ZSRWFWTkR0TWlCbXBXVG9Dc0h3WncwVlNscF9QWVpSbVVQS2tySE1lSTVPNHlmNDNQLWltd2lySVZTcHM4MkZ2NHlqRA?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T13:02:01+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-55",
+      "date": "2026-05-05",
+      "title": "愛爾麗遭控偵煙器藏針孔攝影機 稱確保醫療品質、器材安全",
+      "summary": "國內知名的愛爾麗集團，全台有多家分院，但板橋分院日前爆出偷拍風波，顧客控訴，原本詢問院方，一度被告知是煙霧偵測器，但經警方檢測，發現診療間裝設針孔攝影機。",
+      "detailSummary": "國內知名的愛爾麗集團，全台有多家分院，但板橋分院日前爆出偷拍風波，顧客控訴，原本詢問院方，一度被告知是煙霧偵測器，但經警方檢測，發現診療間裝設針孔攝影機。雙北檢警已經朝妨害秘密罪等方向展開偵辦，同時前往多家分院調查。愛爾麗集團發聲明表示，監視設備目的在於確保醫療品質，絕無侵害隱私。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806898",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:33:55+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-25",
+      "date": "2026-05-05",
+      "title": "新北「藍白合」李四川出線 黃國昌：背棄承諾將嚴格監督與批判",
+      "summary": "年底縣市長選舉，針對嘉義市、新北市、宜蘭縣的「藍白合」共推人選全部底定由藍營推派，但外界憂白營支持者未必會轉投「藍白合」人選，甚至可能流向綠營票倉。",
+      "detailSummary": "年底縣市長選舉，針對嘉義市、新北市、宜蘭縣的「藍白合」共推人選全部底定由藍營推派，但外界憂白營支持者未必會轉投「藍白合」人選，甚至可能流向綠營票倉。民眾黨主席黃國昌表示，藍白兩...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426664",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:41:29+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-53",
+      "date": "2026-05-05",
+      "title": "日本前防衛大臣籲美堅定立場 應對川習會台灣問題",
+      "summary": "本（5）月中旬，即將在北京登場的川習會，各界關注台灣議題是否會正式搬上檯面？",
+      "detailSummary": "本（5）月中旬，即將在北京登場的川習會，各界關注台灣議題是否會正式搬上檯面？日本前防衛大臣小野寺五典則呼籲美國，應持續採取堅定立場應對，認為川普如果在台灣問題上的發言，比以往更動搖，將對盟國造成重大影響。學者分析，比起公開文字的對台論述，北京在對台軍售等實質政策上，更希望美國能夠符合他們的期待。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806900",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:35:05+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-29",
+      "date": "2026-05-05",
+      "title": "林國成罵賴清德三字經辯稱「打領帶」 張育萌批：敢做不敢當",
+      "summary": "前民眾黨立委林國成於去年7月20日參加反大罷免活動時，直接點名總統賴清德怒轟「X你娘」，遭賴清德提告。",
+      "detailSummary": "前民眾黨立委林國成於去年7月20日參加反大罷免活動時，直接點名總統賴清德怒轟「X你娘」，遭賴清德提告。台北地院今判處林國成拘役20天，得易科罰金，可上訴。對此，台灣青年世代共好協...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426571",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:30:18+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-38",
+      "date": "2026-05-05",
+      "title": "民調接連敗藍營！ 黃國昌坦言可惜：尊重規則全力輔選",
+      "summary": "民眾黨主席黃國昌在「藍白合」初選民調中敗給國民黨新北市長參選人李四川，最終由李對決民進黨立委蘇巧慧；宜蘭縣長民調方面，國民黨立委吳宗憲領先前民眾黨立委陳琬惠。",
+      "detailSummary": "民眾黨主席黃國昌在「藍白合」初選民調中敗給國民黨新北市長參選人李四川，最終由李對決民進黨立委蘇巧慧；宜蘭縣長民調方面，國民黨立委吳宗憲領先前民眾黨立委陳琬惠。對此，黃國昌坦言對...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426659",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:05:51+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-107",
+      "date": "2026-05-05",
+      "title": "洪浦釗觀點》世界是大家的台灣不是中國的| 政治 - Newtalk新聞",
+      "summary": "洪浦釗觀點》世界是大家的台灣不是中國的| 政治 Newtalk新聞",
+      "detailSummary": "洪浦釗觀點》世界是大家的台灣不是中國的| 政治 Newtalk新聞",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wWGhRSkZ3MHRHOE9VVFVpTENPaHpSMHRwLXowY2prM3ptZWhOYzEtb2UwZWJfWGkxZmVOYzlKZnJiRE16OFBKOGFYSmZoRTdTMjA1TlNVV3VJWDQ?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T12:24:21+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-54",
+      "date": "2026-05-05",
+      "title": "海鯤號第7次潛航測試 操雷系統租約將屆面臨進度壓力",
+      "summary": "潛艦國造「海鯤號」睽違1個多月再次現身，今（5）日上午出海執行第7次潛航測試。",
+      "detailSummary": "潛艦國造「海鯤號」睽違1個多月再次現身，今（5）日上午出海執行第7次潛航測試。由於我方向美方承租的操雷系統，租約將在本（5）月到期，台船面臨操雷測試進度的壓力。另外，立法院明（6）日要針對國防特別條例，進行第4次朝野協商，但國民黨團自家卻有2版本。國民黨主席鄭麗文強調，多數人支持黨中央的3800億+N，但藍委賴士葆強調，多數人才是一面倒支持8千億版本；黨團總召傅崐萁則說，各種版本最大共識，一定要取得對美的發價書。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806899",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:34:31+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-36",
+      "date": "2026-05-05",
+      "title": "湖南煙火工廠爆炸釀26死 中國當局下令究責",
+      "summary": "中國湖南一處煙火廠週一（4日）下午發生嚴重爆炸，現場廠房幾乎全毀，周邊幾百公尺建物也受到波及， 火勢經徹夜灌救，在今日清晨終於撲滅，目前已知造成26死61傷，中國國家主席習近平下令全…",
+      "detailSummary": "中國湖南一處煙火廠週一（4日）下午發生嚴重爆炸，現場廠房幾乎全毀，周邊幾百公尺建物也受到波及， 火勢經徹夜灌救，在今日清晨終於撲滅，目前已知造成26死61傷，中國國家主席習近平下令全力救治傷患，並嚴肅追究事故原因與責任。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806913",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T21:09:47+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-189",
+      "date": "2026-05-05",
+      "title": "猶太大屠殺紀念日德、以駐台代表：台灣政治高層不應輕率稱他人為納粹| 政治 - 中央社 CNA",
+      "summary": "猶太大屠殺紀念日德、以駐台代表：台灣政治高層不應輕率稱他人為納粹| 政治 中央社 CNA",
+      "detailSummary": "猶太大屠殺紀念日德、以駐台代表：台灣政治高層不應輕率稱他人為納粹| 政治 中央社 CNA",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vX1NjX3dUSkJOSFRRU291VkstZGdMR2x0SDlxVjVIaWtMVEV6SFBmS3ZIaHpwWXFNZFpERzRXTlVQcjRwNW1QWDZFNXMyT1ZNMlh2bW5uNkNzczRGYUJV?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-04-29T09:42:00+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-47",
+      "date": "2026-05-05",
+      "title": "王鴻薇才說鼠患是綠營造假 其選區驚見鼠屍 網：王奶奶出來打球！",
+      "summary": "台北鼠患越來越嚴重，近期鄉民們都在網上分享目擊情報。",
+      "detailSummary": "台北鼠患越來越嚴重，近期鄉民們都在網上分享目擊情報。今天（5日）一位在中正區上班的民眾在路上驚見鼠屍，想到最近蔣萬安市府亂投老鼠藥，擔憂「接下來會不會鼠屍遍野？」引發討論，留言區...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426467",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T20:44:47+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-144",
+      "date": "2026-05-05",
+      "title": "矢板明夫談賴清德突圍訪史瓦帝尼：台灣外交勝利習近平的慘敗！中國打壓是想在川習會前累積籌碼 - 放言Fount Media",
+      "summary": "矢板明夫談賴清德突圍訪史瓦帝尼：台灣外交勝利習近平的慘敗！",
+      "detailSummary": "矢板明夫談賴清德突圍訪史瓦帝尼：台灣外交勝利習近平的慘敗！中國打壓是想在川習會前累積籌碼 放言Fount Media",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53eWs4cy0xS3Fjem0xOVVYOVZKWkZCTzI0d2hva09ETG5YYklyalJ0VFY3MXJ1Z3BDcktrOEdMYzFZRktEb1JaRElHd0lTOWdCZ0E?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T03:15:36+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-52",
+      "date": "2026-05-05",
+      "title": "總統賴清德搭史國專機返台 我4架F-16戰機伴飛",
+      "summary": "總統賴清德結束出訪史瓦帝尼行程，今（5）日上午返抵國門，空軍派出4架F-16戰機伴飛護航。",
+      "detailSummary": "總統賴清德結束出訪史瓦帝尼行程，今（5）日上午返抵國門，空軍派出4架F-16戰機伴飛護航。專機回程沒有經過馬達加斯加與模里西斯飛航情報區，走更偏南的路線，並遠離中國與南海上空，飛越印尼、菲律賓抵台。而總統賴清德這次來回都是搭乘史國A340專機，且都由史國副總理札杜莉陪同，總統賴清德強調，台灣不會因為打壓而退縮，此行讓世界看見台灣人走向世界的決心與意志。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.pts.org.tw/article/806901",
+          "source": "公視新聞"
+        }
+      ],
+      "published": "2026-05-05T20:35:43+08:00",
+      "sourceName": "公視新聞",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-56",
+      "date": "2026-05-05",
+      "title": "自由爆新聞》國民黨驚爆「退黨大戰」？民調藏「一細節」讓藍白糗大了",
+      "summary": "【更多內容 請見影片】 訂閱【自由追新聞】 全新的視界！",
+      "detailSummary": "【更多內容 請見影片】 訂閱【自由追新聞】 全新的視界！新聞話題不漏接，快訂閱YouTube 【自由追新聞】，記得開啟小鈴鐺哦！…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426680",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T20:33:30+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-138",
+      "date": "2026-05-05",
+      "title": "自由開講》六天拆橋：當效率成為政治的遮羞布 - 自由評論網",
+      "summary": "自由開講》六天拆橋：當效率成為政治的遮羞布 自由評論網",
+      "detailSummary": "自由開講》六天拆橋：當效率成為政治的遮羞布 自由評論網",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JRWtrMjIwa0lFR0tieHNsLVducmd1d3k2Vm5TVnBhWHFDb0FVdm5yQjJjOG5JLUVQeDNIYUhvTHFDM3BtbGFMYTZKR0VJa2ZaRDZPVmluZUQ4dmItVzdyaVJn0gFnQVVfeXFMTmdRN1RoWmtJdHBPcGlYMTlYeGdsWWkyR0VMakdFNXF0MnhWeV84TDF2UF9GZlJ6UU5LVUZqUkZFMGoyRGJYR3owNWhxMVV5OEZjMG9JODJjV0RrUmtONF9jQWF3VDhlQQ?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T04:30:00+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-188",
+      "date": "2026-05-05",
+      "title": "讓人民對憲政內涵形成共識 - 想想Thinking Taiwan - 想想台灣，想想未來 - thinkingtaiwan.net",
+      "summary": "讓人民對憲政內涵形成共識 - 想想Thinking Taiwan - 想想台灣，想想未來 thinkingtaiwan.net",
+      "detailSummary": "讓人民對憲政內涵形成共識 - 想想Thinking Taiwan - 想想台灣，想想未來 thinkingtaiwan.net",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DSDlTaUtxZGZkOUJpNlV3N3RJaVg5eDh4UDhhakRIS2J4OVBIdlhNUkIzOGhiWWpVeVpxMTFmaEcySmU3bkMwalZsUElLTk1oWVVBcXVqcGg?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-02T00:03:51+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-164",
+      "date": "2026-05-05",
+      "title": "賴清德離開斯威士蘭啟程返台 消息人士：搭國王專機離開 - RFI",
+      "summary": "賴清德離開斯威士蘭啟程返台 消息人士：搭國王專機離開 RFI",
+      "detailSummary": "賴清德離開斯威士蘭啟程返台 消息人士：搭國王專機離開 RFI",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxOU2NDaExRc1VZOHk2VUd6Y3hUQjVoekVEUmQ0ZldGSGVfdGhyczN5NkhXcm80djAzQS1WUXVtUzZSdnpJSGNlaUlaakd3aEdjN0ZVTWNmdHFoZlRFSVhJRFZ1VmZoOVBUTV9ETGpFU0V2bEdMRXdzcTNQV2tHV0FHaWlZaEtNaURLcWJJNl9IdEpRZ01YWjVSZ2tEYUYtRzhOWFMxSU9nbERxR0hmdWFRNFVBT2t2YV9KOUtWdDJhMFdMT0VJZmJEMkF0SmM0X0NtdEl6Y1JoMDlXcDNaZGNteC02M0U3cV81WGZrQlB5OFV0MzhKaXlESjVUOW15Q0hyc2hIVXdWaWNFc2VkTDhwZnpjdkxQMnFzbHp2Tm5wVlJpejIyMzVqYmJNbjlqMmlCNDZTV0tqNkt5YjU5aDRSU09Lai1pQzFISWtrdzZXZnU1Zl9kUkJLSms4UjZEbTZLVURJZFhmYy12Vm56c1V4Y0JjZFFnZWxOZzRNS0xFWDFnZw?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-04T13:39:52+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-17",
+      "date": "2026-05-05",
+      "title": "賴清德順利出訪史瓦帝尼 林俊憲：對中國而言是一場挫敗",
+      "summary": "總統賴清德不懼中國外交封鎖，出訪非洲友邦史瓦帝尼，今（5日）順利返抵國門。",
+      "detailSummary": "總統賴清德不懼中國外交封鎖，出訪非洲友邦史瓦帝尼，今（5日）順利返抵國門。對此，民進黨立委林俊憲表示，這段期間有人嘲笑賴總統出訪是「偷渡」，但所謂「偷渡說」，只是中共跟他的小弟們...…",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5426636",
+          "source": "自由時報政治"
+        }
+      ],
+      "published": "2026-05-05T21:59:53+08:00",
+      "sourceName": "自由時報政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-133",
+      "date": "2026-05-05",
+      "title": "逾400萬台灣人接受和平統一：台灣認同反轉進入政治實然 - 香港01",
+      "summary": "逾400萬台灣人接受和平統一：台灣認同反轉進入政治實然 香港01",
+      "detailSummary": "逾400萬台灣人接受和平統一：台灣認同反轉進入政治實然 香港01",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPQWxyd01ZTHE2U2hCbUpKWGZaaWJrSTczZ2dLRGlDMVdmMl9ZcS1oczdEbkhtd3BiSkkwMnRxZjk5dEFVM25BQmdqMlN2ay00SGJuM0ZBX0dYR2h2ZGd4NFk2UlI3ekZBRV9FT1RiWkoyUzg3cmkwQktCdmI2TFdlYVpPOThNN0EyYVo4SmpYbVEySjByeGhlQnZGTmtJUEpCM3dDekdHMkNxdU1YZE9HazBBaDZXMGtDUEJGMzVpRFVFT3l4LU9pN3ZLQXhZV1BSTDVBTXBGV1dvMTljeXotS01RcDFxYkR2SEhxVklIN0VpSHFRZHNJejRnTERiS0k0YmlpMzI5eUE1cFd0WVUwSnJKUkFNUm5xU0NoQVVQUE82dUEtUGs2MUc5NTk4WVNOWHl5Yk4wZ29QZXVwSHE1ckpXbldtNmFNaU9RMzUxT3lPcnR1UzNCaTZER2wxdWNYU1ZQcWE4V0pxRFE0NWtlUC1HYXZ6T1poeVloWDBLV1docFRPZ002LS13cWVUeG8?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T06:00:16+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-142",
+      "date": "2026-05-05",
+      "title": "鄭習會後中國連續出手打壓台灣 學者：同步壓縮主權 - 自由時報",
+      "summary": "鄭習會後中國連續出手打壓台灣 學者：同步壓縮主權 自由時報",
+      "detailSummary": "鄭習會後中國連續出手打壓台灣 學者：同步壓縮主權 自由時報",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mYzdudGJTWDB1TU9zQ19nZkx6YUI2d0JTVmtyU1pzV3RJVlZTVzU3NDd1QV9tQ0F3WVZvZzhocmpFSUkzd1UtUk80bTREVW9jcE9HY014SVUzZU9KdURMWXk0U1NmanlCclHSAW9BVV95cUxPNUhBUVFkSzNnUTMzMlRFSEsySVN6RmFzdU55eE04UjBSbm0tcWlGOE9WVmV4eU9EMEdad25HdVRCdUdNc0lOYmU5RG9FRUQ4R2kxUTd1Qk40dERnd2YteHB2U1AtZTdJckNJM3RwNkU?oc=5",
+          "source": "Google News 台灣政治"
+        }
+      ],
+      "published": "2026-05-05T03:43:38+00:00",
+      "sourceName": "Google News 台灣政治",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-128",
+      "date": "2026-05-05",
+      "title": "「房間裏的大象」——歐洲各國謀求團結，但特朗普「陰霾不散」",
+      "summary": "在亞美尼亞舉行的一場聚會上，歐洲多國領導人坦承，他們的盟友關係「尚未達到他們的期望」。",
+      "detailSummary": "在亞美尼亞舉行的一場聚會上，歐洲多國領導人坦承，他們的盟友關係「尚未達到他們的期望」。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c74rmn21j8jo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-05T07:46:16+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-160",
+      "date": "2026-05-05",
+      "title": "【華爾街日報】ChatGPT 對「哥布林」走火入魔，OpenAI 緊急出手",
+      "summary": "OpenAI 表示，為聊天機器人 ChatGPT 設定「極客」人設的嘗試，意外觸發了詭異的措辭。",
+      "detailSummary": "OpenAI 表示，為聊天機器人 ChatGPT 設定「極客」人設的嘗試，意外觸發了詭異的措辭。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260505-wsj-chatgpt-goblin-obsession-openai-reaction/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-04T22:59:55+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-139",
+      "date": "2026-05-05",
+      "title": "什麼是AI蒸餾：一項關鍵技術為何成為美中科技競爭的新戰場",
+      "summary": "原本偏向技術層面的問題，正在升級為涉及知識產權、競爭公平與國家安全的競爭。",
+      "detailSummary": "原本偏向技術層面的問題，正在升級為涉及知識產權、競爭公平與國家安全的競爭。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/cjrp2g758pdo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-05T04:21:31+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-39",
+      "date": "2026-05-05",
+      "title": "伊朗國會議長稱荷姆茲方程式成形 酸美國受不了現狀",
+      "summary": "伊朗國會議長卡利巴夫（Mohammad-Bagher Qalibaf）今（5）日再度發文嗆聲美國，他聲稱儘管美國違反了停火協議，但荷姆茲海峽的局面正在逐漸穩定，況且美國無法忍受現..…",
+      "detailSummary": "伊朗國會議長卡利巴夫（Mohammad-Bagher Qalibaf）今（5）日再度發文嗆聲美國，他聲稱儘管美國違反了停火協議，但荷姆茲海峽的局面正在逐漸穩定，況且美國無法忍受現...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426575",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T21:03:10+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-183",
+      "date": "2026-05-05",
+      "title": "分析：伊朗戰爭意外增強了烏克蘭的實力，俄烏距離停火協議是否更進一步",
+      "summary": "澤連斯基總統一直在訪問海灣地區，以展示其國家的軍事實力。",
+      "detailSummary": "澤連斯基總統一直在訪問海灣地區，以展示其國家的軍事實力。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/clypx20zdgpo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-03T06:44:12+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-143",
+      "date": "2026-05-05",
+      "title": "吳宜澤斯諾克世錦賽奪冠，中國選手連續兩年問鼎",
+      "summary": "吳宜澤在35局的漫長比賽中擊敗墨菲，成為繼同胞趙心童之後，中國的又一個斯諾克世界冠軍。",
+      "detailSummary": "吳宜澤在35局的漫長比賽中擊敗墨菲，成為繼同胞趙心童之後，中國的又一個斯諾克世界冠軍。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c052lm2jn9qo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-05T03:38:11+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-184",
+      "date": "2026-05-05",
+      "title": "和ChatGPT聊紫微斗數，一次對「人生底稿」的重述",
+      "summary": "在解構權威的道路上，又前進了小小的一步。",
+      "detailSummary": "在解構權威的道路上，又前進了小小的一步。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260503-mainland-chatgpt-zi-wei-dou-shu/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-02T23:00:32+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-76",
+      "date": "2026-05-05",
+      "title": "女高中生當街遭砍頸慘死！ 隨機殺人犯落網：看到她就起殺意",
+      "summary": "南韓光州今天（5日）凌晨發生一起隨機砍人案，造成一死一傷，兇手犯案後逃逸。",
+      "detailSummary": "南韓光州今天（5日）凌晨發生一起隨機砍人案，造成一死一傷，兇手犯案後逃逸。過了10多個小時，兇手終於被逮捕，落網後供稱自己原本是想輕生，但看到完全不認識的被害人後突然起了殺意。 ...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426561",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T19:45:36+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-134",
+      "date": "2026-05-05",
+      "title": "宏福苑大火第三輪聽證會重點：投訴在政府部門之間空轉；市建局認無考慮圍標風險｜Whatsnew",
+      "summary": "第三輪聽證會主要由政府部門、市建局回應大火前如何處理投訴；消防處解釋殉職消防員何偉豪入火場時的裝備等等。",
+      "detailSummary": "第三輪聽證會主要由政府部門、市建局回應大火前如何處理投訴；消防處解釋殉職消防員何偉豪入火場時的裝備等等。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260505-whatsnew-hongkong-taipo-fire-third-round-hearings/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-05T05:27:53+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-8",
+      "date": "2026-05-05",
+      "title": "富士山閉山期滑落意外頻傳 救助「收費化」爭議再起",
+      "summary": "位於日本富士山五合目的展望廣場，儘管目前仍處於閉山期間，但在黃金週時期，依然可見大量家族遊客與外籍觀光客前來遠眺山頂。",
+      "detailSummary": "位於日本富士山五合目的展望廣場，儘管目前仍處於閉山期間，但在黃金週時期，依然可見大量家族遊客與外籍觀光客前來遠眺山頂。雖然天氣晴朗，但氣溫偏低，山頂仍覆蓋著厚重的積雪。 據...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426603",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T22:32:35+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-11",
+      "date": "2026-05-05",
+      "title": "川普淡化荷姆茲海峽衝突 盟友敦促強力回應伊朗",
+      "summary": "由美國引導船隻通行關鍵能源航道荷姆茲海峽的「自由計畫」，4日啟動首日隨即爆發美軍與伊朗的武力衝突，引發外界擔憂美伊停火協議破局。",
+      "detailSummary": "由美國引導船隻通行關鍵能源航道荷姆茲海峽的「自由計畫」，4日啟動首日隨即爆發美軍與伊朗的武力衝突，引發外界擔憂美伊停火協議破局。對此，美國總統川普「大事化小」，認為最新一波衝突...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426733",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T22:26:23+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-10",
+      "date": "2026-05-05",
+      "title": "川普重啟轟炸伊朗？ 官員、專家看法不一",
+      "summary": "美軍4月13日發動海上封鎖阻斷伊朗石油進出口，尚未能迫使德黑蘭妥協核子計畫。",
+      "detailSummary": "美軍4月13日發動海上封鎖阻斷伊朗石油進出口，尚未能迫使德黑蘭妥協核子計畫。華爾街日報引述官員說法，美國總統川普近期與幕僚交談時，表達出對美軍海上封鎖有效重創德黑蘭經濟，卻仍無...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426740",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T22:27:14+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-73",
+      "date": "2026-05-05",
+      "title": "巴黎對抗鼠患百餘年 從獎勵捕鼠演化到智慧陷阱",
+      "summary": "巴黎長期苦於鼠患，從百餘年前的捕鼠獎勵機制到現代智慧陷阱，防治手段逐步進化，搭配基本設施更新和強化垃圾清理。",
+      "detailSummary": "巴黎長期苦於鼠患，從百餘年前的捕鼠獎勵機制到現代智慧陷阱，防治手段逐步進化，搭配基本設施更新和強化垃圾清理。在今年稍早的地方選舉，鼠患也是巴黎熱門議題之一。 在巴黎，連遊客眾多的塞納河...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426590",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T19:56:04+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-161",
+      "date": "2026-05-05",
+      "title": "影音筆記：我們需要怎樣的影音報導？",
+      "summary": "讓端的深度，不止存在文字中。",
+      "detailSummary": "讓端的深度，不止存在文字中。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260503-videonotes-video-reporting-we-need/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-04T22:58:50+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-159",
+      "date": "2026-05-05",
+      "title": "我們才是承擔風險的人：香港「谷生育」論述中，堅決不生的女性",
+      "summary": "「你真的覺得可以用2萬元去搞定我們嗎？",
+      "detailSummary": "「你真的覺得可以用2萬元去搞定我們嗎？」",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260505-hongkong-reasons-behind-low-fertility-rates-among-women/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-04T23:00:53+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-180",
+      "date": "2026-05-05",
+      "title": "拾論：「像是過去的我寫下來，對未來的我說，你可以悲傷，沒關係。」",
+      "summary": "「拾論」翻檢讀者留言和記者回應定期刊出，隨時拾回端的最新動態。",
+      "detailSummary": "「拾論」翻檢讀者留言和記者回應定期刊出，隨時拾回端的最新動態。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260504-decalogues-words-as-anchors/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-03T22:58:00+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-130",
+      "date": "2026-05-05",
+      "title": "斷網天數破紀錄：戰爭兩個月，九千萬伊朗人艱難求生｜Whatsnew",
+      "summary": "她極為失落：「我所想像的沒有實現，一切都變得更糟。",
+      "detailSummary": "她極為失落：「我所想像的沒有實現，一切都變得更糟。我們剩下的，還是伊斯蘭共和國。」",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260505-whatsnew-iran-islamic-republic-hasnot-changed-iranian-people-life/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-05T06:30:18+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-187",
+      "date": "2026-05-05",
+      "title": "昂山素季「居家軟禁」：中國與緬甸政府的盤算是什麼？",
+      "summary": "緬甸政府公布了昂山素季與外界隔絕並被拘押超過1900天、長達逾五年以來的第二張照片，同時發布消息稱，將她剩餘的刑期改為在指定住所服刑。",
+      "detailSummary": "緬甸政府公布了昂山素季與外界隔絕並被拘押超過1900天、長達逾五年以來的第二張照片，同時發布消息稱，將她剩餘的刑期改為在指定住所服刑。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/cp3pnj247neo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-02T00:31:21+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-65",
+      "date": "2026-05-05",
+      "title": "東京池袋驚現「行李箱棄置潮」 民宿周邊淪陷、羽田機場也受害",
+      "summary": "被譽為東京商業與文化核心的豐島區池袋，近期在車站周邊出現異常景象。",
+      "detailSummary": "被譽為東京商業與文化核心的豐島區池袋，近期在車站周邊出現異常景象。住宅區各角落隨處可見被遺棄的行李箱，有些還貼上「大型垃圾」的貼紙，有些則被棄置在寫有各國語言、提醒垃圾清運規則的...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426647",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T20:20:41+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-0",
+      "date": "2026-05-05",
+      "title": "每桶降33.4美元! 伊拉克跳樓售油 條件:買家須經荷姆茲載運",
+      "summary": "彭博5日報導，伊拉克向本月裝船的原油買家提供大幅折扣，但油輪必須穿越荷姆茲海峽，深入波斯灣裝載原油。",
+      "detailSummary": "彭博5日報導，伊拉克向本月裝船的原油買家提供大幅折扣，但油輪必須穿越荷姆茲海峽，深入波斯灣裝載原油。 報導說，根據伊拉克國有石油經銷機構SOMO的通知書，這個石油輸出國組...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426785",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T23:06:34+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-84",
+      "date": "2026-05-05",
+      "title": "洪迪亞斯號郵輪出現漢他病毒病例 世衛懷疑人傳人",
+      "summary": "郵輪「洪迪亞斯號」出現漢他病毒病例，世界衛生組織（WHO）今天表示，懷疑郵輪上出現漢他病毒人傳人情形。",
+      "detailSummary": "郵輪「洪迪亞斯號」出現漢他病毒病例，世界衛生組織（WHO）今天表示，懷疑郵輪上出現漢他病毒人傳人情形。目前7起確診及疑似病例中，已有3人死亡。 法新社報導，世衛流行病和大流行病防範與預...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426567",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T19:17:51+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-177",
+      "date": "2026-05-05",
+      "title": "深圳勸煙裸檢風波：勸煙在中國為何成為一個性別問題？",
+      "summary": "已經無法抽象成為「人是否有權利在一定程度上做出傷害自己的選擇？",
+      "detailSummary": "已經無法抽象成為「人是否有權利在一定程度上做出傷害自己的選擇？」，或者「人是否有權利進行叛逆主流的行為」這樣的問題。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260504-opinion-china-smoking-gender/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-03T23:00:44+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-165",
+      "date": "2026-05-05",
+      "title": "漢他病毒：大西洋郵輪疑爆疫情，三人死亡",
+      "summary": "「洪迪斯號」（MV Hondius）的營運商表示，一對荷蘭夫婦以及一名德國公民已經死亡，但死因尚未確定。",
+      "detailSummary": "「洪迪斯號」（MV Hondius）的營運商表示，一對荷蘭夫婦以及一名德國公民已經死亡，但死因尚未確定。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c8r8j7lze0ro/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-04T13:22:17+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-179",
+      "date": "2026-05-05",
+      "title": "漫評：拿捏霍爾木兹海峽",
+      "summary": "圍繞海峽的開開停停、打打鬧鬧已經持續了兩個月。",
+      "detailSummary": "圍繞海峽的開開停停、打打鬧鬧已經持續了兩個月。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260504-opinion-cartoon-graphics-trait-hormoz/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-03T22:58:44+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-185",
+      "date": "2026-05-05",
+      "title": "漫評｜高壓邊緣的日常：從台海空域到白宮沙拉",
+      "summary": "最驚人的不僅僅是危機本身，還有危機成為白噪音。",
+      "detailSummary": "最驚人的不僅僅是危機本身，還有危機成為白噪音。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260503-opinion-cartoon-graphics-crisis-in-everyday-life/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-02T22:59:37+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-131",
+      "date": "2026-05-05",
+      "title": "特朗普的霍爾木茲海峽「自由計劃」會如何保護船隻通行",
+      "summary": "有分析指，「自由計劃」的重點將放在提供空中掩護，以及防禦導彈與無人機攻擊，而非實際為船隻提供穿越霍爾木茲海峽的軍事護航。",
+      "detailSummary": "有分析指，「自由計劃」的重點將放在提供空中掩護，以及防禦導彈與無人機攻擊，而非實際為船隻提供穿越霍爾木茲海峽的軍事護航。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c775r1z4y65o/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-05T06:10:08+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-178",
+      "date": "2026-05-05",
+      "title": "當禁煙問題被塑造成個體矛盾，被遮蔽的問題是什麼？",
+      "summary": "當深圳被網友嘲諷為「表演型城市」，這指向禁煙的另一個事實：禁煙常常變成運動式的執法宣傳。",
+      "detailSummary": "當深圳被網友嘲諷為「表演型城市」，這指向禁煙的另一個事實：禁煙常常變成運動式的執法宣傳。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260504-mainland-when-the-smoking-issue-is-reframed-as-individual-conflict/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-03T23:00:00+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-167",
+      "date": "2026-05-05",
+      "title": "秘密抵達、事後宣布——賴清德突圍出訪史瓦帝尼，台灣扳回一城了嗎？",
+      "summary": "在北京的封鎖之下，台灣總統賴清德秘密搭乘史瓦帝尼國王的專機抵達當地。",
+      "detailSummary": "在北京的封鎖之下，台灣總統賴清德秘密搭乘史瓦帝尼國王的專機抵達當地。這種秘密抵達、事後宣布的模式（Arrival then Announce, ATA），是台灣總統訪問邦交國的首次。台灣看似扳回一城，但外交困局是否出現根本性改變？",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/c242nmpypg9o/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-04T11:06:39+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-27",
+      "date": "2026-05-05",
+      "title": "美伊荷姆茲海峽爆衝突 赫格塞斯：停火未結束",
+      "summary": "伊朗與美國昨日在荷姆茲海峽再度爆發衝突，不過美國戰爭部長赫格塞斯（Pete Hegseth）今（5日）強調，美國與伊朗之間的停火並未結束，而總統川普（Donald Trump）提..…",
+      "detailSummary": "伊朗與美國昨日在荷姆茲海峽再度爆發衝突，不過美國戰爭部長赫格塞斯（Pete Hegseth）今（5日）強調，美國與伊朗之間的停火並未結束，而總統川普（Donald Trump）提...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426693",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T21:39:42+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-174",
+      "date": "2026-05-05",
+      "title": "美國中期選舉：選民將以經濟表現評判特朗普，目前形勢如何？",
+      "summary": "特朗普餘下任期內的政策空間大小，很大程度上取決於民眾的生活成本。",
+      "detailSummary": "特朗普餘下任期內的政策空間大小，很大程度上取決於民眾的生活成本。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/cn4pxp780z2o/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-04T04:58:55+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-176",
+      "date": "2026-05-05",
+      "title": "美國共和黨高層：削減駐德美軍將向俄羅斯發出錯誤訊號",
+      "summary": "美國參眾兩院軍事委員會主席表示，從德國撤出5000名官兵恐將削弱威懾力。",
+      "detailSummary": "美國參眾兩院軍事委員會主席表示，從德國撤出5000名官兵恐將削弱威懾力。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/cz72q8d39xqo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-04T03:43:43+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-108",
+      "date": "2026-05-05",
+      "title": "美國報告：中國東航空難肇因為燃料供應被切斷",
+      "summary": "發生於2022年3月的東航廣西梧州空難造成132人罹難，中國社交媒體平台不久前曾傳出調查結果因國安理由而不予公佈。",
+      "detailSummary": "發生於2022年3月的東航廣西梧州空難造成132人罹難，中國社交媒體平台不久前曾傳出調查結果因國安理由而不予公佈。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/cwy27rrrw4xo/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-05T12:11:31+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-170",
+      "date": "2026-05-05",
+      "title": "補看週末｜秘密成行，賴清德終於到了史瓦帝尼",
+      "summary": "今天是星期一，5月4日，歡迎來端周報。",
+      "detailSummary": "今天是星期一，5月4日，歡迎來端周報。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://theinitium.com/20260504-weekly/",
+          "source": "端傳媒"
+        }
+      ],
+      "published": "2026-05-04T09:30:06+00:00",
+      "sourceName": "端傳媒",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-86",
+      "date": "2026-05-05",
+      "title": "觀摩「肩並肩」軍演！小泉進次郎抵菲律賓 擬移交6艘護衛艦",
+      "summary": "日本防衛大臣小泉進次郎週二（5日）抵達菲律賓首都馬尼拉，除會見菲國總統小馬可仕以深化雙邊國防聯繫，也將親自見證「肩並肩」年度大型聯合軍演。",
+      "detailSummary": "日本防衛大臣小泉進次郎週二（5日）抵達菲律賓首都馬尼拉，除會見菲國總統小馬可仕以深化雙邊國防聯繫，也將親自見證「肩並肩」年度大型聯合軍演。 據《美聯社》報導，小泉進次郎在今...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426381",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T19:04:56+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-40",
+      "date": "2026-05-05",
+      "title": "香港12歲男童企圖製造炸彈被捕",
+      "summary": "香港警方今天宣布，一名12歲男學生在IG發表影片，宣稱正在製造炸彈並已成功製造炸藥後，昨天被依「企圖製造炸藥」罪拘捕。",
+      "detailSummary": "香港警方今天宣布，一名12歲男學生在IG發表影片，宣稱正在製造炸彈並已成功製造炸藥後，昨天被依「企圖製造炸藥」罪拘捕。如果被定罪，他將面臨最高14年監禁。 香港警方5日下午舉行記者會，...…",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5426675",
+          "source": "自由時報國際"
+        }
+      ],
+      "published": "2026-05-05T21:02:59+08:00",
+      "sourceName": "自由時報國際",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-157",
+      "date": "2026-05-05",
+      "title": "香港後國安法時代：當大學不再是「保護傘」，夾縫中的學生還能做什麼？",
+      "summary": "過去，香港中文大學以開放自由的風氣聞名，學生參與社會事務的歷史深厚。",
+      "detailSummary": "過去，香港中文大學以開放自由的風氣聞名，學生參與社會事務的歷史深厚。但如今，這些路徑步履維艱。BBC中文訪問三位中大學生，他們努力破局——有人試探界線、有人希望重建制度，也有人轉向建立人與人的連結。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/zhongwen/articles/cyv2p482r16o/trad?at_medium=RSS&at_campaign=rss",
+          "source": "BBC 中文繁體"
+        }
+      ],
+      "published": "2026-05-05T00:18:59+00:00",
+      "sourceName": "BBC 中文繁體",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-186",
+      "date": "2026-05-05",
+      "title": "5月2日美伊戰爭對國際經濟、財經市場與民生衝擊| 國際 - 中央社 CNA",
+      "summary": "5月2日美伊戰爭對國際經濟、財經市場與民生衝擊| 國際 中央社 CNA",
+      "detailSummary": "5月2日美伊戰爭對國際經濟、財經市場與民生衝擊| 國際 中央社 CNA",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CNnZOYUJGRnREV19RelZXc1VvVEFDLVlhMXBTLV90X3R2M196YnpvRjFsamdWVXk0MW55eUNVTXJrY0duOXZaRnJQdjQyS24xQVdhSTdxRmh0eS1jVGo0?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-02T10:32:00+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-145",
+      "date": "2026-05-05",
+      "title": "ETF「暴漲80%」直逼加密貨幣！財經粉專：高含積量未必最優 - ETtoday財經雲",
+      "summary": "ETF「暴漲80%」直逼加密貨幣！",
+      "detailSummary": "ETF「暴漲80%」直逼加密貨幣！財經粉專：高含積量未必最優 ETtoday財經雲",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93NXo4a1BUWWREeDd4RmJYU3pwbTlFRGhNbGxnWkNlWWZMNU1ESXE5M0VKd3BiY1Jyc1JyNml1R2ktZi1hQlRIZjlKbUY2Rk9RSGfSAW5BVV95cUxQZGhQSHRQc3dMZC1CMmg3Ql9DVmYxTlA5SmZBRVZwaUxnZDhocTItVVNqTE9Ddk1KMTQwVlJXMGxLVERQUkdXekZrcXlGRlJUS0ptd3JoQTdkREwzcnpFM1dSZTV4N1RQQVA2VEhoUQ?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T03:15:00+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-22",
+      "date": "2026-05-05",
+      "title": "「好野人」財富傳承 金管會擬開放「連續受益人信託」不再重複課稅",
+      "summary": "「好野人」（台灣富豪）家族財富傳承，「百年信託」有譜！",
+      "detailSummary": "「好野人」（台灣富豪）家族財富傳承，「百年信託」有譜！金管會今天（5日）表示，為打造具臺灣特色的「亞洲資產管理中心」，行政院跨部會協商對信託存續期間，及課稅原則獲致共識，...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426731",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T21:51:57+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-21",
+      "date": "2026-05-05",
+      "title": "三星2奈米瓜分台積電訂單？外媒曝「高通前車之鑑」",
+      "summary": "〔財經頻道／綜合報導〕人工智慧蓬勃發展導致台積電不得不努力提升產能以滿足客戶3奈米晶片訂單需求，這也為三星帶來巨大發展機會。",
+      "detailSummary": "〔財經頻道／綜合報導〕人工智慧蓬勃發展導致台積電不得不努力提升產能以滿足客戶3奈米晶片訂單需求，這也為三星帶來巨大發展機會。然而，儘管三星已透過其位於美國泰勒工廠，在美國成功引進2奈米GAA技術...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426737",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T21:53:06+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-23",
+      "date": "2026-05-05",
+      "title": "中國不該取得輝達先進AI晶片 黃仁勳：力挺美國保持技術領先",
+      "summary": "科技新聞網站《Tom's Hardware》報導，輝達（Nvidia）執行長黃仁勳5日明確表示， 中國不應獲得該公司「最新、最先進的」人工智慧（AI）圖形處理器（GPU）...…",
+      "detailSummary": "科技新聞網站《Tom's Hardware》報導，輝達（Nvidia）執行長黃仁勳5日明確表示， 中國不應獲得該公司「最新、最先進的」人工智慧（AI）圖形處理器（GPU）...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426728",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T21:50:07+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-12",
+      "date": "2026-05-05",
+      "title": "中國太陽能行業「內捲」慘烈 多家龍頭企業連10季虧損",
+      "summary": "中國太陽能產業發起「反內捲」行動已持續近1年，但仍未見效果。",
+      "detailSummary": "中國太陽能產業發起「反內捲」行動已持續近1年，但仍未見效果。今年第1季太陽能產業在上游價格下跌，終端需求低迷的情況下，包括隆基、通威、TCL中環等龍頭企業已經連續10季虧損。 ...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426753",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T22:23:39+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-28",
+      "date": "2026-05-05",
+      "title": "中國輸歐油電車2年增1443％ 歐盟擬祭新貿易武器反制",
+      "summary": "南華早報5日報導，布魯塞爾正爭取歐盟產業團體支持一項反制中國產能過剩的貿易武器。",
+      "detailSummary": "南華早報5日報導，布魯塞爾正爭取歐盟產業團體支持一項反制中國產能過剩的貿易武器。該新工具目前受到嚴格保密，但預計本月底提交給歐盟執委會主席馮德萊恩，隨後27名執委將就中國...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426724",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T21:34:55+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-171",
+      "date": "2026-05-05",
+      "title": "台積發哥信驊組隊放煙火！台股噴1778點炸史上最狂｜Yahoo財經掃描 - Yahoo股市",
+      "summary": "台積發哥信驊組隊放煙火！",
+      "detailSummary": "台積發哥信驊組隊放煙火！台股噴1778點炸史上最狂｜Yahoo財經掃描 Yahoo股市",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxNbHozTkZyVngyd3ptQklhR19LTHNYYi1SMmREME5YLUhySWNQWDJFVlJla2tTRW9kODhGUGduRFQ1YzJBelNvSEp4M05qQVJPMXpRclBWVUJYSVFaak1IWEtTY1dUel9SSEpkS3JWWDB1M2VZTmdCUHJvS3l1MzhvTC1xQUVneEJFWkRfSjVIYjVQM2FkNnVyRWdGYnN1TzluSWNETWpGUjkySzY3bkdVbEI0UkU0X3lnVS10LWNSc2ZSVFU1amFfdVdFQjVUU2JVZ3RBZU5Vcm1COVlHQXRmMTBBQXN0bHp5RE94UWszV1lTck53QVB1cGljcU56VmFIbXhHV3R4VUFYWXNaTHJjQXhOVVhudmZfWm9RaDZNZ1Q2amh0Z0FFRzMyMTdyNUppTl9qUzk5dDVhSnYwYjNFc3ZjSHBSeG1kXzZ1Mm1IaXhCSEpZejBqRXJzYTg1NVdQLW1kWFh3Z3Joc2Z3MVNPU25JelFMZ2JEUWJuUTNqaDNlOHRtX19KSnV6RUJHUGFEMnBhb3k0RmI1bnRfZHlz?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-04T09:24:12+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-66",
+      "date": "2026-05-05",
+      "title": "外媒點名台灣油品匱乏風險高 經部回應：國內油氣供應無虞",
+      "summary": "外媒報導指伊朗戰爭影響全球原油和成品油庫存正加速下滑，並點名台灣面臨油品匱乏的風險較高，經濟部今（5）日回應，開戰以來安全存量也始終維持在上面法規標準以上，國內油氣供應無...…",
+      "detailSummary": "外媒報導指伊朗戰爭影響全球原油和成品油庫存正加速下滑，並點名台灣面臨油品匱乏的風險較高，經濟部今（5）日回應，開戰以來安全存量也始終維持在上面法規標準以上，國內油氣供應無...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426662",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:19:52+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-44",
+      "date": "2026-05-05",
+      "title": "奇美實業二代接班 許文龍獨子許家彰上任董事長",
+      "summary": "有「石化業南霸天」之稱的奇美實業，董事會今日宣布，董事長一職由奇美集團創辦人許文龍獨子許家彰接任，強調既有穩固基礎上，順利完成世代傳承，邁向永續經營。",
+      "detailSummary": "有「石化業南霸天」之稱的奇美實業，董事會今日宣布，董事長一職由奇美集團創辦人許文龍獨子許家彰接任，強調既有穩固基礎上，順利完成世代傳承，邁向永續經營。 原董事長許春華...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426684",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:48:40+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-68",
+      "date": "2026-05-05",
+      "title": "富邦人壽分紅保單紅利宣告最高達115％ 連14年實現率破百",
+      "summary": "富邦人壽今公布，分紅保單商品2026年紅利分配，最高達115%最可能紅利金額水準，整體分紅保單已連續14年紅利實現率皆達100%（含）以上水準。",
+      "detailSummary": "富邦人壽今公布，分紅保單商品2026年紅利分配，最高達115%最可能紅利金額水準，整體分紅保單已連續14年紅利實現率皆達100%（含）以上水準。 此外，今年第1季，富邦人...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426655",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:18:39+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-46",
+      "date": "2026-05-05",
+      "title": "川普被描繪成超級瑪利歐 吞油桶被炸升空影片曝",
+      "summary": "〔財經頻道／綜合報導〕伊朗宣傳影片將美國總統川普描繪成超級瑪利歐中的人物，吞食油桶。",
+      "detailSummary": "〔財經頻道／綜合報導〕伊朗宣傳影片將美國總統川普描繪成超級瑪利歐中的人物，吞食油桶。 一段在伊朗社群媒體帳號上流傳的宣傳影片顯示，川普被描繪成超級瑪利歐角色，正在吞食石油桶。此前，美國和伊朗...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426702",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:47:46+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-103",
+      "date": "2026-05-05",
+      "title": "東協財經／研調：AI光互連促美業者擴大東南亞外包台廠搶單| 產經 - 中央社 CNA",
+      "summary": "東協財經／研調：AI光互連促美業者擴大東南亞外包台廠搶單| 產經 中央社 CNA",
+      "detailSummary": "東協財經／研調：AI光互連促美業者擴大東南亞外包台廠搶單| 產經 中央社 CNA",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GX21iaUhiWWwyMTY4MzRNdE05cjZWNzRrenZTQ2VFNVV3M2dtWnJ1N3ZGVDFDa1MySUdXTjRSMElVT0NmdHM0cXduNlZ3T2g3U3VITlh4aFVaZEl2OUE?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T14:09:00+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-175",
+      "date": "2026-05-05",
+      "title": "湊1500萬買0056！他把定存、儲蓄險全賣轉ETF 財經作家點頭：只有適不適合 - Yahoo股市",
+      "summary": "湊1500萬買0056！",
+      "detailSummary": "湊1500萬買0056！他把定存、儲蓄險全賣轉ETF 財經作家點頭：只有適不適合 Yahoo股市",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxOTWJrbnQ4N3ZFQ1IwZkhGdmg1OEpqWnNSOS1pS3psVm1JYVV5Y3F3MmFzUHUtNWo4NWtxanhXM2tOWXk0R0o2WmlHWUVaUXVZOWMwd1hvRVBtZjJ4ekc4X2dMczg3ZUNtVldUS0l4SUxzY3JwdkViZUxISGtjQm1BWnRkZDM0a25xeGV3WHVQT05WNmRFdjBYTEgtODN2bjlzbHpHV1Z5ZnhZSVROUFRxMXN1NW5fbWNZZ1dFeWUwRkw0d0pZdGxtdy1xOVBlNHp0djkyUFVTLXVHUUlINUpHcEM3ZTU2Q2J4TS01dFVWOEtEeWtJUTl2MFdGaDcxY2hDX1RYTHIzUk1STGVfdzFWd2VLbTNJRk1ITlIxUUVLcTV3TjJnWU5DdGhyNUt1VWVaS0NTWUN2d0hzOWhjdDV4bUpRTERaQkZsTDFtZG10QldUa3NVMmZmUU1LNXZFTWR5QUhwbG8teU1LM1FBbjZiRmhRMG50SWlzN0ZXelR0MldMXzVkWHVEQnhyN1NZYmdhTmhqWDZmbFpWUHc?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-04T04:36:55+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-114",
+      "date": "2026-05-05",
+      "title": "環球晶法說》矽晶圓迎春燕供應吃緊恐提前？ 董座徐秀蘭：復甦超乎預期 - Yahoo股市",
+      "summary": "環球晶法說》矽晶圓迎春燕供應吃緊恐提前？",
+      "detailSummary": "環球晶法說》矽晶圓迎春燕供應吃緊恐提前？ 董座徐秀蘭：復甦超乎預期 Yahoo股市",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOT0VvOHZLV2o2Wlk3NWM4NDFUd1hKMGVnbTFveEJ0bjhUdktweFB1alZPWXhsaWZ0MFdPVDQ0SFA4XzcyQkdEYjk5WFZnQXhaRjBob1FnRlZtSncyQ282Zk4tOVZYUF82VXZ2RTZBbkdmTXJyQnBEYjZ6aFhmc2pMMFRuZ3NzUW1KZnJsMjhmdjFaaUhiWk5TcTZZVkdGcXYzR0lQZGREVlRTQUZUeG9MWXotMk90TjNnenYzS0JsZ2o0QW9kak1oTnpkZzJOUk5BYV94cXZiWXF3TjRxMGFfSzNwaXNHTW45dG1OQ2ZCYkJXMXJDTFpxSVFhUEZVNlA0VEhMZVozMVVXQTlHOGFJNy1IdGZ6Q1hhaEJna0hfYy1naXozak5EOHhSX3EzWkw0cjM0eGVmZ1NjVXFZd0xBekZCSVdCSjZCeG0zcnVSYXNvWWNCbHNDTW54Y1pwYkE0MEhUUlc0cEhDN3pVdDY1bGVLNjZBOEF4bVVsQU1sNWJOVjBmY1hEeVJjSktxRTBKT3U4SFh4djI3MGtFbWc3Z2diTHI1VUNNemtLb2cyd05aOEYxelEyc1dVNHg3NGZNM2xCSFd0VF9BcG1BbGZRaW95YXVjLWQwbE1RcA?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T11:24:37+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-48",
+      "date": "2026-05-05",
+      "title": "矽格第1季每股獲利2.1元 今年資本支出上修近5成",
+      "summary": "封測廠矽格（6257）今（5）日召開董事會，通過2026年第一季財報，合併營收達52.94億、年增近13% ，稅後淨利10.06億元，年增近33%，稅後每股盈餘2.1元，...…",
+      "detailSummary": "封測廠矽格（6257）今（5）日召開董事會，通過2026年第一季財報，合併營收達52.94億、年增近13% ，稅後淨利10.06億元，年增近33%，稅後每股盈餘2.1元，...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426677",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:39:33+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-126",
+      "date": "2026-05-05",
+      "title": "神山踩煞車「發哥、股后」救駕！台股驚險收紅64點｜Yahoo財經掃描 - Yahoo股市",
+      "summary": "神山踩煞車「發哥、股后」救駕！",
+      "detailSummary": "神山踩煞車「發哥、股后」救駕！台股驚險收紅64點｜Yahoo財經掃描 Yahoo股市",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxQNkJKVkZUZWJiVHNyQmVBSGIwNGdVRjJnSjdnV2QzNFliWFFGVUJwSGNKZnJVbGdLdDFrUTFpLTUyaVlyS3c0ZEF0Z0FKd3FlSkNXVVZYMjRJb2l0WnlIVExUdlRVTTdBRXJJZUNqUDJLaWkwN05iSjc1S3RuUHlBZlU4eFU0MHV2RW5QRTRPTEpXbm5lVWYyRklNb3dJMHBkYVJkZk56WTBrQWVDeUFmMXhqVW5hbzZIMmdQaFpOSHJIMzFocUNfUS1nRzBiMk1kckZqNnRCSVdXUTlqT3BMV2RoZ2gzbHo5NFpCXzBwWlNlYXctaUZaRjNHcFpKNzRjVWhSMGdkRHlqMnl6aE1GNnVMeFpfWkdYZWZnNHJ4QTJRRWpwZmdRRU5XRlZwWWswalFnaGdERll6Tk9NX1pKbEtGWDhTQkM2NnJEY1U1aEMtdzFvMjZzdUxLRFJnWnJIN3BBMlFBLTNBbUlkSFRKa2lUd3JNZG5RY0xZOVdQWWZHNUxMV29IRUVaR1drZ205b0tSRkJyVl9BX0dDUFZnRWZSbUdsZFJn?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T09:24:20+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-63",
+      "date": "2026-05-05",
+      "title": "統一超收購Lopia在台業務 中華信評：對營運地位影響有限",
+      "summary": "統一企業持續擴大零售版圖，繼併購台灣家樂福後，旗下主要子公司統一超商（2912）於4月30日正式宣布，將斥資約新台幣20.5億元，取得日系超市「Lopia」（LOPIA ...…",
+      "detailSummary": "統一企業持續擴大零售版圖，繼併購台灣家樂福後，旗下主要子公司統一超商（2912）於4月30日正式宣布，將斥資約新台幣20.5億元，取得日系超市「Lopia」（LOPIA ...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426670",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:27:13+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-182",
+      "date": "2026-05-05",
+      "title": "股市「崩盤」免驚！外媒點名「3檔神股」逢低買進 - Yahoo股市",
+      "summary": "股市「崩盤」免驚！",
+      "detailSummary": "股市「崩盤」免驚！外媒點名「3檔神股」逢低買進 Yahoo股市",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTFJaZ05YRTZXejI4Q2tzOUpsY2V2TjRpMVFRVllzVHlLeVFPUlU0YjlOOTZaVlhVa1JJRVZaS0s0cWhXdjZwdzhTNzlzYnlENWtMbWRFVmhtVDY5RXlzbXNWeTJfX18tZ25XZ21wUmkwYXRZNmMxVVd4S1FJTnF0R0VOZGYzQnltSlQ3bm5SWnZfUDVfbVVmMk9kZDFScXpnNUF3T0huQ0pYczZMdjZSd0thNGxaYzZqSHVuaEdwdlBWVGxlSnFPVUFYbHlLWFlwaFVxLWM0eXp3V0ZQM0F5OGhpbDJvTVpfM0psNVNXcDdNWVl1Rjd0UjhQOEY0dw?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-03T10:42:47+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-64",
+      "date": "2026-05-05",
+      "title": "設定帳單自動付款常犯的6個錯誤 你中了幾個",
+      "summary": "〔財經頻道／綜合報導〕設定帳單自動付款可以簡化財務管理，不用擔心錯過付款、滯納金或透支費用。",
+      "detailSummary": "〔財經頻道／綜合報導〕設定帳單自動付款可以簡化財務管理，不用擔心錯過付款、滯納金或透支費用。然而，如果不謹慎，這種便利也會帶來一些代價。 Gobankingrates報導，在將所有帳單設定為...…",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5426672",
+          "source": "自由時報財經"
+        }
+      ],
+      "published": "2026-05-05T20:26:23+08:00",
+      "sourceName": "自由時報財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-152",
+      "date": "2026-05-05",
+      "title": "財富自由》長線潛力股 - 自由財經",
+      "summary": "財富自由》長線潛力股 自由財經",
+      "detailSummary": "財富自由》長線潛力股 自由財經",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MbHU0b2N2LUdQMWdvQmR1NGg3V3dxMUktV1h3X2dzUEE5MEttUEo3aUwxeTEtUUp0Rm5HS3pHYlVkTm1zMWZVMzJyY2JGOXd1ejF6X01IUmtNQ1NBX1Fn0gFkQVVfeXFMUF9BQmxnQkRpYmEzX0RPME84Ql9PT1J6cDBKUHZ5NUhnS3RzVkxreW1EZFFwS0pDd0RWVXRHX2s1WlBmd3dSLXR4TGl2allEN0lGNFFzREZIWW5xSEpYenBTZ0cwQg?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T01:28:49+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-158",
+      "date": "2026-05-05",
+      "title": "財經時事／深蹲20年上太空 翁冠群領軍益材躋身世界4大氣瓶製造商 - 鏡週刊Mirror Media",
+      "summary": "財經時事／深蹲20年上太空 翁冠群領軍益材躋身世界4大氣瓶製造商 鏡週刊Mirror Media",
+      "detailSummary": "財經時事／深蹲20年上太空 翁冠群領軍益材躋身世界4大氣瓶製造商 鏡週刊Mirror Media",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tY1NGTzhWTnBYUUJYam9EQzF6LXZBZ2diSFFWVjVrYzhqMzJkNzZzTUxXX0VpRFZreVhsMTRoekpPcWxKSVM5YXZsWE9XQ0VoT3lhWmNpZXZhWVXSAWBBVV95cUxOX1ljYTltYUotV1NscDBOcmRPeDVzUDBDTTRUU09FajZPTXlmSEV0WDl6SENWejdnaTcwRExTZEVDTm5zOU9GQVZ5UG5VQk1iQ1Z6WkdWcGxIR3Q2TEk0ZUc?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-04T23:28:00+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-132",
+      "date": "2026-05-05",
+      "title": "退休族「最致命」操作！小心養老金瞬間消失 - 自由財經",
+      "summary": "退休族「最致命」操作！",
+      "detailSummary": "退休族「最致命」操作！小心養老金瞬間消失 自由財經",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkNlNnUG4weDFmOEVUZlI5cTE2VTM1X2VCbFRhQnEwd1gzZlFRTkJBMF9nR0tCVV95MHlOczVEaUNlaW1VbDhhMEQtLXEzUGJpVHo4c3owN2F0NVl6ZU1v0gFkQVVfeXFMT0VCMXBOVFV1NUs2OFRkam8xa3BjYU5na2s3WmlHWkNVVzM2eXhGSUEzTXd6dW1ac0d5N0daYjJOTTRNTE1FRzBHOU84d1JmM083eVdWRDh3THJuYkdIR3NwZWQ3ZQ?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T06:05:12+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-151",
+      "date": "2026-05-05",
+      "title": "黃金又大跌了 專家這樣看... - 自由財經",
+      "summary": "黃金又大跌了 專家這樣看... 自由財經",
+      "detailSummary": "黃金又大跌了 專家這樣看... 自由財經",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nTlR2TXIzcjZ1dXhUMlhhUlVGU3pFQmR6UjNoZmhwZUZKakZCOWpHZXJ0N0c2WkZ1anQtR3JqbWZsV0RCR2x5aWRPaGw3YjkySjJGZ0NpaERJNnNBUUxv0gFkQVVfeXFMTkp0OERILWZYVGd6UEFBcHY3cmhjSnJlaC03ckdaaWVwcXdzdXllcEU2ZTFVN0p0bE1RNjdhMTVPY2xUWEY2alkwVDhacG4yWmxJSmhSYzJoZXEtdmIyMFBWZE8wag?oc=5",
+          "source": "Google News 財經"
+        }
+      ],
+      "published": "2026-05-05T01:32:41+00:00",
+      "sourceName": "Google News 財經",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-99",
+      "date": "2026-05-05",
+      "title": "AI 監管升級？川普政府擬推 AI 上市前預審查機制",
+      "summary": "傳川普政府擬要求 AI 模型發布前須經聯邦審查，逆轉其鬆綁政策。",
+      "detailSummary": "傳川普政府擬要求 AI 模型發布前須經聯邦審查，逆轉其鬆綁政策。此舉主因是 Anthropic 新模型揭示巨大國安風險，迫使白宮在技術焦慮與政治壓力下，重新評估監管的必要性。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41217-trump-ai-models",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T16:57:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-150",
+      "date": "2026-05-05",
+      "title": "AI人才大舉出走新創吸走資金與技術科技巨頭難為| 優分析 - LINE TODAY",
+      "summary": "AI人才大舉出走新創吸走資金與技術科技巨頭難為| 優分析 LINE TODAY",
+      "detailSummary": "AI人才大舉出走新創吸走資金與技術科技巨頭難為| 優分析 LINE TODAY",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtMDJRUlczUkJXRzFRczBCdVljbHV5SVBiaURESXFhWDhxOWJsWVhQdGxBUkNkR05xU2VqQTBKRy15UW5lNEhwREdmeVpLcjdhT2xTM25n?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-05T01:48:38+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-136",
+      "date": "2026-05-05",
+      "title": "AI蒸餾：一項關鍵技術為何成為美中科技競爭的新戰場 - BBC",
+      "summary": "AI蒸餾：一項關鍵技術為何成為美中科技競爭的新戰場 BBC",
+      "detailSummary": "AI蒸餾：一項關鍵技術為何成為美中科技競爭的新戰場 BBC",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52ZU9KS0taY2kyWG5lc1pac0hhR3U1YWhRZG9JLWR1R3VPdnh0b250YWp6aHVvalRZcTBNNFN1V0k3TXNsSkEwWEZ2VUxnUVZOWEpYMUtGUWd0STBaT2NDY1VwelNIQdIBa0FVX3lxTFA5a0tOQmZ1QUltMEN2ZVRGWU5la2lwc1ZYZTE2WXVyS0haQmlXVFp0dThUYTdpTmpBWkZiaFRVM2VCTV9KaG9mdXZTZmR1S3NJOFp5N2c3ekdJM2c1MWxpeHVEUVozZ3Y5ckRF?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-05T04:32:14+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-173",
+      "date": "2026-05-05",
+      "title": "AI融入、健康優先：五月科技產品聚焦個人化與行動運算 - PChome Online 股市",
+      "summary": "AI融入、健康優先：五月科技產品聚焦個人化與行動運算 PChome Online 股市",
+      "detailSummary": "AI融入、健康優先：五月科技產品聚焦個人化與行動運算 PChome Online 股市",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmhjd3dqRVltNC1FM2JrREtuVzYxTDFQY1l0LXptbmRxZ282NUJza0QyTG9VSUZBbm0td3BILVlBQ05Ra29KZ1VELU1YSlJleE1RNHh6YW5wV2Z0bmg0VklWUnBnVHp4Q0lKeERFOXR6Q2UxWTBRZldkUFpjUEdOQw?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-04T08:21:17+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-117",
+      "date": "2026-05-05",
+      "title": "Amazon推出物流服務ASCS，寶僑及3M成首批客戶",
+      "summary": "Amazon週一（5/4）正式發表物流服務Amazon Supply Chain Services（ASCS），允許任何企業都能利用與Amazon及其賣家所使用的相同供應鏈，來處理從…",
+      "detailSummary": "Amazon週一（5/4）正式發表物流服務Amazon Supply Chain Services（ASCS），允許任何企業都能利用與Amazon及其賣家所使用的相同供應鏈，來處理從原料到成品的所有環節，包括商品的儲存與配送。寶僑（Procter & Gamble，P&G）、3M、Lands' End，以及American Eagle Outfitters皆為ASCS的首批客戶。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175549",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T11:05:40",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-109",
+      "date": "2026-05-05",
+      "title": "Java網路應用程式框架Apache MINA修補兩項重大漏洞，未更新可能導致遠端執行程式碼攻擊",
+      "summary": "Java網路應用程式框架Apache MINA專案近日發布資安公告，揭露兩項重大漏洞，可能導致攻擊者在未經驗證的情況下執行任意程式碼，建議用戶儘速更新到修補版本，以降低風險。",
+      "detailSummary": "Java網路應用程式框架Apache MINA專案近日發布資安公告，揭露兩項重大漏洞，可能導致攻擊者在未經驗證的情況下執行任意程式碼，建議用戶儘速更新到修補版本，以降低風險。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175553",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T12:05:04",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-124",
+      "date": "2026-05-05",
+      "title": "SEMI：東南亞應擴張半導體生產，以利產業分散降風險",
+      "summary": "國際半導體產業協會（SEMI）執行長馬諾查（Ajit Manocha）今天表示，東南亞國家應致力在十年內興建更 […]",
+      "detailSummary": "國際半導體產業協會（SEMI）執行長馬諾查（Ajit Manocha）今天表示，東南亞國家應致力在十年內興建更 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/semi-southeast-asia-expand-semiconductor-production-industry-diversification-risk-reduction/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T10:05:44+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-100",
+      "date": "2026-05-05",
+      "title": "【Google I/O 2026 預測懶人包】Gemini 4、AI 眼鏡、Android 與 Chrome OS 合體？亮點一次看",
+      "summary": "今年最受矚目的看點，是 Gemini 4 是否正式亮相！",
+      "detailSummary": "今年最受矚目的看點，是 Gemini 4 是否正式亮相！",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41216-google-io-2026-what-to-expect",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T14:36:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-127",
+      "date": "2026-05-05",
+      "title": "【臺灣資安大會直擊】Agentic AI時代已到來，微軟強調企業資安必須走向「環境式、自主式」防禦",
+      "summary": "隨著AI深度滲透企業工作流程，攻擊者也同步運用AI升級攻擊行動。",
+      "detailSummary": "隨著AI深度滲透企業工作流程，攻擊者也同步運用AI升級攻擊行動。面對Agentic AI時代的新挑戰，在2026臺灣資安大會首日的主題演說中，微軟全球資深副總裁Vasu Jakkal針對當前威脅提出因應之道，強調企業下一階段的資安架構，必須轉向「環境式（Ambient）」與「自主式（Autonomous）」的防禦模式。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175566",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T09:05:41",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-135",
+      "date": "2026-05-05",
+      "title": "【臺灣資安大會直擊】台新新光金控談AI風險治理：從可信任走向永續AI",
+      "summary": "隨著金管會發布金融業運用人工智慧（AI）的相關指引，要求金融機構在導入AI時兼顧風險控管與法規遵循，國內金融業正加速從試驗性導入走向制度化管理。",
+      "detailSummary": "隨著金管會發布金融業運用人工智慧（AI）的相關指引，要求金融機構在導入AI時兼顧風險控管與法規遵循，國內金融業正加速從試驗性導入走向制度化管理。從早期的機器學習應用，到近年生成式AI快速滲透客服、法遵與內部作業流程，AI已逐步成為金融服務的重要基礎能力，同時也帶來新的資安與治理挑戰。 然而，AI要從實驗性走向制度化，成為組織內日常營運的能力，需要加強AI風險管理，今年臺灣資安大會首日，曾任刑事局資訊科科長、偵九大隊隊長，現為台新新光金控暨台新銀行資安長陳詰昌分享如何治理AI風險。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175564",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T05:05:34",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-154",
+      "date": "2026-05-05",
+      "title": "【臺灣資安大會直擊】從AI攻防到半導體資安標準制定，CYBERSEC 2026揭示臺灣邁向全球資安戰略核心",
+      "summary": "當全球正加速邁入AI全面滲透的時代，數位世界的競爭與衝突，也同步升高到前所未有的層次。",
+      "detailSummary": "當全球正加速邁入AI全面滲透的時代，數位世界的競爭與衝突，也同步升高到前所未有的層次。從生成式AI協助企業提升效率，到駭客利用AI自動化攻擊、癱瘓關鍵基礎設施，資安早已不只是資訊部門的工作，而是攸關國家治理、民主韌性、產業競爭力與國際信任的新戰場。 在這樣的國際局勢下，亞洲最大規模的資安盛會「臺灣資安大會CYBERSEC 2026」，於5月5日～5月7日假臺北南港展覽館二館舉辦。來自全球數十個國家、超過二萬名資安專家、企業代表與政府官員齊聚臺灣，超過四百家國內外資安品牌同步參展，現場並規畫逾兩百場專業論壇與十五軌平行議程，全面呈現AI時代下的最新資安攻防趨勢。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175554",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T01:05:36",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-146",
+      "date": "2026-05-05",
+      "title": "【資安日報】5月5日，2026臺灣資安大會正式登場",
+      "summary": "從AI攻防到半導體資安標準制定，CYBERSEC 2026揭示臺灣邁向全球資安戰略核心",
+      "detailSummary": "從AI攻防到半導體資安標準制定，CYBERSEC 2026揭示臺灣邁向全球資安戰略核心",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175560",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T03:05:42",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-119",
+      "date": "2026-05-05",
+      "title": "中東戰事引發能源危機衝擊各產業，泰國台商壓力劇增",
+      "summary": "日前曼谷舉行的台商會活動聚集逾百名台商，歌舞昇平，赴泰經商數十載的台灣老闆談笑風生，但當話題轉向中東衝突引發的 […]",
+      "detailSummary": "日前曼谷舉行的台商會活動聚集逾百名台商，歌舞昇平，赴泰經商數十載的台灣老闆談笑風生，但當話題轉向中東衝突引發的 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://technews.tw/2026/05/05/middle-east-conflict-sparks-energy-crisis-impacting-industries-taiwanese-businesses-thailand-pressure-increases/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T10:15:34+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-141",
+      "date": "2026-05-05",
+      "title": "企業檔案傳輸自動化工具MOVEit Automation存在重大漏洞，攻擊者可藉此繞過身分驗證流程",
+      "summary": "Progress Software發布企業檔案傳輸自動化工具MOVEit Automation安全公告，修補兩項影響企業檔案傳輸自動化流程的漏洞，包括CVE-2026-4670與CV…",
+      "detailSummary": "Progress Software發布企業檔案傳輸自動化工具MOVEit Automation安全公告，修補兩項影響企業檔案傳輸自動化流程的漏洞，包括CVE-2026-4670與CVE-2026-5174，前者屬於嚴重等級的認證繞過漏洞，後者則是高風險等級的權限提升漏洞。若遭濫用，攻擊者可能取得未授權存取能力，進一步影響系統管理控制與資料安全。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175552",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T04:05:09",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-118",
+      "date": "2026-05-05",
+      "title": "台表科4月營收月增6.9%",
+      "summary": "台表科（6278）公布 4 月合併營收 45.06 億元，較上（3）月成長 6.9%，與去年同期相比為年增 3 […]",
+      "detailSummary": "台表科（6278）公布 4 月合併營收 45.06 億元，較上（3）月成長 6.9%，與去年同期相比為年增 3 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/tsmt-6278-202604-financial-report/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T10:20:04+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-104",
+      "date": "2026-05-05",
+      "title": "徐秀蘭：庫存去化進入尾聲，AI 與先進製程拉動下半年強勁復甦",
+      "summary": "全球矽晶圓大廠環球晶圓5日召開2026年第一季法人說明會。",
+      "detailSummary": "全球矽晶圓大廠環球晶圓5日召開2026年第一季法人說明會。董事長徐秀蘭在問答環節中指出，儘管市場仍面臨總體經濟 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/globalwafers-inventory-reduction-is-nearing-completion/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T13:45:27+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-113",
+      "date": "2026-05-05",
+      "title": "從研發轉向通路：OpenAI 與 Anthropic 同日推合資案，揭開 AI 百億美元分銷時代",
+      "summary": "OpenAI 成立合資實體 DeployCo，藉私募股權（PE）投資組合為通路，以 17.5% 年化保底回報為誘因，加速 AI 導入企業。",
+      "detailSummary": "OpenAI 成立合資實體 DeployCo，藉私募股權（PE）投資組合為通路，以 17.5% 年化保底回報為誘因，加速 AI 導入企業。Anthropic 亦採類似策略，標誌著 AI 競爭重心已從模型能力，轉向嵌入式分銷的效率。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41213-openai-deployco-finalized-10-billion-joint-venture",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T11:42:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-153",
+      "date": "2026-05-05",
+      "title": "微軟推出AI代理人管理平臺Agent 365、Windows 365 for Agents",
+      "summary": "微軟去年11月公布的AI代理人管理平臺Agent 365，本週宣布全面上線，號稱能管理應用、OS及工作流程中的自建及第三方AI代理人，如OpenClaw或Claude Code。",
+      "detailSummary": "微軟去年11月公布的AI代理人管理平臺Agent 365，本週宣布全面上線，號稱能管理應用、OS及工作流程中的自建及第三方AI代理人，如OpenClaw或Claude Code。微軟並公布專門執行代理人的雲端OS，名為Windows 365 for Agents。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175555",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T01:05:45",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-116",
+      "date": "2026-05-05",
+      "title": "微軟警告Copy Fail恐被用於攻擊雲端環境",
+      "summary": "上週被揭露的Linux核心高風險漏洞Copy Fail（CVE-2026-31431），由於廣泛影響近9年的Linux核心，且所有的Linux發行版都曝露相關風險，攻擊者可在未經授權…",
+      "detailSummary": "上週被揭露的Linux核心高風險漏洞Copy Fail（CVE-2026-31431），由於廣泛影響近9年的Linux核心，且所有的Linux發行版都曝露相關風險，攻擊者可在未經授權的情況下將權限升級為root，因此受到資安界高度關注。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175551",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T11:05:45",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-155",
+      "date": "2026-05-05",
+      "title": "思科將買下聚焦於非人類身分安全的Astrix Security",
+      "summary": "思科（Cisco）週一（5/4）宣布，有意收購專門開發非人類身分（Non-Human Identity，NHI）安全技術的資安新創Astrix Security，以將相關功能整合到思…",
+      "detailSummary": "思科（Cisco）週一（5/4）宣布，有意收購專門開發非人類身分（Non-Human Identity，NHI）安全技術的資安新創Astrix Security，以將相關功能整合到思科的安全服務中，強化思科安全平臺對各種身分的掌握能力。雙方並未公布交易細節，但外傳該交易價值4億美元。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175556",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T01:05:06",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-102",
+      "date": "2026-05-05",
+      "title": "愛普*4月營收8.04 億元",
+      "summary": "愛普*（6531）今（5）日公布 4 月營收，達 8.04 億元，較 3 月成長 -1.3%，較去年同期成長 […]",
+      "detailSummary": "愛普*（6531）今（5）日公布 4 月營收，達 8.04 億元，較 3 月成長 -1.3%，較去年同期成長 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/ap-memory-6531-202604-financial-report/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T14:10:05+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-148",
+      "date": "2026-05-05",
+      "title": "數位憑證機構DigiCert客服系統遭受社交工程攻擊， EV程式碼簽章憑證外洩遭撤銷",
+      "summary": "數位憑證機構DigiCert近日向事件追蹤平臺Mozilla Bugzilla提交報告，表示該公司遭遇社交工程攻擊，攻擊者透過偽裝成螢幕保護程式的惡意檔案，入侵客服支援流程，進而取得…",
+      "detailSummary": "數位憑證機構DigiCert近日向事件追蹤平臺Mozilla Bugzilla提交報告，表示該公司遭遇社交工程攻擊，攻擊者透過偽裝成螢幕保護程式的惡意檔案，入侵客服支援流程，進而取得EV程式碼簽章（EV Code Signing）憑證相關資訊。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175558",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T02:05:34",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-129",
+      "date": "2026-05-05",
+      "title": "文科生的AI時代生存指南：這4類證照幫履歷「套上科技濾鏡」，跨領域轉職必備！ - 104職場力",
+      "summary": "文科生的AI時代生存指南：這4類證照幫履歷「套上科技濾鏡」，跨領域轉職必備！",
+      "detailSummary": "文科生的AI時代生存指南：這4類證照幫履歷「套上科技濾鏡」，跨領域轉職必備！ 104職場力",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56YzRaeTV5bUh6TlVnM0MzMHhNeWtqZkx2MFBRVHA2Y21rMmlGVG5qUElHaW4wQUIxN1hyd1VfQnJ1MGFsMi1OTzlzcVd3Z0pMa2VYeFFoTW9ZX0ll?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-05T06:45:18+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-163",
+      "date": "2026-05-05",
+      "title": "新竹能否躍升亞洲AI科技城？ - 遠見雜誌",
+      "summary": "新竹能否躍升亞洲AI科技城？",
+      "detailSummary": "新竹能否躍升亞洲AI科技城？ 遠見雜誌",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CWFB0N1dfaTFjZzZUSFZvamVQOHFnRzBXbmNZaHdlQUM3SW96T2VCU2JHVEpYT2tPcmxQa0VwUUZ6cUQtLU1ENkNoVVBnZw?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-04T16:00:00+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-125",
+      "date": "2026-05-05",
+      "title": "日經：JSR 擬在台設廠，供應台積電光阻劑",
+      "summary": "日本半導體材料大廠 JSR 計畫在台灣興建首座生產基地，直接供應台積電光阻劑。",
+      "detailSummary": "日本半導體材料大廠 JSR 計畫在台灣興建首座生產基地，直接供應台積電光阻劑。全球競爭加劇、中國業者急起直追之 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/nikkei-jsr-plans-taiwan-plant-supply-tsmc-photoresists/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T09:50:24+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-110",
+      "date": "2026-05-05",
+      "title": "是方攜 Radware 推「神盾 Pro 防禦服務」",
+      "summary": "是方電訊今天宣布，為因應規模與複雜度不斷攀升的 DDoS（分散式阻斷服務）攻擊，正式與全球網路安全大廠 Rad […]",
+      "detailSummary": "是方電訊今天宣布，為因應規模與複雜度不斷攀升的 DDoS（分散式阻斷服務）攻擊，正式與全球網路安全大廠 Rad […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://infosecu.technews.tw/2026/05/05/chief-radware/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T11:56:21+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-98",
+      "date": "2026-05-05",
+      "title": "極風雲創推出 ACROSS，為 AI Agent 建立企業級作業平台",
+      "summary": "極風雲創推出 ACROSS 平台，為 AI Agent 打造安全作業底座，解決企業 AI 治理空白的困境，搶攻企業 AI 入口。",
+      "detailSummary": "極風雲創推出 ACROSS 平台，為 AI Agent 打造安全作業底座，解決企業 AI 治理空白的困境，搶攻企業 AI 入口。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41218-twister5launches-across-enterprise-grade-os-for-ai-agents",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T17:14:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-122",
+      "date": "2026-05-05",
+      "title": "璟德4月營收1.27 億元",
+      "summary": "璟德（3152）今（5）日公布 4 月營收，達 1.27 億元，較 3 月成長 5.0%，較去年同期成長 1. […]",
+      "detailSummary": "璟德（3152）今（5）日公布 4 月營收，達 1.27 億元，較 3 月成長 5.0%，較去年同期成長 1. […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/acx-3152-202604-financial-report/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T10:10:05+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-105",
+      "date": "2026-05-05",
+      "title": "環球晶第一季 EPS 3.97 元，確定產業春燕到規劃下半年調漲價格",
+      "summary": "矽晶圓大廠環球晶圓5日召開線上法說會，公布2026年第一季財報並釋出最新營運展望。",
+      "detailSummary": "矽晶圓大廠環球晶圓5日召開線上法說會，公布2026年第一季財報並釋出最新營運展望。董事長徐秀蘭表示，第一季已確 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/globalwafers-first-quarter-eps-was-nt3-97/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T13:15:49+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-97",
+      "date": "2026-05-05",
+      "title": "當平台進入城市運作，地方治理即成關鍵",
+      "summary": "數位平台影響城市運作，然中央制度與地方實務出現落差。",
+      "detailSummary": "數位平台影響城市運作，然中央制度與地方實務出現落差。平台治理重心正從政策設計轉向城市現場，考驗地方政府的應對能力，也成為數位治理能否落地的重要指標。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41219-sharing-platform-in-city",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T17:14:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-147",
+      "date": "2026-05-05",
+      "title": "科技巨擘齊看好 AI 潛力 馬斯克預估人形機器人市場達 250 兆美元 - Yahoo股市",
+      "summary": "科技巨擘齊看好 AI 潛力 馬斯克預估人形機器人市場達 250 兆美元 Yahoo股市",
+      "detailSummary": "科技巨擘齊看好 AI 潛力 馬斯克預估人形機器人市場達 250 兆美元 Yahoo股市",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNTlpLT3FfZ3Z3LWRvUkZuNVdMeXdDaEZxd2hwXzlzRnUtUnlXUDdHTmtHbkVaaGtUVFlTbkNYLVh1NUNYbHJvbXAwbG9PODVaRnhwR0N2NVVFT1p0Tm1PRHNUZWRLUGgwUkxQVzFHWmY2SW9UQXlndzRMdWR5SlBTT0V2NlNaTnVETUZpdVp5OHFlVy1pUVIwZVdPSkZBYUpYOF9ub2lBU2RmNlIzNFVVVnRJclVvQkI5ZnowWElleTNacXlRR1cwazM3ZnFxZE9xVXdWTjdFcGFoQVZLRWRaZ0haRWp2bkZOUHJQc0t2UG82WVJRN2luNVNWaGdtejFIc19STlFMNkl6ekNqMEVYR1p2Wm1TTDI3RFE2a3ZBSDIta1k0NDl4M3BZN1dFQlBMWlE3U0NpSEt6VXJGV0tQWl9MWklDbm9jLWI2a2lVNVN3Z0puYVRwNE1rU28wUEdBVTlnWmtoZE5jUU1GQU40?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-05T02:34:13+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-169",
+      "date": "2026-05-05",
+      "title": "科技巨頭投資「核彈研發的3倍」在AI！天文數字背後意味著什麼？ - 天下雜誌",
+      "summary": "科技巨頭投資「核彈研發的3倍」在AI！",
+      "detailSummary": "科技巨頭投資「核彈研發的3倍」在AI！天文數字背後意味著什麼？ 天下雜誌",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Xby01Z3hwelJ2TE1ybG00a3JwMTNEbW5Pa3FhdGM2NmtMdXpEN1h4TFd2M25IbWNCdlhzZ18zVkhoWnd3SXp2NkktdVNZdw?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-04T09:57:00+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-140",
+      "date": "2026-05-05",
+      "title": "科技巨頭聚焦生成式AI投資 市場潛力廣受看好 - PChome Online 新聞",
+      "summary": "科技巨頭聚焦生成式AI投資 市場潛力廣受看好 PChome Online 新聞",
+      "detailSummary": "科技巨頭聚焦生成式AI投資 市場潛力廣受看好 PChome Online 新聞",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWdZMG9aYTdncHpFU1RZajNocDh1R3gzRk5yY3lsWVBnWVNNS21LZUZvNEtROUt0UTNuem84d0VjOFVQaEY1UVpNTGhpbS0yX2FYaURMekFhYWZXY3F5MEhBXzdwaElEMFEtMTU0QTNXYUk1NFF6WDlsM0gxY0pGMUw5cFVrUGpsSWI2Yg?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-05T04:17:34+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-162",
+      "date": "2026-05-05",
+      "title": "美伊衝突推升油氣風險，潔淨能源轉型反而加速",
+      "summary": "地緣政治風險推升油價，反成全球能源轉型推手。",
+      "detailSummary": "地緣政治風險推升油價，反成全球能源轉型推手。為確保能源安全，各國被迫加速部署太陽能、電動車等替代方案，以降低對化石燃料的依賴。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41210-us-iran-conflict-raises-oil-and-gas-risks-as-the-clean-energy-transition-gains-speed",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-04T16:00:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-181",
+      "date": "2026-05-05",
+      "title": "美國國防部攜手「7家科技公司」導AI進機密網路！「這一家」遭排除 - news.cnyes.com",
+      "summary": "美國國防部攜手「7家科技公司」導AI進機密網路！",
+      "detailSummary": "美國國防部攜手「7家科技公司」導AI進機密網路！「這一家」遭排除 news.cnyes.com",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xMlNlejJYdzZGNk16eFJQb2RnUmttT2V3T0ZoaldFanAySlRlT0ZtQkRPSHFaVTRiWmxpcm8zbnVFY2J0V2dDOUZzbm9XWTQ?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-03T12:00:02+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-123",
+      "date": "2026-05-05",
+      "title": "義隆4月營收月減6.7%",
+      "summary": "義隆（2458）公布 4 月合併營收 11.41 億元，較上（3）月成長 -6.7%，與去年同期相比為年增 6 […]",
+      "detailSummary": "義隆（2458）公布 4 月合併營收 11.41 億元，較上（3）月成長 -6.7%，與去年同期相比為年增 6 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/elan-2458-202604-financial-report/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T10:10:02+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-111",
+      "date": "2026-05-05",
+      "title": "股價一年暴漲 360% 之後，Intel 挖角高通老將搶攻實體 AI 下一戰場",
+      "summary": "英特爾延攬前高通主管 Katouzian 掌管用戶端暨實體 AI 事業，並擢升 Ranade 為技術長。",
+      "detailSummary": "英特爾延攬前高通主管 Katouzian 掌管用戶端暨實體 AI 事業，並擢升 Ranade 為技術長。此人事佈局旨在將業務從 PC 拓展至邊緣 AI，並結合前瞻技術以加速轉型，強化其在實體 AI 時代的競爭力。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41215-intel-hires-qualcomm-katouzian-client-computing-physical-ai-cto-ranade",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T11:53:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-121",
+      "date": "2026-05-05",
+      "title": "胡連4月營收8.63 億元",
+      "summary": "胡連（6279）今（5）日公布 4 月營收，達 8.63 億元，較 3 月成長 32.3%，較去年同期成長 1 […]",
+      "detailSummary": "胡連（6279）今（5）日公布 4 月營收，達 8.63 億元，較 3 月成長 32.3%，較去年同期成長 1 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://finance.technews.tw/2026/05/05/hu-lane-6279-202604-financial-report/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T10:10:07+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-168",
+      "date": "2026-05-05",
+      "title": "臺南AIIMPACT展示圓滿落幕 展現AI科技治理與市民生活新樣貌 - Yahoo新聞",
+      "summary": "臺南AIIMPACT展示圓滿落幕 展現AI科技治理與市民生活新樣貌 Yahoo新聞",
+      "detailSummary": "臺南AIIMPACT展示圓滿落幕 展現AI科技治理與市民生活新樣貌 Yahoo新聞",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNc05NRkI4dkZPcXNaZ1JUbHJ3S1ZIUlI5UjR1RmNRUC1QSnFHY0xqYTh0ZEYwQzlUS00tdnNJM0ZtbFdGMFY5b0NlczQzbWkySFVhM3h2SWpfWjFKSXQ4MWZEM0R5bGZzd056RHBmdExlUDRFRFVrNzQ0QmJObGJ1TjVYV2NxcUV1VlZSZ3FtOWJkQVExT19zMDBOUVNkdkFfazZIMVdBWl9hbWltWjQ4UWVKeENHMVlsLVhyeGh5UGhCY2FGaTdsMlJlT2M1Nk5iNjg5RTlZR3g0MnRGNDlTMmEzTi1FLUh2UnhRbkttSzhXRWpIMWdZdFdHY3NKOEVwaEdZQ3pHTjlpbTVUQ0hjQXlmYjN5WGVTS3lWeXJVaDd1QXVPZ0pRMjVIYWRPVHhXMnpOTkgwTzNJWWdHYVRESGw1eUV6OTZWMHB5b0lIbjNDemJpLV95cHZ4YW5qSU9CQU1GbGFZWW5wQQ?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-04T10:40:42+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-172",
+      "date": "2026-05-05",
+      "title": "華爾街日報》AI 掘金時代：科技四巨頭營收亮眼，卻陷基礎設施「燒錢」軍備賽| Robbie Whelan | 新聞 - 風傳媒",
+      "summary": "華爾街日報》AI 掘金時代：科技四巨頭營收亮眼，卻陷基礎設施「燒錢」軍備賽| Robbie Whelan | 新聞 風傳媒",
+      "detailSummary": "華爾街日報》AI 掘金時代：科技四巨頭營收亮眼，卻陷基礎設施「燒錢」軍備賽| Robbie Whelan | 新聞 風傳媒",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50dFdfLTM2YkRXRkphNGZWME95Qk90aTVQMzhuNWVXVUVRTWdaMWdYV2NDcEJjYWtNLXRXV2dKS1U5aEEyZXdVUzkzN2trZw?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-04T09:00:00+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-101",
+      "date": "2026-05-05",
+      "title": "誰催生宇宙第一個超大黑洞？暗物質為最有力候選者",
+      "summary": "近年觀測發現，宇宙誕生後不久，就已出現大量超大質量黑洞，這對傳統的宇宙演化理論形成不小挑戰。",
+      "detailSummary": "近年觀測發現，宇宙誕生後不久，就已出現大量超大質量黑洞，這對傳統的宇宙演化理論形成不小挑戰。近期團隊提出新解釋 […]",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://technews.tw/2026/05/05/dark-matter-may-have-jump-started-universes-first-giant-black-holes/",
+          "source": "科技新報"
+        }
+      ],
+      "published": "2026-05-05T14:17:19+00:00",
+      "sourceName": "科技新報",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-112",
+      "date": "2026-05-05",
+      "title": "豐田宣布與 Hyroad 策略合作，接手 Nikola 破產留下的氫能重卡",
+      "summary": "Toyota 攜手 Hyroad，於南加州部署 40 輛 Class 8 氫能重卡。",
+      "detailSummary": "Toyota 攜手 Hyroad，於南加州部署 40 輛 Class 8 氫能重卡。此合作整合 Toyota 的燃料供應與 Hyroad 的車輛服務，旨在港口幹線場景驗證完整的氫能運輸生態系，測試其商業可行性。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41214-toyota-hyroad-nikola-bankruptcy-hydrogen-trucks",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T11:45:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-156",
+      "date": "2026-05-05",
+      "title": "迪士尼內部AI排行曝光 員工9天狂刷46萬次Claude - ETtoday新聞雲",
+      "summary": "迪士尼內部AI排行曝光 員工9天狂刷46萬次Claude ETtoday新聞雲",
+      "detailSummary": "迪士尼內部AI排行曝光 員工9天狂刷46萬次Claude ETtoday新聞雲",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wakFfejFIM2F5X251aXpLVEhMZzEwdHpXLUxsaWl3RktvNllna3d6Y2ZCOGt2cWJ6eHB3U0VHLTVpQ0gzYkN3dV8xb9IBZ0FVX3lxTE5RTm85TzRobDdPb3VoYkhnTld1UUU4S3l3NGNZa0hCSFNnRGNkcXlOcmQ3UXdIc3RQWTVGTTVTaE1UOEFRRTgxVVVmSlI3Q0xSNW51a2hOX01jMEQtcHNLNUViZ056SXM?oc=5",
+          "source": "Google News AI科技"
+        }
+      ],
+      "published": "2026-05-05T00:47:00+00:00",
+      "sourceName": "Google News AI科技",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-149",
+      "date": "2026-05-05",
+      "title": "針對影響廣泛的Linux核心漏洞Copy Fail，微軟呼籲用戶應立即採取行動因應",
+      "summary": "微軟針對近日受到高度關注的Linux核心漏洞Copy Fail（CVE-2026-31431）提出警告，駭客很可能將其用於攻擊雲端環境，相當危險應立即處理。",
+      "detailSummary": "微軟針對近日受到高度關注的Linux核心漏洞Copy Fail（CVE-2026-31431）提出警告，駭客很可能將其用於攻擊雲端環境，相當危險應立即處理。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ithome.com.tw/news/175557",
+          "source": "iThome"
+        }
+      ],
+      "published": "2026-05-05T02:05:34",
+      "sourceName": "iThome",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-115",
+      "date": "2026-05-05",
+      "title": "馬斯克推特收購案惹議，遭 SEC 重罰 150 萬美元創紀錄",
+      "summary": "針對收購推特前延遲申報持股，馬斯克同意支付 150 萬美元罰款與美國證管會和解，創下同類案件最高紀錄。",
+      "detailSummary": "針對收購推特前延遲申報持股，馬斯克同意支付 150 萬美元罰款與美國證管會和解，創下同類案件最高紀錄。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41212-elon-musk-sec-twitter-fine-record",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T11:06:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-93",
+      "date": "2026-05-05",
+      "title": "黃仁勳稱中國不應獲 NVIDIA 最先進晶片",
+      "summary": "黃仁勳被問到中國是否應該擁有最新、最先進的晶片時回說「不應該」，並說美國應維持 AI 領先優勢。",
+      "detailSummary": "黃仁勳被問到中國是否應該擁有最新、最先進的晶片時回說「不應該」，並說美國應維持 AI 領先優勢。",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.inside.com.tw/article/41220-nvidia-s-jensen-huang-says-china-should-not-have-its-most-advanced-chips",
+          "source": "INSIDE"
+        }
+      ],
+      "published": "2026-05-05T18:05:00+08:00",
+      "sourceName": "INSIDE",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-15",
+      "date": "2026-05-05",
+      "title": "13縣市大雨特報！氣象署提醒慎防瞬間大雨",
+      "summary": "中央氣象署發布13縣市大雨特報，今（5日）晚至明（6日）早，澎湖、雲林以北地區及花蓮山區有局部大雨發生的機率。",
+      "detailSummary": "中央氣象署發布13縣市大雨特報，今（5日）晚至明（6日）早，澎湖、雲林以北地區及花蓮山區有局部大雨發生的機率。 氣象署今晚21時40分發布大雨特報，稱華南雲雨區東移，易有短...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426734",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T22:11:44+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-89",
+      "date": "2026-05-05",
+      "title": "3警異常銷單遭北檢+督察盯上 內湖分局：依法究辦以維風紀",
+      "summary": "台北地檢署檢察官指揮北市警局督察室、內湖分局督察組人員偵辦內湖分局東湖所3名警員涉嫌幫特定民眾處理交通違規罰單案件，檢察官認定東湖所警員初步有涉嫌毀損公文書及涉及不實登載、有偽造文書…",
+      "detailSummary": "台北地檢署檢察官指揮北市警局督察室、內湖分局督察組人員偵辦內湖分局東湖所3名警員涉嫌幫特定民眾處理交通違規罰單案件，檢察官認定東湖所警員初步有涉嫌毀損公文書及涉及不實登載、有偽造文書罪嫌，5日到內湖分局搜索並帶走3名涉案警員到案說明。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160816.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T18:26:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-14",
+      "date": "2026-05-05",
+      "title": "5/5 今彩539頭獎開1注！800萬獎落高雄 大樂透頭獎摃龜",
+      "summary": "5月5日開獎的第115000110期今彩539頭獎開出1注，由高雄市三民區鼎泰街246號1樓的「金財寶彩券行」開出；第115000050期大樂透頭獎摃龜。",
+      "detailSummary": "5月5日開獎的第115000110期今彩539頭獎開出1注，由高雄市三民區鼎泰街246號1樓的「金財寶彩券行」開出；第115000050期大樂透頭獎摃龜。 第1150000...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426752",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T22:14:48+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-82",
+      "date": "2026-05-05",
+      "title": "LINE「15款免費貼圖」限時下載！恐龍的房間、放置戰爭×出租女友",
+      "summary": "貼圖小舖昨（5）日上架1組免費貼圖「LINE GO × 恐龍的房間」，只要將官方帳號加入好友，即可擁有貼圖；另外，還有一共14組免費、隱藏版貼圖，快把握時間下載吧！",
+      "detailSummary": "貼圖小舖昨（5）日上架1組免費貼圖「LINE GO × 恐龍的房間」，只要將官方帳號加入好友，即可擁有貼圖；另外，還有一共14組免費、隱藏版貼圖，快把握時間下載吧！ 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160470.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T19:22:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-80",
+      "date": "2026-05-05",
+      "title": "YTR房仲子杰睡夢中離世 頻道最後畫面曝光",
+      "summary": "房仲圈近日傳出憾事，一名年輕從業人員在睡夢中過世，引發同業震驚與不捨。",
+      "detailSummary": "房仲圈近日傳出憾事，一名年輕從業人員在睡夢中過世，引發同業震驚與不捨。據悉，該名男子為經營自媒體的房仲「子杰」，生前工作勤奮，未料突傳離世消息，令親友相當震驚及遺憾。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160846.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T19:28:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-33",
+      "date": "2026-05-05",
+      "title": "「台版張凌赫」爆紅認了黑歷史！賣假貨慘賠千萬 揭坎坷身世道歉",
+      "summary": "高雄一間老字號紅心粉圓店男店員「阿B」，因神似大陸男星張凌赫，近日在網路上爆紅，被封為「台版張凌赫」。",
+      "detailSummary": "高雄一間老字號紅心粉圓店男店員「阿B」，因神似大陸男星張凌赫，近日在網路上爆紅，被封為「台版張凌赫」。不過人紅是非多，隨著關注度飆升，他與妻子過去經營服飾電商時涉及「賣假貨」的爭議也被翻出，引發熱議。對此，阿B選擇正面回應，在社群平台發出長文，坦言「當時確實做錯了」。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160881.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T21:15:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-20",
+      "date": "2026-05-05",
+      "title": "「台版張凌赫」賣粉圓爆紅 親揭國中打工悲傷過往",
+      "summary": "高雄市苓雅區林泉家經營34年的紅心粉圓店，因老闆娘37歲的外甥阿B神似中國劇《逐玉》男主角張凌赫而引發網友暴動，由於阿B國中時期就到阿姨的店打工至大學共13年，他也分享，小時候...…",
+      "detailSummary": "高雄市苓雅區林泉家經營34年的紅心粉圓店，因老闆娘37歲的外甥阿B神似中國劇《逐玉》男主角張凌赫而引發網友暴動，由於阿B國中時期就到阿姨的店打工至大學共13年，他也分享，小時候...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426715",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T21:56:23+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-2",
+      "date": "2026-05-05",
+      "title": "「金大職達夢」徵才博覽會釋1600職缺 初步媒合率59％",
+      "summary": "「金大職達夢」實習與徵才博覽會今天在國立金門大學舉行，初步媒合率達59%。",
+      "detailSummary": "「金大職達夢」實習與徵才博覽會今天在國立金門大學舉行，初步媒合率達59%。準金大校長洪集輝說，長照人力需求殷切，金大會持續與金門縣政府密切合作，擴大培養人才，提升能量彌補人才缺...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426774",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T22:59:15+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-49",
+      "date": "2026-05-05",
+      "title": "中和驚見老鼠竄動、喜鵲死亡 張嘉玲要新北市加強用藥源頭管理",
+      "summary": "台北鼠患危機延燒成「安鼠之亂」，民進黨新北市議員張嘉玲指出，近期民眾拍下捷運景安站附近公園老鼠成群竄動的畫面，甚至中和壽德公園出現喜鵲集體死亡事件，她示警，民眾索取老鼠藥，若持...…",
+      "detailSummary": "台北鼠患危機延燒成「安鼠之亂」，民進黨新北市議員張嘉玲指出，近期民眾拍下捷運景安站附近公園老鼠成群竄動的畫面，甚至中和壽德公園出現喜鵲集體死亡事件，她示警，民眾索取老鼠藥，若持...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426657",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T20:38:04+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-5",
+      "date": "2026-05-05",
+      "title": "中市議員教投資來加LINE？ 周永鴻晚急喊頭像被盜「不是我」",
+      "summary": "近來股市屢創新高，詐騙手法日新月異，台中市議員周永鴻今晚IG頭像帳號被盜用，廣邀民眾加LINE「聊投資」，讓周永鴻急喊「這不是我」，喊話民眾若收到「周永鴻」傳訊息要借錢、投資，...…",
+      "detailSummary": "近來股市屢創新高，詐騙手法日新月異，台中市議員周永鴻今晚IG頭像帳號被盜用，廣邀民眾加LINE「聊投資」，讓周永鴻急喊「這不是我」，喊話民眾若收到「周永鴻」傳訊息要借錢、投資，...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426773",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T22:45:18+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-96",
+      "date": "2026-05-05",
+      "title": "什麼工作不會被AI取代？ 網點出關鍵：不是所有人都願動手",
+      "summary": "隨著AI快速進步，不少人開始擔憂未來的職涯發展。",
+      "detailSummary": "隨著AI快速進步，不少人開始擔憂未來的職涯發展。近日有男網友發文表示，他認為AI雖然不會完全「取代」某個職業，但恐怕會砍掉該領域達九成的人力。對此，他也想知道，有什麼工作在未來十年，是不會被AI影響的呢？貼文曝光後，引起網友討論。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160742.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T17:51:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-91",
+      "date": "2026-05-05",
+      "title": "你玩不過公司！孕後考績被評乙等 女副理控證券公司施壓封口",
+      "summary": "台中一名任職於永豐金證券的L姓資深副理，指控公司刻意將考核考績區間列在她孕假、安胎病假期間，導致她去年考績被評為乙等，經她向公司內部申訴，竟被直屬主管冷回「你永遠找不到真相」，甚至高…",
+      "detailSummary": "台中一名任職於永豐金證券的L姓資深副理，指控公司刻意將考核考績區間列在她孕假、安胎病假期間，導致她去年考績被評為乙等，經她向公司內部申訴，竟被直屬主管冷回「你永遠找不到真相」，甚至高層也說「跟公司對著幹沒好處」，令L女備感威脅，質疑職場有歧視孕婦甚至打壓情形，目前她除已求助勞工局，也不排除直接提告。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160766.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T18:15:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-24",
+      "date": "2026-05-05",
+      "title": "侵吞公款100元重判7月 女會計二審免蹲苦牢原因曝",
+      "summary": "任職某汽車公司邱姓女會計侵吞100元，被橋頭地院依業務侵占罪，重判7月要關，她不服上訴，高等法院高雄分院審酌她改口認罪，近日從輕改判4月定讞，得易科罰金。",
+      "detailSummary": "任職某汽車公司邱姓女會計侵吞100元，被橋頭地院依業務侵占罪，重判7月要關，她不服上訴，高等法院高雄分院審酌她改口認罪，近日從輕改判4月定讞，得易科罰金。 據了解，...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426716",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T21:49:43+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-19",
+      "date": "2026-05-05",
+      "title": "內湖前隊長等4警涉洩密抽單 警政署強調自檢不護短",
+      "summary": "台北市內湖分局前偵查隊長、現任花蓮縣刑大大隊長劉宗仁等4名員警，涉嫌於2020年違法處理交通罰單並洩密，台北地檢署今指揮兵分8路搜索，對此，警政署表示本案屬於「自清自檢」行動，...…",
+      "detailSummary": "台北市內湖分局前偵查隊長、現任花蓮縣刑大大隊長劉宗仁等4名員警，涉嫌於2020年違法處理交通罰單並洩密，台北地檢署今指揮兵分8路搜索，對此，警政署表示本案屬於「自清自檢」行動，...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426696",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T21:56:59+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-61",
+      "date": "2026-05-05",
+      "title": "台中保時捷撞倒機車肇逃 女駕駛趕看病被開罰、吊照",
+      "summary": "台中顏姓女騎士，近日將機車停在南區高工路，要騎車時發現愛車傷痕累累趕緊報案，員警陪同向一旁店家調閱監視器，店員才表示當時有目擊一輛保時捷休旅車撞倒機車，自己還協助將機車扶起，沒...…",
+      "detailSummary": "台中顏姓女騎士，近日將機車停在南區高工路，要騎車時發現愛車傷痕累累趕緊報案，員警陪同向一旁店家調閱監視器，店員才表示當時有目擊一輛保時捷休旅車撞倒機車，自己還協助將機車扶起，沒...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426668",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T20:30:46+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-72",
+      "date": "2026-05-05",
+      "title": "台中興中街大火釀6死 女房東主張無罪：房產遭拍賣「只剩命一條」",
+      "summary": "台中市興中街一處出租套房，2022年發生大火造成6死6傷慘劇，檢警調查房客鄭明光因養羊且欠租而被莊姓女房東責罵，一氣之下縱火洩憤，莊女則因屋內堆滿雜物阻礙逃生，一審被判刑7年，...…",
+      "detailSummary": "台中市興中街一處出租套房，2022年發生大火造成6死6傷慘劇，檢警調查房客鄭明光因養羊且欠租而被莊姓女房東責罵，一氣之下縱火洩憤，莊女則因屋內堆滿雜物阻礙逃生，一審被判刑7年，...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426617",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T19:58:31+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-4",
+      "date": "2026-05-05",
+      "title": "台中路燈「點光明燈計畫」 認養數4年慘腰斬",
+      "summary": "台中市路燈數已增到26萬盞，但多名議員質疑，市府推出「點光明燈計畫」，鼓勵民眾認養路燈一盞年費1千元，還可抵稅，但4年來認養數竟從608盞腰斬逾半，到去年僅剩認養315盞，認養...…",
+      "detailSummary": "台中市路燈數已增到26萬盞，但多名議員質疑，市府推出「點光明燈計畫」，鼓勵民眾認養路燈一盞年費1千元，還可抵稅，但4年來認養數竟從608盞腰斬逾半，到去年僅剩認養315盞，認養...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426751",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T22:56:46+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-95",
+      "date": "2026-05-05",
+      "title": "太子集團洗錢仔盼交保「想照顧烏龜」 律師補刀：關久會變傻",
+      "summary": "柬埔寨太子集團來台設點從事博弈、洗錢等犯行，經台北地檢署起訴中國籍首腦陳志等62人與13家公司，台北地院今（5日）起分批傳喚被告出庭，首日17人中，涉經營洗錢水房的男子陳韋志全部認罪…",
+      "detailSummary": "柬埔寨太子集團來台設點從事博弈、洗錢等犯行，經台北地檢署起訴中國籍首腦陳志等62人與13家公司，台北地院今（5日）起分批傳喚被告出庭，首日17人中，涉經營洗錢水房的男子陳韋志全部認罪，並表示願全額繳回犯罪所得2.6萬餘元，爭取輕判與緩刑，還跟法官保證「再也不會做這途（洗錢）了」。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160781.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T18:01:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-92",
+      "date": "2026-05-05",
+      "title": "室內晾衣濕又臭？專家揭「空氣對流」是關鍵：掌握甩、留、扇3步",
+      "summary": "隨著梅雨鋒面報到，全台進入濕答答模式！",
+      "detailSummary": "隨著梅雨鋒面報到，全台進入濕答答模式！對沒有陽台的租屋族或小家庭來說，「衣服晾了一整晚還是濕、甚至飄出酸臭味」成了家事難題。問題不是「沒洗乾淨」，而是「環境讓它乾不了 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160508.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T18:11:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-9",
+      "date": "2026-05-05",
+      "title": "家族洗錢80億！主嫌輕生後仍照營運 30人送辦",
+      "summary": "新北市土城區王姓男子家庭長期從事博弈手遊遊戲幣兌現業務，對外以「幣商」名義營運，透過匯差牟利，短短2年多累積金流高達80億元。",
+      "detailSummary": "新北市土城區王姓男子家庭長期從事博弈手遊遊戲幣兌現業務，對外以「幣商」名義營運，透過匯差牟利，短短2年多累積金流高達80億元。刑事局近期展開兩波搜索行動，查獲相關嫌犯共30人，已依法移送偵辦。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160899.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T22:29:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-51",
+      "date": "2026-05-05",
+      "title": "屬鼠、兔、馬運勢超旺！下下籤「屬猴」被點名：避開金錢往來",
+      "summary": "2026年5月首週運勢揭曉！",
+      "detailSummary": "2026年5月首週運勢揭曉！資深民俗專家「興趣使然的解籤師」近日公開5月3日至5月9日的十二生肖運勢。本週屬鼠、兔、馬的朋友堪稱幸運兒，均抽得「上上籤」，其中屬鼠者理財大有斬獲，屬馬者則有利房產交易；不過，屬猴的朋友則需特別留意人際關係與金錢往來。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160684.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T20:37:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-94",
+      "date": "2026-05-05",
+      "title": "幫愛爾麗安裝針孔！檢拘提1業者+查扣證物 訊後無保請回",
+      "summary": "連鎖醫美集團愛爾麗醫美集團爆出診療間疑似偷拍風波，檢警持續擴大追查，專案小組已拘提55歲謝姓男子到案說明，查出他為受各分店委託裝設監視設備的業者，訊後已無保請回，相關責任仍待進一步釐…",
+      "detailSummary": "連鎖醫美集團愛爾麗醫美集團爆出診療間疑似偷拍風波，檢警持續擴大追查，專案小組已拘提55歲謝姓男子到案說明，查出他為受各分店委託裝設監視設備的業者，訊後已無保請回，相關責任仍待進一步釐清。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160796.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T18:02:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-50",
+      "date": "2026-05-05",
+      "title": "彰化毒駕奪2命！警公告5天大執法 Cheap：史上最爆笑操作",
+      "summary": "彰化縣29歲高姓男子4日凌晨毒駕撞死64歲吳姓機車騎士、24歲翁姓女駕駛，彰化縣警方規劃5月4日至8日展開交通大執法，加強取締毒駕、酒駕以及其他重大交通違規，以免類似的事件再度發生。",
+      "detailSummary": "彰化縣29歲高姓男子4日凌晨毒駕撞死64歲吳姓機車騎士、24歲翁姓女駕駛，彰化縣警方規劃5月4日至8日展開交通大執法，加強取締毒駕、酒駕以及其他重大交通違規，以免類似的事件再度發生。對此，網紅Cheap傻眼說，大執法還公告時間，根本史上最爆笑操作，且若5天大執法能預防車禍，剩下的360天呢？ 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160841.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T20:38:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-43",
+      "date": "2026-05-05",
+      "title": "快對獎！5/5 大樂透、今彩539獎號出爐啦",
+      "summary": "今天（5月5日）台彩各項開獎獎項及獎號。",
+      "detailSummary": "今天（5月5日）台彩各項開獎獎項及獎號。 大樂透：04、17、23、28、33、37，特別號：15。 49樂合彩：04、17、23、28、33、37。 今彩53...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426665",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T20:50:30+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-90",
+      "date": "2026-05-05",
+      "title": "快訊／土城汽修廠起火濃煙狂竄 警消急衝現場灌救...3人送醫",
+      "summary": "新北市土城區亞洲路一家汽車修護廠，今（5日）下午5時許，一樓工廠冒出火煙，消防人員獲報趕抵，現場已濃煙竄天，警消在現場先救出3位民眾，意識清楚預防性送醫，詳細起火原因待調查。",
+      "detailSummary": "新北市土城區亞洲路一家汽車修護廠，今（5日）下午5時許，一樓工廠冒出火煙，消防人員獲報趕抵，現場已濃煙竄天，警消在現場先救出3位民眾，意識清楚預防性送醫，詳細起火原因待調查。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160820.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T18:21:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-83",
+      "date": "2026-05-05",
+      "title": "快訊／模範警察淪被告！花蓮刑大隊長涉洩密＋抽罰單 10萬交保",
+      "summary": "台北市警界爆發洩密與違規抽單疑雲，檢警調持續追查後，涉案的花蓮縣警局刑事警察大隊大隊長劉宗仁，今（5）日經檢方複訊後，諭令以新台幣10萬元交保，全案持續擴大偵辦中。",
+      "detailSummary": "台北市警界爆發洩密與違規抽單疑雲，檢警調持續追查後，涉案的花蓮縣警局刑事警察大隊大隊長劉宗仁，今（5）日經檢方複訊後，諭令以新台幣10萬元交保，全案持續擴大偵辦中。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160852.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T19:19:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-74",
+      "date": "2026-05-05",
+      "title": "快訊／漁工與妻電話急著上廁所 疑「頭部重擊」墜海不治",
+      "summary": "基隆市中正區長潭里漁港今（5日）晚間6時24分許驚傳落海意外，一名31歲印尼籍漁工疑因傍晚急著如廁，不慎跌倒撞擊頭部後墜入海中，事發當下他正與妻子通話。",
+      "detailSummary": "基隆市中正區長潭里漁港今（5日）晚間6時24分許驚傳落海意外，一名31歲印尼籍漁工疑因傍晚急著如廁，不慎跌倒撞擊頭部後墜入海中，事發當下他正與妻子通話。海巡與消防人員獲報後迅速趕抵現場展開搜救，並由海巡1名潛水人員下水搜尋，但打撈上岸時他已無生命跡象，緊急送往基隆三軍總醫院正榮院區搶救後宣告不治。至於該名移工落海原因及詳細事發經過，仍有待進一步調查釐清。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160864.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T19:55:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-88",
+      "date": "2026-05-05",
+      "title": "新書上市1天就被下架！明朝崇禎帝「節儉勤政」卻搞垮王朝",
+      "summary": "《詳全文...》",
+      "detailSummary": "《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160799.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T18:31:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-45",
+      "date": "2026-05-05",
+      "title": "新竹奧客點餐「被審問」咆哮 老闆娘護員工爆紅：業績暴增5成",
+      "summary": "新竹早餐店一對「夫妻奧客」事件引發全網關注，男子點餐時不滿被店員詢問甜度、冰塊像被審問，氣得咆哮摔菜單，當時老闆娘在旁打圓場、力挺員工，還追出門外理論，整段過程吸引8萬人按讚。",
+      "detailSummary": "新竹早餐店一對「夫妻奧客」事件引發全網關注，男子點餐時不滿被店員詢問甜度、冰塊像被審問，氣得咆哮摔菜單，當時老闆娘在旁打圓場、力挺員工，還追出門外理論，整段過程吸引8萬人按讚。老闆娘受訪時稱，沒想到大家會這麼支持，事發後業績成長3至5成。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160868.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T20:48:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-79",
+      "date": "2026-05-05",
+      "title": "有颱風！哈格比最快明天生成 初估路徑「大轉彎」北上",
+      "summary": "中央氣象署表示，關島附近的熱帶性低氣壓TD05今天（5日）生成，最快明天（6日）清晨形成第5號颱風「哈格比」（Hagupit，菲律賓命名），對台灣沒有影響。",
+      "detailSummary": "中央氣象署表示，關島附近的熱帶性低氣壓TD05今天（5日）生成，最快明天（6日）清晨形成第5號颱風「哈格比」（Hagupit，菲律賓命名），對台灣沒有影響。氣象專家分析TD05有機會在2天內成颱，未來持續朝偏西移動，大趨勢是趨向菲律賓以東後逐漸北轉，值得持續觀察。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160854.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T19:33:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-71",
+      "date": "2026-05-05",
+      "title": "板橋愛爾麗疑藏針孔攝影機 隔天警搜北市4分店無所獲",
+      "summary": "有女子近日前往「愛爾麗」新北板橋分店進行體雕療程，發現煙霧偵測器竟偽裝成針孔攝影機，檢警昨查扣證物。",
+      "detailSummary": "有女子近日前往「愛爾麗」新北板橋分店進行體雕療程，發現煙霧偵測器竟偽裝成針孔攝影機，檢警昨查扣證物。台北市刑警大隊科偵隊，今配合台北市政府衛生局及法務局，至愛爾麗四個分店執行聯...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426623",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T19:59:59+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-78",
+      "date": "2026-05-05",
+      "title": "母親節拍賣爆場！士林分署狂吸314萬入庫 詐團USDT被搶光",
+      "summary": "搶搭母親節檔期，法務部行政執行署士林分署今（5）日舉辦「寵愛媽咪123聯合拍賣會」，現場氣氛熱絡，吸引超過20名民眾到場競標與應買，從土地到加密貨幣通通上架，最終拍定與承受總金額達3…",
+      "detailSummary": "搶搭母親節檔期，法務部行政執行署士林分署今（5）日舉辦「寵愛媽咪123聯合拍賣會」，現場氣氛熱絡，吸引超過20名民眾到場競標與應買，從土地到加密貨幣通通上架，最終拍定與承受總金額達314萬餘元，為國庫挹注一筆可觀收入。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160849.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T19:34:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-85",
+      "date": "2026-05-05",
+      "title": "母親節聚餐慘中毒！9人上吐下瀉吊點滴 高雄某桶仔雞遭勒令停業",
+      "summary": "高雄市大社區一家桶仔雞餐廳驚傳疑似食物中毒！",
+      "detailSummary": "高雄市大社區一家桶仔雞餐廳驚傳疑似食物中毒！一名網友在網路發文控訴，整個家族30人在5月3日中午前往該店母親節聚餐，不料餐後陸續有9人出現腹瀉、嘔吐等不適症狀，甚至有人脫水吊點滴。高雄市衛生局接獲通報後，已派員前往稽查，並勒令業者停業兩天進行全面清消。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160837.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T19:09:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-69",
+      "date": "2026-05-05",
+      "title": "民眾黨護理權益公聽會溝通火爆 邱慧洳：政府應落實三班護病比保障護理人員",
+      "summary": "本月12日是護師節，為增進護理人員權益，立法院民眾黨團今（5）舉辦「從護病比到合理薪資：護理人員工作權益與待遇完善化」公聽會，除邀集衛福部官員，亦邀請全台數十間醫院工會代表現身...…",
+      "detailSummary": "本月12日是護師節，為增進護理人員權益，立法院民眾黨團今（5）舉辦「從護病比到合理薪資：護理人員工作權益與待遇完善化」公聽會，除邀集衛福部官員，亦邀請全台數十間醫院工會代表現身...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426632",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T20:18:18+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-77",
+      "date": "2026-05-05",
+      "title": "淡江大橋下驚傳「4小虎鯨擱淺」 海巡與動保人員冒雨搶救安置",
+      "summary": "新北市八里北堤沙灘5日下午發生小虎鯨集體擱淺事件，共有4隻小虎鯨受困岸際無法移動。",
+      "detailSummary": "新北市八里北堤沙灘5日下午發生小虎鯨集體擱淺事件，共有4隻小虎鯨受困岸際無法移動。海巡署與動保處人員考量現場浪高超過2公尺且伴隨降雨，評估暫不適合海放，決定將受困的虎鯨送往基隆八斗子救傷站安置。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160857.htm",
+          "source": "ETtoday 生活"
+        }
+      ],
+      "published": "2026-05-05T19:39:00+08:00",
+      "sourceName": "ETtoday 生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-67",
+      "date": "2026-05-05",
+      "title": "澎湖水族館魟魚寶寶長大了 母親節進場可兌換星海之約手環",
+      "summary": "母親節即將到來！",
+      "detailSummary": "母親節即將到來！澎湖水族館前年與去年，分別迎來2次魟魚寶寶誕生的珍貴時刻，每次各有2隻小魟魚順利出生。如今這些曾經需要細心呵護的小小生命，已逐漸長大，展開如翅膀般的身體，在水中...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426656",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T20:19:03+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-75",
+      "date": "2026-05-05",
+      "title": "無良詐騙再剝皮！痴情男愛情投資被詐26萬 誆回補40萬竟淪車手",
+      "summary": "北市警局中正一分局接獲報案，有一名男子在網路上交友被誘騙投資，投資12萬之後卻無法領出獲利，報警後配合警方誘捕，警方順利逮捕車手，卻發現車手也陷入26萬元交友詐騙，詐騙集團謊稱可以贊…",
+      "detailSummary": "北市警局中正一分局接獲報案，有一名男子在網路上交友被誘騙投資，投資12萬之後卻無法領出獲利，報警後配合警方誘捕，警方順利逮捕車手，卻發現車手也陷入26萬元交友詐騙，詐騙集團謊稱可以贊助40萬投資回補，但是卻讓張淪為車手。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160861.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T19:55:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-32",
+      "date": "2026-05-05",
+      "title": "獨家》染指15歲少女！台南警官「以身相許」被婉拒 這原因獲緩刑",
+      "summary": "陳姓警官擔任警備隊長時，透過交友軟體遇到15歲少女，竟要求對方拍攝私密影像並發生性行為。",
+      "detailSummary": "陳姓警官擔任警備隊長時，透過交友軟體遇到15歲少女，竟要求對方拍攝私密影像並發生性行為。陳警官提出「以身相許」、賠錢對少女負責，但最後少女父母同意以賠償和解，台南地方法院判陳員2...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426638",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T21:28:21+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-1",
+      "date": "2026-05-05",
+      "title": "瓦解詐團為被害人追討損失 屏東地檢署檢察官楊士逸獲法眼明察獎",
+      "summary": "屏東地檢署檢察官楊士逸偵辦專門吸收東港及鄰近鄉鎮年輕男女的詐騙集團，不但溯源查獲幕後林姓首腦，更查扣、拍賣犯嫌以不法所得開設的木藝品店藝品，償還被害人損失，表現卓越，獲檢察體系...…",
+      "detailSummary": "屏東地檢署檢察官楊士逸偵辦專門吸收東港及鄰近鄉鎮年輕男女的詐騙集團，不但溯源查獲幕後林姓首腦，更查扣、拍賣犯嫌以不法所得開設的木藝品店藝品，償還被害人損失，表現卓越，獲檢察體系...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426777",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T22:59:41+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-7",
+      "date": "2026-05-05",
+      "title": "知名泰式自助餐傳7人腸胃不適、1人諾羅 北市衛生局抓1缺失開限期改善單",
+      "summary": "民眾4月29日在大直英迪格4樓的泰式自助餐廳泰市場（Spice Market）用餐後出現腸胃不適症狀，台北市衛生局於5月1日晚間接獲新北市政府衛生局轉汐止國泰醫院通報民眾1人疑...…",
+      "detailSummary": "民眾4月29日在大直英迪格4樓的泰式自助餐廳泰市場（Spice Market）用餐後出現腸胃不適症狀，台北市衛生局於5月1日晚間接獲新北市政府衛生局轉汐止國泰醫院通報民眾1人疑...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426748",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T22:34:53+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-42",
+      "date": "2026-05-05",
+      "title": "科博館「ㄎㄅ帽」諧音梗超歪樓爆紅 網友瘋喊太欠買",
+      "summary": "國立自然科學博物館慶祝40週年，製作館慶周邊小物，近來一頂「ㄎㄅ」紀念帽意外爆紅，帽上只有「ㄎㄅ」注音符號的設計，不少網友瘋問「誰看到這注音會想到科博啊」，大量網友歪樓「你跟我...…",
+      "detailSummary": "國立自然科學博物館慶祝40週年，製作館慶周邊小物，近來一頂「ㄎㄅ」紀念帽意外爆紅，帽上只有「ㄎㄅ」注音符號的設計，不少網友瘋問「誰看到這注音會想到科博啊」，大量網友歪樓「你跟我...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426654",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T20:59:13+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-81",
+      "date": "2026-05-05",
+      "title": "穿孝服下跪撒冥紙！彰化反火葬場自救會怒嗆撤案：抗爭才開始",
+      "summary": "彰化縣政府今（5）日下午在芳苑鄉福海宮舉辦「彰化生命園區開發計畫」環境影響評估公開說明會，因計畫內容涉及興建火葬場，引爆地方強烈反彈。",
+      "detailSummary": "彰化縣政府今（5）日下午在芳苑鄉福海宮舉辦「彰化生命園區開發計畫」環境影響評估公開說明會，因計畫內容涉及興建火葬場，引爆地方強烈反彈。反對興建的自救會動員約500人到場陳情，警方則出動超過520名警力戒護。會前自救會成員一度跪地祈求媽祖撤案、穿孝服撒冥紙表達堅決立場，會中更因不滿簡報字體太小、會場安排不當等問題憤而離席，高嗆「抗爭現在才要開始！」所幸整場活動未釀成重大衝突。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160848.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T19:23:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-70",
+      "date": "2026-05-05",
+      "title": "純情男陷網戀被詐團騙2次 淪為「工具人」車手",
+      "summary": "張姓男子透過網路認識女網友，落入詐團假投資陷阱，積蓄26萬元全被騙走。",
+      "detailSummary": "張姓男子透過網路認識女網友，落入詐團假投資陷阱，積蓄26萬元全被騙走。張想出金，詐團又騙他要繳手續費，張稱沒錢，詐團謊稱可借他40萬元，要他在特定時間、地點去找人拿錢；張依指示...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5426629",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T20:03:26+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-13",
+      "date": "2026-05-05",
+      "title": "總統訪非！史瓦帝尼童也來台見認養人超催淚",
+      "summary": "總統賴清德突破中國外交封鎖，成功訪問非洲友邦史瓦帝尼，今搭乘史國國王專機返台；家扶基金會2名兩名史瓦帝尼認養童，21歲西妮（Sinethemba）與13歲巴洋達（Bayanda...…",
+      "detailSummary": "總統賴清德突破中國外交封鎖，成功訪問非洲友邦史瓦帝尼，今搭乘史國國王專機返台；家扶基金會2名兩名史瓦帝尼認養童，21歲西妮（Sinethemba）與13歲巴洋達（Bayanda...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426714",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T22:15:56+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-3",
+      "date": "2026-05-05",
+      "title": "連鎖醫美愛爾麗爆偷拍！檢警稽查新北4店 僅板橋店扣回針孔",
+      "summary": "首次上稿 13:21更新時間 22:57 愛爾麗連鎖醫美新北板橋店遭女客戶指控，裝設偵煙器偽裝的針孔，事後消極處理，新北地檢署連假暗中指揮警察局、婦幼隊稽查板橋店，扣回鏡...…",
+      "detailSummary": "首次上稿 13:21更新時間 22:57 愛爾麗連鎖醫美新北板橋店遭女客戶指控，裝設偵煙器偽裝的針孔，事後消極處理，新北地檢署連假暗中指揮警察局、婦幼隊稽查板橋店，扣回鏡...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5425962",
+          "source": "自由時報社會"
+        }
+      ],
+      "published": "2026-05-05T22:57:08+08:00",
+      "sourceName": "自由時報社會",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-16",
+      "date": "2026-05-05",
+      "title": "週三陽光露臉！西半部飆30度 日夜溫差大",
+      "summary": "週三（6日）白天起西半部逐漸轉為多雲到晴，同時氣溫回升，西半部高溫可達30度，而低溫則來到19度，日夜溫差大。",
+      "detailSummary": "週三（6日）白天起西半部逐漸轉為多雲到晴，同時氣溫回升，西半部高溫可達30度，而低溫則來到19度，日夜溫差大。 中央氣象署預報，週三環境轉偏東風、氣溫回升，清晨在北部地區及...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426663",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T22:04:32+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-26",
+      "date": "2026-05-05",
+      "title": "防治漢他、登革熱雙警報 高雄加強滅鼠宣導並落實巡倒清刷",
+      "summary": "台北市爆發鼠患令人心惶惶，高雄市也將加強滅鼠、漢他病毒防治行動及宣導「防鼠三不」措施，另因國際登革熱疫情升溫，且監測病媒蚊指數明顯攀升，社區風險增加，衛生局提醒市民提高警覺，加...…",
+      "detailSummary": "台北市爆發鼠患令人心惶惶，高雄市也將加強滅鼠、漢他病毒防治行動及宣導「防鼠三不」措施，另因國際登革熱疫情升溫，且監測病媒蚊指數明顯攀升，社區風險增加，衛生局提醒市民提高警覺，加...…",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5426669",
+          "source": "自由時報生活"
+        }
+      ],
+      "published": "2026-05-05T21:40:40+08:00",
+      "sourceName": "自由時報生活",
+      "pinned": false,
+      "fromDigest": false
+    },
+    {
+      "id": "2026-05-05-raw-87",
+      "date": "2026-05-05",
+      "title": "驚險畫面！貨櫃車轉彎「內輪差」輾壓 小客車淪夾心慘遭擠爆",
+      "summary": "桃園市中壢區樹籽路與福嶺路口今（5）日上午發生交通事故，一輛貨櫃車行經事故地點右轉時，不慎碰撞同行右側自小客車，所幸未造成人員受傷，但造成自小客嚴重毀損；中壢交通中隊到場處理時，雙方…",
+      "detailSummary": "桃園市中壢區樹籽路與福嶺路口今（5）日上午發生交通事故，一輛貨櫃車行經事故地點右轉時，不慎碰撞同行右側自小客車，所幸未造成人員受傷，但造成自小客嚴重毀損；中壢交通中隊到場處理時，雙方酒測值為零，至於肇事原因仍待警方調查釐清。 《詳全文...》",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ettoday.net/news/20260505/3160827.htm",
+          "source": "ETtoday 社會"
+        }
+      ],
+      "published": "2026-05-05T18:44:00+08:00",
+      "sourceName": "ETtoday 社會",
+      "pinned": false,
+      "fromDigest": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "timezone": "Asia/Taipei",
+  "archive_dir": "archive/news",
+  "categories": {
+    "taiwan": {
+      "label": "台灣／公共議題",
+      "max_per_source": 12,
+      "sources": [
+        {
+          "name": "自由時報政治",
+          "url": "https://news.ltn.com.tw/rss/politics.xml"
+        },
+        {
+          "name": "公視新聞",
+          "url": "https://news.pts.org.tw/xml/newsfeed.xml"
+        },
+        {
+          "name": "UDN 要聞",
+          "url": "https://udn.com/rssfeed/news/2/6638?ch=news"
+        },
+        {
+          "name": "Google News 台灣政治",
+          "url": "https://news.google.com/rss/search?q=台灣%20政治&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ]
+    },
+    "world": {
+      "label": "國際",
+      "max_per_source": 12,
+      "sources": [
+        {
+          "name": "自由時報國際",
+          "url": "https://news.ltn.com.tw/rss/world.xml"
+        },
+        {
+          "name": "BBC 中文繁體",
+          "url": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml"
+        },
+        {
+          "name": "端傳媒",
+          "url": "https://theinitium.com/rss/"
+        },
+        {
+          "name": "Google News 國際",
+          "url": "https://news.google.com/rss/search?q=國際&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ]
+    },
+    "finance": {
+      "label": "財經／市場",
+      "max_per_source": 12,
+      "sources": [
+        {
+          "name": "自由時報財經",
+          "url": "https://news.ltn.com.tw/rss/business.xml"
+        },
+        {
+          "name": "經濟日報",
+          "url": "https://money.udn.com/rssfeed/news/1001/5591/5592?ch=money"
+        },
+        {
+          "name": "Google News 財經",
+          "url": "https://news.google.com/rss/search?q=財經&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ]
+    },
+    "tech_ai": {
+      "label": "科技／AI",
+      "max_per_source": 12,
+      "sources": [
+        {
+          "name": "科技新報",
+          "url": "https://technews.tw/feed/"
+        },
+        {
+          "name": "iThome",
+          "url": "https://www.ithome.com.tw/rss"
+        },
+        {
+          "name": "INSIDE",
+          "url": "https://www.inside.com.tw/feed/rss"
+        },
+        {
+          "name": "Google News AI科技",
+          "url": "https://news.google.com/rss/search?q=AI%20科技&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+        }
+      ]
+    },
+    "society_life": {
+      "label": "社會／生活",
+      "max_per_source": 12,
+      "sources": [
+        {
+          "name": "自由時報社會",
+          "url": "https://news.ltn.com.tw/rss/society.xml"
+        },
+        {
+          "name": "自由時報生活",
+          "url": "https://news.ltn.com.tw/rss/life.xml"
+        },
+        {
+          "name": "ETtoday 社會",
+          "url": "https://feeds.feedburner.com/ettoday/society"
+        },
+        {
+          "name": "ETtoday 生活",
+          "url": "https://feeds.feedburner.com/ettoday/lifestyle"
+        }
+      ]
+    }
+  }
+}
