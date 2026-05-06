@@ -328,7 +328,8 @@
       if (!query) return true;
       const haystack = [
         card.title, card.summary, card.detailSummary, card.why, card.categoryLabel,
-        ...(card.sources || []).map(source => source.source + ' ' + source.url)
+        ...(card.sources || []).map(source => source.source + ' ' + source.url),
+        ...(card.articles || []).map(article => [article.title, article.summary, article.source, article.source_group, article.url].join(' '))
       ].join(' ').toLowerCase();
       return haystack.includes(query.toLowerCase());
     }
@@ -362,6 +363,7 @@
           <p>${escapeHtml(card.detailSummary || card.summary || '尚無摘要')}</p>
         </div>
         ${card.why ? `<div class="detail-section"><h4>為什麼值得注意</h4><p>${escapeHtml(card.why)}</p></div>` : ''}
+        ${card.articles && card.articles.length ? `<div class="detail-section"><h4>事件內報導</h4><div class="links">${renderArticleLinks(card.articles)}</div></div>` : ''}
         <div class="detail-section">
           <h4>來源報導</h4>
           <div class="links">${renderLinks(card.sources || [])}</div>
@@ -382,6 +384,15 @@
       return sources.map((source, index) => `
         <a href="${escapeAttr(source.url)}" target="_blank" rel="noopener noreferrer">
           ${escapeHtml(source.source || ('來源 ' + (index + 1)))}
+        </a>
+      `).join('');
+    }
+
+    function renderArticleLinks(articles) {
+      if (!articles.length) return '<span class="count">尚無事件內報導</span>';
+      return articles.map((article, index) => `
+        <a href="${escapeAttr(article.url)}" target="_blank" rel="noopener noreferrer" title="${escapeAttr(article.title || '')}">
+          ${escapeHtml((article.source_group || article.source || ('報導 ' + (index + 1))) + '：' + (article.title || '未命名'))}
         </a>
       `).join('');
     }
