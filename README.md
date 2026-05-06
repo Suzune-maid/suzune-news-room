@@ -59,7 +59,17 @@ python3 scripts/news_build_static_site.py
 
 This repository is intentionally static. The current public page reflects the latest generated `index.html` and `data/*.json` committed to `main`.
 
-Future automation can copy fresh generated site files into this repo and push to `main`, or use GitHub Actions if the news collection is later moved into GitHub-hosted automation.
+After the local Hermes pipeline rebuilds `/home/atmjin/.hermes/archive/news/site`, publish the refreshed static assets with:
+
+```bash
+python3 scripts/publish_site.py \
+  --source /home/atmjin/.hermes/archive/news/site \
+  --repo /home/atmjin/.hermes/archive/github/suzune-news-room
+```
+
+The publish script stages only `index.html` and `data/*.json`, commits if there are changes, and pushes `main` for GitHub Pages.
+
+Future automation can move collection/building into GitHub Actions if the RSS pipeline is later made cloud-hosted.
 
 ## Privacy note
 
