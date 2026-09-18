@@ -1,0 +1,4772 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-19T07:38:50+08:00",
+  "digest_markdown": "",
+  "categoryLabels": {
+    "taiwan": "台灣／公共議題",
+    "world": "國際",
+    "finance": "財經／市場",
+    "tech_ai": "科技／AI",
+    "society_life": "社會／生活"
+  },
+  "categories": [
+    {
+      "key": "taiwan",
+      "label": "台灣／公共議題"
+    },
+    {
+      "key": "world",
+      "label": "國際"
+    },
+    {
+      "key": "finance",
+      "label": "財經／市場"
+    },
+    {
+      "key": "tech_ai",
+      "label": "科技／AI"
+    },
+    {
+      "key": "society_life",
+      "label": "社會／生活"
+    }
+  ],
+  "source_status": [
+    {
+      "category": "finance",
+      "collected_at": "2026-09-18T07:00:55.522689+08:00",
+      "date": "2026-09-17",
+      "items": 168,
+      "label": "財經／市場",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-09-17/finance.jsonl",
+      "published_date_filter": "2026-09-17",
+      "sources": [
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:50.741822+08:00",
+          "found": 40,
+          "kept": 21,
+          "name": "中央社財經",
+          "ok": true,
+          "url": "https://www.cna.com.tw/list/afe.aspx"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:51.360811+08:00",
+          "found": 160,
+          "kept": 132,
+          "name": "自由時報",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/list/breakingnews/business"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:52.927601+08:00",
+          "found": 32,
+          "kept": 6,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/6644"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:54.961648+08:00",
+          "found": 20,
+          "kept": 9,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/10"
+        }
+      ],
+      "file": "finance.status.json"
+    },
+    {
+      "category": "society_life",
+      "collected_at": "2026-09-18T07:01:18.438975+08:00",
+      "date": "2026-09-17",
+      "items": 426,
+      "label": "社會／生活",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-09-17/society_life.jsonl",
+      "published_date_filter": "2026-09-17",
+      "sources": [
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:00.858152+08:00",
+          "found": 80,
+          "kept": 41,
+          "name": "中央社社會",
+          "ok": true,
+          "url": "https://www.cna.com.tw/list/asoc.aspx"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:01.426168+08:00",
+          "found": 60,
+          "kept": 30,
+          "name": "中央社生活",
+          "ok": true,
+          "url": "https://www.cna.com.tw/list/ahel.aspx"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:01.900588+08:00",
+          "found": 240,
+          "kept": 178,
+          "name": "自由時報",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/list/breakingnews/life"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:04.076907+08:00",
+          "found": 160,
+          "kept": 107,
+          "name": "自由時報",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/list/breakingnews/society"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:05.422183+08:00",
+          "found": 29,
+          "kept": 11,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/6639"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:07.381642+08:00",
+          "found": 47,
+          "kept": 22,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/6649"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:10.855949+08:00",
+          "found": 43,
+          "kept": 16,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/11195"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:14.923493+08:00",
+          "found": 20,
+          "kept": 3,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/5"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:15.605022+08:00",
+          "found": 30,
+          "kept": 11,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/7"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:16.431502+08:00",
+          "found": 20,
+          "kept": 3,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/12"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:17.736576+08:00",
+          "found": 20,
+          "kept": 4,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/3"
+        }
+      ],
+      "file": "society_life.status.json"
+    },
+    {
+      "category": "taiwan",
+      "collected_at": "2026-09-18T07:00:45.746735+08:00",
+      "date": "2026-09-17",
+      "items": 260,
+      "label": "台灣／公共議題",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-09-17/taiwan.jsonl",
+      "published_date_filter": "2026-09-17",
+      "sources": [
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:35.012409+08:00",
+          "found": 60,
+          "kept": 31,
+          "name": "中央社政治",
+          "ok": true,
+          "url": "https://www.cna.com.tw/list/aipl.aspx"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:36.220446+08:00",
+          "found": 260,
+          "kept": 196,
+          "name": "自由時報",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/list/breakingnews/politics"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:38.849883+08:00",
+          "found": 39,
+          "kept": 12,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/6638"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:41.164405+08:00",
+          "found": 23,
+          "kept": 10,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/6640"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:42.998126+08:00",
+          "found": 20,
+          "kept": 6,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/1"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:43.761058+08:00",
+          "found": 20,
+          "kept": 4,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/11"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:44.516749+08:00",
+          "found": 20,
+          "kept": 1,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/9"
+        }
+      ],
+      "file": "taiwan.status.json"
+    },
+    {
+      "category": "tech_ai",
+      "collected_at": "2026-09-18T07:01:00.856908+08:00",
+      "date": "2026-09-17",
+      "items": 27,
+      "label": "科技／AI",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-09-17/tech_ai.jsonl",
+      "published_date_filter": "2026-09-17",
+      "sources": [
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:55.523572+08:00",
+          "found": 39,
+          "kept": 6,
+          "name": "中央社科技",
+          "ok": true,
+          "url": "https://www.cna.com.tw/list/ait.aspx"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:55.894708+08:00",
+          "found": 12,
+          "kept": 12,
+          "name": "自由時報",
+          "ok": true,
+          "url": "https://3c.ltn.com.tw/"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:56.213352+08:00",
+          "found": 15,
+          "kept": 1,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://tech.udn.com/tech/cate/123454"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:58.008214+08:00",
+          "found": 15,
+          "kept": 1,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://tech.udn.com/tech/cate/123153"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:01:00.183379+08:00",
+          "found": 20,
+          "kept": 7,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/6"
+        }
+      ],
+      "file": "tech_ai.status.json"
+    },
+    {
+      "category": "world",
+      "collected_at": "2026-09-18T07:00:50.740957+08:00",
+      "date": "2026-09-17",
+      "items": 153,
+      "label": "國際",
+      "output": "/home/atmjin/.hermes/archive/news/daily/2026-09-17/world.jsonl",
+      "published_date_filter": "2026-09-17",
+      "sources": [
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:45.747434+08:00",
+          "found": 99,
+          "kept": 73,
+          "name": "中央社國際",
+          "ok": true,
+          "url": "https://www.cna.com.tw/list/aopl.aspx"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:46.476218+08:00",
+          "found": 120,
+          "kept": 49,
+          "name": "自由時報",
+          "ok": true,
+          "url": "https://news.ltn.com.tw/list/breakingnews/world"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:47.571751+08:00",
+          "found": 36,
+          "kept": 14,
+          "name": "聯合新聞網",
+          "ok": true,
+          "url": "https://udn.com/news/cate/2/7225"
+        },
+        {
+          "error": null,
+          "fetched_at": "2026-09-18T07:00:49.849453+08:00",
+          "found": 30,
+          "kept": 17,
+          "name": "公視新聞",
+          "ok": true,
+          "url": "https://news.pts.org.tw/category/4"
+        }
+      ],
+      "file": "world.status.json"
+    }
+  ],
+  "selection": {
+    "candidateEventCount": 322,
+    "displayedCardCount": 36,
+    "hiddenCardCount": 286,
+    "categoryCounts": {
+      "finance": 4,
+      "society_life": 10,
+      "world": 10,
+      "taiwan": 10,
+      "tech_ai": 2
+    },
+    "policy": {
+      "maxEventCards": 36,
+      "defaultCategoryLimit": 10,
+      "categoryLimits": {
+        "taiwan": 10,
+        "world": 10,
+        "finance": 4,
+        "tech_ai": 4,
+        "society_life": 10
+      },
+      "mutedKeywords": [
+        "今彩539",
+        "大樂透",
+        "威力彩",
+        "雙贏彩",
+        "彩券",
+        "星座運勢"
+      ],
+      "interestKeywords": [
+        "國防",
+        "國安",
+        "中國",
+        "美國",
+        "台海",
+        "台積電",
+        "半導體",
+        "AI",
+        "央行",
+        "物價"
+      ],
+      "keywordBoostPoints": 24,
+      "maxKeywordBoostsPerEvent": 3,
+      "excludedTitlePatterns": [
+        "今彩539",
+        "大樂透",
+        "威力彩",
+        "雙贏彩",
+        "彩券",
+        "星座運勢"
+      ],
+      "sourceWeighting": {
+        "enabled": true,
+        "baselineSources": [
+          "中央社",
+          "公視新聞"
+        ],
+        "opinionatedSources": [
+          "自由時報",
+          "聯合新聞網"
+        ],
+        "baselineEffectiveArticlePoints": 22.0,
+        "opinionatedEffectiveArticlePoints": 8.0,
+        "otherEffectiveArticlePoints": 18.0,
+        "sourceCountPoints": 8.0,
+        "crossTypeBonus": 16.0,
+        "baselinePairBonus": 12.0,
+        "opinionatedOnlyPenalty": 24.0,
+        "dominantSourcePenalties": [
+          {
+            "ratio": 0.85,
+            "penalty": 24.0
+          },
+          {
+            "ratio": 0.7,
+            "penalty": 12.0
+          }
+        ]
+      }
+    }
+  },
+  "pinned": [],
+  "cards": [
+    {
+      "id": "2026-09-17-e002",
+      "date": "2026-09-17",
+      "title": "謝典霖涉賄遭聲押藍盼辦案政治中立 綠：尊重司法",
+      "summary": "彰化地檢署偵辦國民黨籍彰化縣議會議長謝典霖6月23日涉嫌「請吃選舉飯」賄選案，檢方16日搜索後，另又發現被告等數次巧立名目詐取公款私用，共涉犯貪污治罪條例第5條第1項第2款利用...",
+      "detailSummary": "彰化地檢署偵辦國民黨籍彰化縣議會議長謝典霖6月23日涉嫌「請吃選舉飯」賄選案，檢方16日搜索後，另又發現被告等數次巧立名目詐取公款私用，共涉犯貪污治罪條例第5條第1項第2款利用...",
+      "fallbackSummary": "彰化地檢署偵辦國民黨籍彰化縣議會議長謝典霖6月23日涉嫌「請吃選舉飯」賄選案，檢方16日搜索後，另又發現被告等數次巧立名目詐取公款私用，共涉犯貪污治罪條例第5條第1項第2款利用...",
+      "fallbackDetailSummary": "彰化地檢署偵辦國民黨籍彰化縣議會議長謝典霖6月23日涉嫌「請吃選舉飯」賄選案，檢方16日搜索後，另又發現被告等數次巧立名目詐取公款私用，共涉犯貪污治罪條例第5條第1項第2款利用...",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/asoc/202609170363.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577054"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827478"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T23:39:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "彰檢偵辦餐敘涉賄案 彰化縣議長謝典霖羈押禁見",
+          "url": "https://www.cna.com.tw/news/asoc/202609170363.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T21:17:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "彰化議長謝典霖餐敘涉賄案 父謝新隆准押禁見",
+          "url": "https://www.cna.com.tw/news/asoc/202609170337.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T14:41:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "謝典霖涉餐敘賄選",
+          "title": "謝典霖等人涉辦餐會賄選遭聲押 彰檢：另發現多次詐取公款涉貪",
+          "url": "https://www.cna.com.tw/news/asoc/202609170160.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T14:26:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化地檢署偵辦國民黨籍彰化縣議會議長謝典霖6月23日涉嫌「請吃選舉飯」賄選案，檢方16日搜索後，另又發現被告等數次巧立名目詐取公款私用，共涉犯貪污治罪條例第5條第1項第2款利用...",
+          "title": "謝典霖案》檢追查餐會金流 揪出議會巧立名目詐取公款",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577054"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T14:16:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化縣議會議長「南霸天」謝典霖此次年底大選原欲挑戰6連霸，而與謝搭檔3屆的副議長許原龍也積極角逐議長大位，不料謝卻對外稱許「本來是一個地方的黑道」，許反擊稱謝與他搭檔連選3屆，...",
+          "title": "彰縣議會龍頭穩了？「南霸天」謝典霖遭聲押 北彰許原龍登頂呼聲高",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577078"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T14:03:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "一語成讖？「怕家人被司法追殺」是去年（2025）年底彰化議長謝典霖反對姊姊、立委謝衣鳯參選彰化縣長的主要理由，如今仍躲不了司法風暴，因在議會舉辦餐會活動疑涉賄選而被檢方當庭逮捕...",
+          "title": "謝典霖昔「這原因」反對謝衣鳯選縣長 今自己涉賄選聲押",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576994"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:43:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "記者張瑞楨／特稿 國民黨籍彰化縣議會議長謝典霖及其父親謝新隆、母親鄭汝芬（國民黨前立委）遭檢方聲押的司法案件，不僅是一起涉嫌賄選的爭議，更深刻折射出台灣地方政治在轉型過程中的結構性陣痛，並將對未...",
+          "title": "快評》謝典霖與父母遭聲押 「請吃選舉飯」面臨司法與選民檢視",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576963"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:11:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化地檢署偵辦國民黨籍彰化縣議會議長謝典霖6月23日涉嫌「請吃選舉飯」賄選案，檢方昨天搜索後，以謝典霖及其父母謝新隆、鄭汝芬（國民黨前立委）等人涉犯選罷法的投票行賄罪嫌重大，當...",
+          "title": "謝典霖案》「吃個飯而已」竟聲押？檢：滿場參選人「動機不單純」",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576959"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T12:38:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "彰化縣議長謝典霖涉賄選 與父母等共5人遭當庭逮捕聲押",
+          "url": "https://news.pts.org.tw/article/827478"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T12:20:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "謝典霖涉賄遭聲押藍盼辦案政治中立 綠：尊重司法",
+          "url": "https://www.cna.com.tw/news/aipl/202609170092.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T11:34:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化縣議長謝典霖因在議會舉辦餐會涉嫌賄選，彰化地檢署今天（17日）上午依選罷法的行賄罪，向法院聲請羈押包括他及其父親謝新隆、母親鄭汝芬等共5人，目前由彰化地院裁定中。由於彰化縣...",
+          "title": "彰檢搶在開議前出手 謝典霖涉賄遭聲押時機敏感",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576848"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T11:29:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化地檢署偵辦彰化縣議長謝典霖在議會宴客案，檢方認定謝及其父母等5人涉犯公職人員選罷法投票行賄等罪嫌，有逃亡、勾串之虞，當庭逮捕聲押；國民黨則質疑，行政院中部聯合服務中心副執行...",
+          "title": "謝典霖涉賄案藍批「吳音寧一指控檢調就出手」 民進黨：尊重司法",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576845"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T11:28:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化地檢署偵辦彰化縣議會議長謝典霖6月間疑「請吃選舉飯」賄選案，搜索9處並查扣證物。檢方認定謝典霖及其父母謝新隆、鄭汝芬涉犯選罷法第99條第1項投票行賄罪嫌重大「當庭逮捕」，隨...",
+          "title": "謝典霖及父母3人被「當庭逮捕」 理由曝光",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576806"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T11:05:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "首次上稿：09:47更新時間：11:05 彰化地檢署偵辦彰化縣議會於6月間疑「請吃選舉飯」案件，搜索9處並查扣證物。檢方認定議長謝典霖，其父母謝新隆、鄭汝芬涉犯選罷法...",
+          "title": "謝典霖涉賄選被當庭逮捕 與父母謝新隆、鄭汝芬3人皆聲押",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576704"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T10:52:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "針對彰化縣議長謝典霖等人遭檢方聲押，國民黨文傳會主委陳以信質疑，行政院中部聯合服務中心副執行長吳音寧公開指控後，彰化地檢署隨後分案偵辦，檢方應說清楚啟動偵辦的依據為何？究竟是掌...",
+          "title": "謝典霖涉賄遭聲押 國民黨批：吳音寧一指控檢調就出手？",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576786"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T10:51:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "彰化地檢署偵辦彰化縣議會於6月23日舉辦餐會疑似「請吃選舉飯」案件，檢方認定縣議會議長謝典霖（國民黨籍），其父母謝新隆、鄭汝芬（前國民黨立委）涉犯選罷法第99條第1項投票行賄罪...",
+          "title": "謝典霖聲押！魏平政急喊「無罪推定」 許原龍強勢角逐議長",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576785"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T10:19:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "謝典霖涉餐敘賄選",
+          "title": "彰化縣議長謝典霖及父母等5人涉餐敘賄選 檢逮捕聲押",
+          "url": "https://www.cna.com.tw/news/asoc/202609170041.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T05:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "謝父、表姑溪湖鎮長參選人陳貞妃等逾20人到案說明 〔記者顏宏駿／彰化報導〕彰化縣議會於今年六月廿三日舉辦一場餐宴，被人質疑是國民黨籍議長謝典霖啟動「請客吃飯」選舉模式，替其表姑、國民黨溪湖鎮長參選人陳貞妃布局輔選，另有同黨彰化縣長參選人魏平政出席。彰化地檢署昨天傳喚謝典霖及其父親謝新隆，以及陳貞妃",
+          "title": "議會餐宴涉賄選？檢約談國民黨彰縣議長謝典霖",
+          "url": "https://news.ltn.com.tw/news/politics/paper/1770929"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報",
+        "公視新聞"
+      ],
+      "articleCount": 18,
+      "displayScore": 186.7621180932912,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 18,
+        "source_count": 3,
+        "base_score": 183.7621180932912,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 186.7621180932912,
+        "source_article_counts": {
+          "中央社": 5,
+          "自由時報": 12,
+          "公視新聞": 1
+        },
+        "baseline_effective_articles": 4.321928094887362,
+        "opinionated_effective_articles": 4.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.6666666666666666,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：18；來源數：3；分數：187；基準有效篇數：4.3；立場有效篇數：4.6；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e017",
+      "date": "2026-09-17",
+      "title": "賴總統盼台美簽避免雙重課稅協定 促無人機產業合作",
+      "summary": "總統賴清德今接見美國密西根州州長魏美桂（Gretchen Whitmer）訪團時表示，密西根州是全球汽車產業重鎮，與台灣的半導體、電子零組件及智慧製造等產業高度互補，台灣正積極發...",
+      "detailSummary": "總統賴清德今接見美國密西根州州長魏美桂（Gretchen Whitmer）訪團時表示，密西根州是全球汽車產業重鎮，與台灣的半導體、電子零組件及智慧製造等產業高度互補，台灣正積極發...",
+      "fallbackSummary": "總統賴清德今接見美國密西根州州長魏美桂（Gretchen Whitmer）訪團時表示，密西根州是全球汽車產業重鎮，與台灣的半導體、電子零組件及智慧製造等產業高度互補，台灣正積極發...",
+      "fallbackDetailSummary": "總統賴清德今接見美國密西根州州長魏美桂（Gretchen Whitmer）訪團時表示，密西根州是全球汽車產業重鎮，與台灣的半導體、電子零組件及智慧製造等產業高度互補，台灣正積極發...",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827568"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170118.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576951"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T20:07:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "外媒：台美推「地獄景象」構想 戰時以大量無人機提高攻台代價",
+          "url": "https://news.pts.org.tw/article/827568"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:08:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "賴總統盼台美簽避免雙重課稅協定 促無人機產業合作",
+          "url": "https://www.cna.com.tw/news/aipl/202609170118.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T12:53:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "總統賴清德今接見美國密西根州州長魏美桂（Gretchen Whitmer）訪團時表示，密西根州是全球汽車產業重鎮，與台灣的半導體、電子零組件及智慧製造等產業高度互補，台灣正積極發...",
+          "title": "密西根州長3年3度訪台！賴清德瞄準汽車重鎮 力促拓展台美無人機合作",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576951"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T11:33:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "美台推「地獄景象」防禦構想 無人機蜂群阻共軍",
+          "url": "https://www.cna.com.tw/news/aipl/202609170068.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 4,
+      "displayScore": 177.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 4,
+        "source_count": 3,
+        "base_score": 126.0,
+        "keyword_boost": 48.0,
+        "title_bonus": 3.0,
+        "score": 177.0,
+        "source_article_counts": {
+          "公視新聞": 1,
+          "中央社": 2,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 3.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國",
+        "半導體"
+      ],
+      "selectionReason": "文章數：4；來源數：3；分數：177；基準有效篇數：3.0；立場有效篇數：1.0；跨類型加分：+16；基準來源加分：+12；命中重點字：美國、半導體",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e029",
+      "date": "2026-09-17",
+      "title": "眾議員敦促美政府挺台入IMF 指台灣正積極準備申請",
+      "summary": "〔記者林欣漢／台北報導〕正在美國華府進行國會外交訪問的國民黨立委代表團，於美東時間十五日拜會美國聯邦眾議院「美國與中共戰略競爭特別委員會」主席約翰．穆勒納爾。",
+      "detailSummary": "〔記者林欣漢／台北報導〕正在美國華府進行國會外交訪問的國民黨立委代表團，於美東時間十五日拜會美國聯邦眾議院「美國與中共戰略競爭特別委員會」主席約翰．穆勒納爾。穆勒納爾在會中關切台灣防務整備進度，指國民黨領銜的預算近期獲通過，支持台灣關鍵無人機具戰力，持續跟進進度至關重要。 國民黨立委徐巧芯、陳",
+      "fallbackSummary": "〔記者林欣漢／台北報導〕正在美國華府進行國會外交訪問的國民黨立委代表團，於美東時間十五日拜會美國聯邦眾議院「美國與中共戰略競爭特別委員會」主席約翰．穆勒納爾。",
+      "fallbackDetailSummary": "〔記者林欣漢／台北報導〕正在美國華府進行國會外交訪問的國民黨立委代表團，於美東時間十五日拜會美國聯邦眾議院「美國與中共戰略競爭特別委員會」主席約翰．穆勒納爾。穆勒納爾在會中關切台灣防務整備進度，指國民黨領銜的預算近期獲通過，支持台灣關鍵無人機具戰力，持續跟進進度至關重要。 國民黨立委徐巧芯、陳",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827566"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170058.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/paper/1770958"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T20:11:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "眾議員敦促美政府挺台入IMF 指台灣正積極準備申請",
+          "url": "https://news.pts.org.tw/article/827566"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T11:03:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "美議員籲美政府發聲支持台灣加入國際貨幣基金",
+          "url": "https://www.cna.com.tw/news/aipl/202609170058.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T05:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "〔記者林欣漢／台北報導〕正在美國華府進行國會外交訪問的國民黨立委代表團，於美東時間十五日拜會美國聯邦眾議院「美國與中共戰略競爭特別委員會」主席約翰．穆勒納爾。穆勒納爾在會中關切台灣防務整備進度，指國民黨領銜的預算近期獲通過，支持台灣關鍵無人機具戰力，持續跟進進度至關重要。 國民黨立委徐巧芯、陳",
+          "title": "藍委會美議員 台灣軍備進度成焦點",
+          "url": "https://news.ltn.com.tw/news/politics/paper/1770958"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 3,
+      "displayScore": 131.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 3,
+        "base_score": 104.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 131.0,
+        "source_article_counts": {
+          "公視新聞": 1,
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.3333333333333333,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國"
+      ],
+      "selectionReason": "文章數：3；來源數：3；分數：131；基準有效篇數：2.0；立場有效篇數：1.0；跨類型加分：+16；基準來源加分：+12；命中重點字：美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e012",
+      "date": "2026-09-17",
+      "title": "今年度總預算將送政院 卓榮泰：時間有限儘速執行",
+      "summary": "立法院8月14日完成115年度總預算三讀，卻因遲未送出，引發討論。",
+      "detailSummary": "立法院8月14日完成115年度總預算三讀，卻因遲未送出，引發討論。立法院表示，115年總預算今天已送出。 立法院昨天透過新聞稿表示，有關115年總預算送出時程，經查上會期8月通過法案眾...",
+      "fallbackSummary": "立法院8月14日完成115年度總預算三讀，卻因遲未送出，引發討論。",
+      "fallbackDetailSummary": "立法院8月14日完成115年度總預算三讀，卻因遲未送出，引發討論。立法院表示，115年總預算今天已送出。 立法院昨天透過新聞稿表示，有關115年總預算送出時程，經查上會期8月通過法案眾...",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170357.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577236"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T22:44:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "政院人士：今年總預算案已送達 剩3個半月加速執行業務",
+          "url": "https://www.cna.com.tw/news/aipl/202609170357.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T16:26:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "立法院8月14日完成115年度總預算三讀，卻因遲未送出，引發討論。立法院表示，115年總預算今天已送出。 立法院昨天透過新聞稿表示，有關115年總預算送出時程，經查上會期8月通過法案眾...",
+          "title": "立院：115年總預算已送出",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577236"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T15:44:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "立法院：115年總預算今天已送出",
+          "url": "https://www.cna.com.tw/news/aipl/202609170189.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:07:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "立法院8月14日三讀通過115年度中央政府總預算案，但遲未函送總統府、行政院，仍舊無法動支。立法院16日表示，總預算案的整理校對將完成，總共7大冊預計本週送出。對此，行...",
+          "title": "今年度總預算將送政院 卓榮泰：時間有限儘速執行",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576976"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T12:21:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "卓榮泰",
+          "title": "總預算即將送到行政院 卓榮泰：妥善執行務必守法",
+          "url": "https://www.cna.com.tw/news/aipl/202609170093.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T07:31:00+08:00",
+          "source": "中央社生活",
+          "source_group": "中央社",
+          "summary": "早安世界",
+          "title": "早安世界》立法院：今年總預算案預計本週送出 行政院長卓榮泰表示感謝",
+          "url": "https://www.cna.com.tw/news/ahel/202609175001.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T05:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "〔記者林欣漢／台北報導〕立法院八月十四日三讀通過今年度中央政府總預算，但距離總預算三讀已逾一個月，立法院迄今未將總預算三讀結果函送行政院及咨請總統公布。立法院昨天發出新聞稿表示，目前總預算案之整理校對將近完成，總共七大冊預計本週內送出。 行政院前天說明，立院尚未將總預算審議結果送到行政院，因此仍未",
+          "title": "總預算三讀逾月 立院：7大冊預計本週送出",
+          "url": "https://news.ltn.com.tw/news/politics/paper/1770932"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 7,
+      "displayScore": 121.67970000576925,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 7,
+        "source_count": 2,
+        "base_score": 118.67970000576925,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 121.67970000576925,
+        "source_article_counts": {
+          "中央社": 4,
+          "自由時報": 3
+        },
+        "baseline_effective_articles": 3.0,
+        "opinionated_effective_articles": 2.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5714285714285714,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：7；來源數：2；分數：122；基準有效篇數：3.0；立場有效篇數：2.6；跨類型加分：+16",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e019",
+      "date": "2026-09-17",
+      "title": "海巡援贈退役巡防艦給菲律賓 立委籲賴政府說明決策",
+      "summary": "海巡署援贈菲律賓1艘退役的500噸級巡防艦，國民黨立委馬文君今天表示，菲、日兩國忙著瓜分我們的海域，賴政府竟忙著替菲律賓修船、送船？",
+      "detailSummary": "海巡署援贈菲律賓1艘退役的500噸級巡防艦，國民黨立委馬文君今天表示，菲、日兩國忙著瓜分我們的海域，賴政府竟忙著替菲律賓修船、送船？她要求援贈艦艇的修繕費用、預算來源、決策程序、使用限制及援贈條件，賴政府都必須向國人說清楚。",
+      "fallbackSummary": "海巡署援贈菲律賓1艘退役的500噸級巡防艦，國民黨立委馬文君今天表示，菲、日兩國忙著瓜分我們的海域，賴政府竟忙著替菲律賓修船、送船？",
+      "fallbackDetailSummary": "海巡署援贈菲律賓1艘退役的500噸級巡防艦，國民黨立委馬文君今天表示，菲、日兩國忙著瓜分我們的海域，賴政府竟忙著替菲律賓修船、送船？她要求援贈艦艇的修繕費用、預算來源、決策程序、使用限制及援贈條件，賴政府都必須向國人說清楚。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/10930/9761539"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170290.aspx"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827472"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T20:05:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "海巡署援贈菲律賓1艘退役的500噸級巡防艦，國民黨立委馬文君今天表示，菲、日兩國忙著瓜分我們的海域，賴政府竟忙著替菲律賓修船、送船？她要求援贈艦艇的修繕費用、預算來源、決策程序、使用限制及援贈條件，賴政府都必須向國人說清楚。",
+          "title": "海巡援贈退役巡防艦給菲律賓 立委籲賴政府說明決策",
+          "url": "https://udn.com/news/story/10930/9761539"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T20:04:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "海洋委員會2027年預算案顯示，明年10月將規畫執行「實習曁遠洋敦睦計畫」，編組艦艇航行至菲律賓進行親善活動。這是海巡署首度執行這項任務，計畫內容表示要赴菲「建立我國海巡親切專業的立場」。海巡署今（17）日表示，待預算案經立法院審議通過後，據以推動。",
+          "title": "海巡署明年編組敦睦艦隊 赴菲律賓建立親切專業形象",
+          "url": "https://udn.com/news/story/10930/9761537"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T18:35:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "台援贈退役巡防救難艦消息曝光 菲律賓網友感謝台灣",
+          "url": "https://www.cna.com.tw/news/aopl/202609170290.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T12:44:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "我海巡金門艦除役整修 贈菲律賓用於人道救援與研究",
+          "url": "https://news.pts.org.tw/article/827472"
+        }
+      ],
+      "sourceGroups": [
+        "聯合新聞網",
+        "中央社",
+        "公視新聞"
+      ],
+      "articleCount": 4,
+      "displayScore": 115.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 4,
+        "source_count": 3,
+        "base_score": 112.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 115.0,
+        "source_article_counts": {
+          "聯合新聞網": 2,
+          "中央社": 1,
+          "公視新聞": 1
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 2.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：4；來源數：3；分數：115；基準有效篇數：2.0；立場有效篇數：2.0；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e043",
+      "date": "2026-09-17",
+      "title": "15架次共機上午起越中線配合共艦戰備警巡 國軍監控",
+      "summary": "國防部中午表示，從今天上午8時45分開始，陸續偵獲中共殲-11、16、殲轟7、轟6K、空警-500、運8遠干機等各型主、輔戰機及無人機計19架次出海，其中15架次逾越中線，進入我西南…",
+      "detailSummary": "國防部中午表示，從今天上午8時45分開始，陸續偵獲中共殲-11、16、殲轟7、轟6K、空警-500、運8遠干機等各型主、輔戰機及無人機計19架次出海，其中15架次逾越中線，進入我西南及中部空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾我周邊空、海域。",
+      "fallbackSummary": "國防部中午表示，從今天上午8時45分開始，陸續偵獲中共殲-11、16、殲轟7、轟6K、空警-500、運8遠干機等各型主、輔戰機及無人機計19架次出海，其中15架次逾越中線，進入我西南…",
+      "fallbackDetailSummary": "國防部中午表示，從今天上午8時45分開始，陸續偵獲中共殲-11、16、殲轟7、轟6K、空警-500、運8遠干機等各型主、輔戰機及無人機計19架次出海，其中15架次逾越中線，進入我西南及中部空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾我周邊空、海域。",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/10930/9760577"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170096.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:13:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "國防部中午表示，從今天上午8時45分開始，陸續偵獲中共殲-11、16、殲轟7、轟6K、空警-500、運8遠干機等各型主、輔戰機及無人機計19架次出海，其中15架次逾越中線，進入我西南及中部空域，配合共艦，假所謂「聯合戰備警巡」之名，騷擾我周邊空、海域。",
+          "title": "國軍精準武器射擊第二天 共軍「聯合戰備警巡」19共機攪局",
+          "url": "https://udn.com/news/story/10930/9760577"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T12:29:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "15架次共機上午起越中線配合共艦戰備警巡 國軍監控",
+          "url": "https://www.cna.com.tw/news/aipl/202609170096.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T09:43:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "8艘共艦17架次共機擾台 國軍嚴密監控",
+          "url": "https://www.cna.com.tw/news/aipl/202609170034.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "聯合新聞網",
+        "中央社"
+      ],
+      "articleCount": 3,
+      "displayScore": 111.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 2,
+        "base_score": 84.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 111.0,
+        "source_article_counts": {
+          "聯合新聞網": 1,
+          "中央社": 2
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.6666666666666666,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "國防"
+      ],
+      "selectionReason": "文章數：3；來源數：2；分數：111；基準有效篇數：2.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：國防",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e031",
+      "date": "2026-09-17",
+      "title": "熊本地震賑災專戶募逾3億 林佳龍代表捐贈日方助重建",
+      "summary": "外交部今（17日）舉行「日本熊本地震民間賑災捐款儀式」，由外交部長林佳龍主持，將台灣各界總額超過新台幣3億元的善款，代表轉交給日方。",
+      "detailSummary": "外交部今（17日）舉行「日本熊本地震民間賑災捐款儀式」，由外交部長林佳龍主持，將台灣各界總額超過新台幣3億元的善款，代表轉交給日方。 日本熊本地區7月28日下午發生芮...",
+      "fallbackSummary": "外交部今（17日）舉行「日本熊本地震民間賑災捐款儀式」，由外交部長林佳龍主持，將台灣各界總額超過新台幣3億元的善款，代表轉交給日方。",
+      "fallbackDetailSummary": "外交部今（17日）舉行「日本熊本地震民間賑災捐款儀式」，由外交部長林佳龍主持，將台灣各界總額超過新台幣3億元的善款，代表轉交給日方。 日本熊本地區7月28日下午發生芮...",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827567"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170287.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577415"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T20:14:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "台灣募逾3億助熊本賑災 日台交流協會代表致謝",
+          "url": "https://news.pts.org.tw/article/827567"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T18:28:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "熊本地震賑災專戶募逾3億 林佳龍代表捐贈日方助重建",
+          "url": "https://www.cna.com.tw/news/aipl/202609170287.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T18:09:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "外交部今（17日）舉行「日本熊本地震民間賑災捐款儀式」，由外交部長林佳龍主持，將台灣各界總額超過新台幣3億元的善款，代表轉交給日方。 日本熊本地區7月28日下午發生芮...",
+          "title": "熊本強震台灣捐款逾3億元！林佳龍：熊本平安是台日共同牽掛",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577415"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 3,
+      "displayScore": 107.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 3,
+        "base_score": 104.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 107.0,
+        "source_article_counts": {
+          "公視新聞": 1,
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.3333333333333333,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：3；來源數：3；分數：107；基準有效篇數：2.0；立場有效篇數：1.0；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e015",
+      "date": "2026-09-17",
+      "title": "柯志恩團隊在告別式發名片拉票 綠議員：在家屬傷口上撒鹽",
+      "summary": "國民黨高雄市長參選人柯志恩團隊遭控在喪家告別式上對著痛哭家屬逐一發送名片，昨（16）日柯志恩原指內容不實要求發文者道歉、揚言提告，今（17）日態度卻急轉彎，公開改口坦承確有此事並...",
+      "detailSummary": "國民黨高雄市長參選人柯志恩團隊遭控在喪家告別式上對著痛哭家屬逐一發送名片，昨（16）日柯志恩原指內容不實要求發文者道歉、揚言提告，今（17）日態度卻急轉彎，公開改口坦承確有此事並...",
+      "fallbackSummary": "國民黨高雄市長參選人柯志恩團隊遭控在喪家告別式上對著痛哭家屬逐一發送名片，昨（16）日柯志恩原指內容不實要求發文者道歉、揚言提告，今（17）日態度卻急轉彎，公開改口坦承確有此事並...",
+      "fallbackDetailSummary": "國民黨高雄市長參選人柯志恩團隊遭控在喪家告別式上對著痛哭家屬逐一發送名片，昨（16）日柯志恩原指內容不實要求發文者道歉、揚言提告，今（17）日態度卻急轉彎，公開改口坦承確有此事並...",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577336"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170197.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T17:59:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "國民黨高雄市長參選人柯志恩團隊遭控在喪家告別式上對著痛哭家屬逐一發送名片，昨（16）日柯志恩原指內容不實要求發文者道歉、揚言提告，今（17）日態度卻急轉彎，公開改口坦承確有此事並...",
+          "title": "告別式發名片惹毛家屬！柯志恩跑白場舊文被挖 網諷把靈堂當攝影棚",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577336"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T16:00:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "團隊人員告別式發名片惹議 柯志恩陣營致歉",
+          "url": "https://www.cna.com.tw/news/aipl/202609170197.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T15:23:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "國民黨高雄市長參選人柯志恩，遭民眾指控出席喪家告別式弔唁後，團隊竟對著痛哭的家屬一一發名片，怒批「柯志恩妳的團隊是瘋了嗎？」柯志恩團隊今（17）日為此道歉。民進黨高雄市議員黃文...",
+          "title": "柯志恩團隊在告別式發名片拉票 綠議員：在家屬傷口上撒鹽",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577162"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T15:22:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "首次上稿11:25更新時間15:22（新增柯志恩競辦說明） 最近在脆（Threads）上出現數篇文章，指國民黨高雄市長參選人柯志恩團隊，在參加告別式後順便發放柯的...",
+          "title": "喪家怒轟「告別式發名片團隊是瘋了嗎？」 柯志恩認不恰當道歉了",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576837"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:59:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "近期有網友在Threads發文指控國民黨高雄市長參選人柯志恩團隊在參加告別式後順便發放名片，讓家屬感到不被尊重，柯志恩昨（16日）發文指稱該網友發文的內容與實情不符，要求道歉，並...",
+          "title": "昨嗆告網友今認團隊發名片不恰當 柯志恩態度大轉彎挨酸：不是說要告？",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577025"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T07:43:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "最近在脆（Threads）出現數篇文章，指國民黨高雄市長參選人柯志恩團隊，在參加告別式後順便發放柯的名片，讓家屬覺得不受尊重。對此，柯志恩回應說，由於貼文僅兩句描述，欠缺具體情...",
+          "title": "遭指團隊在告別式發名片 柯志恩回應了",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576616"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社"
+      ],
+      "articleCount": 6,
+      "displayScore": 71.5754247590989,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 6,
+        "source_count": 2,
+        "base_score": 68.5754247590989,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 71.5754247590989,
+        "source_article_counts": {
+          "自由時報": 5,
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 3.321928094887362,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.8333333333333334,
+        "dominant_source_penalty": 12.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：6；來源數：2；分數：72；基準有效篇數：1.0；立場有效篇數：3.3；跨類型加分：+16；單一來源占比83%扣分：-12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e026",
+      "date": "2026-09-17",
+      "title": "日本學者小笠原欣幸預測 年底大選關鍵戰場在新北",
+      "summary": "日本政治學者小笠原欣幸近日受訪時指出，台北市長蔣萬安連任幾乎沒有懸念，民進黨參選人沈伯洋若得票率突破45%，即算接近實質勝利。",
+      "detailSummary": "日本政治學者小笠原欣幸近日受訪時指出，台北市長蔣萬安連任幾乎沒有懸念，民進黨參選人沈伯洋若得票率突破45%，即算接近實質勝利。對此，前立委林濁水今日表示，小笠原教授恐怕小看了國際...",
+      "fallbackSummary": "日本政治學者小笠原欣幸近日受訪時指出，台北市長蔣萬安連任幾乎沒有懸念，民進黨參選人沈伯洋若得票率突破45%，即算接近實質勝利。",
+      "fallbackDetailSummary": "日本政治學者小笠原欣幸近日受訪時指出，台北市長蔣萬安連任幾乎沒有懸念，民進黨參選人沈伯洋若得票率突破45%，即算接近實質勝利。對此，前立委林濁水今日表示，小笠原教授恐怕小看了國際...",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577353"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827476"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T17:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "日本政治學者小笠原欣幸近日受訪時指出，台北市長蔣萬安連任幾乎沒有懸念，民進黨參選人沈伯洋若得票率突破45%，即算接近實質勝利。對此，前立委林濁水今日表示，小笠原教授恐怕小看了國際...",
+          "title": "蔣萬安贏沒懸念？林濁水指小笠原欣幸小看2事：恐怕得調整看法",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577353"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T15:33:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "日本學者小笠原欣幸預測 年底大選關鍵戰場在新北",
+          "url": "https://news.pts.org.tw/article/827476"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T10:54:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "年底九合一選舉持續倒數，長期關注台灣政治動態的日本學者小笠原欣幸認為，年底選戰關鍵戰場是新北市，也認為民進黨參選人蘇巧慧民調已與國民黨參選人李四川接近勢均力敵。李四川今...",
+          "title": "小笠原欣幸指新北關鍵戰場藍綠勢均力敵 李四川回應了",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576793"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T10:15:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "日本政治學家、現任國立清華大學人文社會學院學士班榮譽講座教授小笠原欣幸過去曾多次精準預測台灣大選結果，近日他接受媒體專訪指出，2026九合一選舉的關鍵戰場就在新北市。小笠原昨日指...",
+          "title": "小笠原再點關鍵戰區！ 嘉市、彰化、宜蘭有變數 竹縣藍白裂痕添不確定性",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5576627"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "公視新聞"
+      ],
+      "articleCount": 4,
+      "displayScore": 65.67970000576925,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 4,
+        "source_count": 2,
+        "base_score": 62.67970000576925,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 65.67970000576925,
+        "source_article_counts": {
+          "自由時報": 3,
+          "公視新聞": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 2.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.75,
+        "dominant_source_penalty": 12.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：4；來源數：2；分數：66；基準有效篇數：1.0；立場有效篇數：2.6；跨類型加分：+16；單一來源占比75%扣分：-12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e074",
+      "date": "2026-09-17",
+      "title": "健康幣10月上路12月起兌換 最多可累積1.3萬幣",
+      "summary": "配合流感疫苗開打 〔記者羅碧、林志怡／台北報導〕健檢、癌症篩檢、打疫苗都能「賺健康幣」，衛福部確定健康幣十月一日配合公費流感疫苗開打上路，民眾須先累積健康幣，十二月一日開始兌換；第一…",
+      "detailSummary": "配合流感疫苗開打 〔記者羅碧、林志怡／台北報導〕健檢、癌症篩檢、打疫苗都能「賺健康幣」，衛福部確定健康幣十月一日配合公費流感疫苗開打上路，民眾須先累積健康幣，十二月一日開始兌換；第一階段可兌換品項鎖定超商、藥局、醫院、運動場館、壽險等五類業者，另國健署也在昨日舉辦招商說明會，持續擴大招商，避免出現",
+      "fallbackSummary": "配合流感疫苗開打 〔記者羅碧、林志怡／台北報導〕健檢、癌症篩檢、打疫苗都能「賺健康幣」，衛福部確定健康幣十月一日配合公費流感疫苗開打上路，民眾須先累積健康幣，十二月一日開始兌換；第一…",
+      "fallbackDetailSummary": "配合流感疫苗開打 〔記者羅碧、林志怡／台北報導〕健檢、癌症篩檢、打疫苗都能「賺健康幣」，衛福部確定健康幣十月一日配合公費流感疫苗開打上路，民眾須先累積健康幣，十二月一日開始兌換；第一階段可兌換品項鎖定超商、藥局、醫院、運動場館、壽險等五類業者，另國健署也在昨日舉辦招商說明會，持續擴大招商，避免出現",
+      "why": "",
+      "category": "taiwan",
+      "categoryLabel": "台灣／公共議題",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aipl/202609170121.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/life/paper/1770973"
+        }
+      ],
+      "articles": [
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T13:15:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "健康幣10月上路12月起兌換 最多可累積1.3萬幣",
+          "url": "https://www.cna.com.tw/news/aipl/202609170121.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T05:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "配合流感疫苗開打 〔記者羅碧、林志怡／台北報導〕健檢、癌症篩檢、打疫苗都能「賺健康幣」，衛福部確定健康幣十月一日配合公費流感疫苗開打上路，民眾須先累積健康幣，十二月一日開始兌換；第一階段可兌換品項鎖定超商、藥局、醫院、運動場館、壽險等五類業者，另國健署也在昨日舉辦招商說明會，持續擴大招商，避免出現",
+          "title": "健康幣10月上路 12月開放兌換",
+          "url": "https://news.ltn.com.tw/news/life/paper/1770973"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 2,
+      "displayScore": 65.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 65.0,
+        "source_article_counts": {
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：2；來源數：2；分數：65；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e010",
+      "date": "2026-09-17",
+      "title": "加拿大擬成為準會員 歐洲官員：歐盟吸引力前所未見",
+      "summary": "加拿大總理卡尼（Mark Carney）堅定抗拒美國總統川普在政治、貿易所施加的壓力，積極拓展與他國及跨國聯盟合作關係，並準備以「準會員」身分加入歐盟。",
+      "detailSummary": "加拿大總理卡尼（Mark Carney）堅定抗拒美國總統川普在政治、貿易所施加的壓力，積極拓展與他國及跨國聯盟合作關係，並準備以「準會員」身分加入歐盟。雙方合作遭川普斥為「可笑...",
+      "fallbackSummary": "加拿大總理卡尼（Mark Carney）堅定抗拒美國總統川普在政治、貿易所施加的壓力，積極拓展與他國及跨國聯盟合作關係，並準備以「準會員」身分加入歐盟。",
+      "fallbackDetailSummary": "加拿大總理卡尼（Mark Carney）堅定抗拒美國總統川普在政治、貿易所施加的壓力，積極拓展與他國及跨國聯盟合作關係，並準備以「準會員」身分加入歐盟。雙方合作遭川普斥為「可笑...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577694"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170345.aspx"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827580"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T22:11:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "加拿大總理卡尼（Mark Carney）堅定抗拒美國總統川普在政治、貿易所施加的壓力，積極拓展與他國及跨國聯盟合作關係，並準備以「準會員」身分加入歐盟。雙方合作遭川普斥為「可笑...",
+          "title": "加拿大「準會員」加入歐盟引來川普關稅威脅 法國稱美國無權干預",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577694"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T21:47:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "加拿大擬成為準會員 歐洲官員：歐盟吸引力前所未見",
+          "url": "https://www.cna.com.tw/news/aopl/202609170345.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T21:08:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "面對美國川普政府與中國日益嚴峻的貿易壓力和關稅威脅，歐盟委員會主席馮德萊恩提出邀請加拿大成為歐盟「準會員國」的構想。加拿大總理卡尼（Mark Carney）週四（17日）於歐洲議...",
+          "title": "不甩川普威脅！歐盟招攬「準會員國」 加拿大總理讚：結盟更堅韌",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577631"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T21:03:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "加拿大有望成為歐盟準成員國 總理指民調支持深化與歐合作",
+          "url": "https://news.pts.org.tw/article/827580"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T20:58:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "加拿大總理稱樂見歐盟準會員構想 雙方擁有共同價值",
+          "url": "https://www.cna.com.tw/news/aopl/202609170335.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T20:40:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "歐盟邀加拿大成「準成員國」 深化貿易、國防等合作",
+          "url": "https://news.pts.org.tw/article/827564"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T11:19:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "降低對美依賴 加拿大申請加入英主導聯合遠征軍",
+          "url": "https://www.cna.com.tw/news/aopl/202609170061.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社",
+        "公視新聞"
+      ],
+      "articleCount": 7,
+      "displayScore": 243.86917501586544,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 7,
+        "source_count": 3,
+        "base_score": 168.86917501586544,
+        "keyword_boost": 72.0,
+        "title_bonus": 3.0,
+        "score": 243.86917501586544,
+        "source_article_counts": {
+          "自由時報": 2,
+          "中央社": 3,
+          "公視新聞": 2
+        },
+        "baseline_effective_articles": 4.584962500721156,
+        "opinionated_effective_articles": 2.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.42857142857142855,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "國防",
+        "中國",
+        "美國"
+      ],
+      "selectionReason": "文章數：7；來源數：3；分數：244；基準有效篇數：4.6；立場有效篇數：2.0；跨類型加分：+16；基準來源加分：+12；命中重點字：國防、中國、美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e006",
+      "date": "2026-09-17",
+      "title": "杜特蒂血腥掃毒涉危害人類罪 海牙首次出庭身形暴瘦",
+      "summary": "聯合國伊朗問題獨立事實調查團週四（17日）發布最新報告，指出美軍今年2月對伊朗一所小學及體育設施發動的軍事打擊已構成「戰爭罪」。",
+      "detailSummary": "聯合國伊朗問題獨立事實調查團週四（17日）發布最新報告，指出美軍今年2月對伊朗一所小學及體育設施發動的軍事打擊已構成「戰爭罪」。同時，調查團也認定伊朗政府在示威浪潮中進行系統性迫...",
+      "fallbackSummary": "聯合國伊朗問題獨立事實調查團週四（17日）發布最新報告，指出美軍今年2月對伊朗一所小學及體育設施發動的軍事打擊已構成「戰爭罪」。",
+      "fallbackDetailSummary": "聯合國伊朗問題獨立事實調查團週四（17日）發布最新報告，指出美軍今年2月對伊朗一所小學及體育設施發動的軍事打擊已構成「戰爭罪」。同時，調查團也認定伊朗政府在示威浪潮中進行系統性迫...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170341.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577403"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827471"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T21:43:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "聯合國調查報告：美國疑在伊朗無差別攻擊平民 涉犯戰爭罪",
+          "url": "https://www.cna.com.tw/news/aopl/202609170341.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T18:39:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "聯合國伊朗問題獨立事實調查團週四（17日）發布最新報告，指出美軍今年2月對伊朗一所小學及體育設施發動的軍事打擊已構成「戰爭罪」。同時，調查團也認定伊朗政府在示威浪潮中進行系統性迫...",
+          "title": "聯合國「伊朗問題」調查報告：美軍涉戰爭罪、伊朗犯反人類罪",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577403"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T17:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "聯合國1個針對伊朗進行真相調查的工作小組17日表示，有合理理由相信，美國是今年2月底伊朗1所學校與3月份1座體育中心遭到攻擊的幕後主使，而且這些攻擊已構成戰爭罪；至於德黑蘭當局...",
+          "title": "各打50大板！聯合國報告：美國、伊朗分別犯下戰爭罪與危害人類罪",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577385"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T15:26:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "昨晚有網友在社群平台上發文，聲稱將在今天下午2時許，持瑞士刀去中正紀念堂無差別攻擊。警方對此不敢大意，今天加派警力前往中正紀念堂周邊強化維安，但截至目前，現場沒有任何狀況，警方...",
+          "title": "網友揚言在中正紀念堂無差別攻擊 警方證實烏龍恐嚇且IP來自境外",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577186"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T12:41:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "杜特蒂血腥掃毒涉危害人類罪 海牙首次出庭身形暴瘦",
+          "url": "https://news.pts.org.tw/article/827471"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T12:35:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "網路預告中正紀念堂隨機攻擊 警方：為境外IP將加強巡邏",
+          "url": "https://news.pts.org.tw/article/827464"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:36:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "網友稱將於中正紀念堂隨機攻擊 蔣萬安：警方掌握IP、提升部署",
+          "url": "https://www.cna.com.tw/news/asoc/202609170069.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T09:41:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "有網友昨天在社群平台上發文，聲稱將在今天下午2時許，持瑞士刀前往中正紀念堂進行無差別攻擊，「不要怨我、去怨社會」。警方目前除了在追查發文者的身分，也將加強中正紀念堂的相關維安措...",
+          "title": "網友揚言今去中正紀念堂拿刀無差別攻擊 警方火速追查中",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576702"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報",
+        "公視新聞"
+      ],
+      "articleCount": 8,
+      "displayScore": 191.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 8,
+        "source_count": 3,
+        "base_score": 164.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 191.0,
+        "source_article_counts": {
+          "中央社": 2,
+          "自由時報": 4,
+          "公視新聞": 2
+        },
+        "baseline_effective_articles": 4.0,
+        "opinionated_effective_articles": 3.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國"
+      ],
+      "selectionReason": "文章數：8；來源數：3；分數：191；基準有效篇數：4.0；立場有效篇數：3.0；跨類型加分：+16；基準來源加分：+12；命中重點字：美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e008",
+      "date": "2026-09-17",
+      "title": "青年運動稱沙烏地空襲葉門3座電信塔等目標 釀1死",
+      "summary": "沙烏地阿拉伯與葉門獲伊朗支持的青年運動戰事再起後，沙國一架F-15戰機疑遭擊落。",
+      "detailSummary": "沙烏地阿拉伯與葉門獲伊朗支持的青年運動戰事再起後，沙國一架F-15戰機疑遭擊落。另有葉門官員與武器專家根據當地發現的飛彈殘骸研判，沙國也可能首次在實戰中動用中國製彈道飛彈。",
+      "fallbackSummary": "沙烏地阿拉伯與葉門獲伊朗支持的青年運動戰事再起後，沙國一架F-15戰機疑遭擊落。",
+      "fallbackDetailSummary": "沙烏地阿拉伯與葉門獲伊朗支持的青年運動戰事再起後，沙國一架F-15戰機疑遭擊落。另有葉門官員與武器專家根據當地發現的飛彈殘骸研判，沙國也可能首次在實戰中動用中國製彈道飛彈。",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170362.aspx"
+        },
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/124061/9759822"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576597"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T23:22:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "路透：中國受沙烏地所託 私下請伊朗約束葉門叛軍",
+          "url": "https://www.cna.com.tw/news/aopl/202609170362.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T18:53:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "青年運動稱沙烏地空襲葉門3座電信塔等目標 釀1死",
+          "url": "https://www.cna.com.tw/news/aopl/202609170302.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T09:26:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "路透：美官員密會青年運動 對方稱無意攻擊美船",
+          "url": "https://www.cna.com.tw/news/aopl/202609170033.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T09:23:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "葉門局勢升溫 青年運動稱沙國過去24小時發動40次空襲",
+          "url": "https://www.cna.com.tw/news/aopl/202609170032.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T09:02:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "沙烏地阿拉伯與葉門獲伊朗支持的青年運動戰事再起後，沙國一架F-15戰機疑遭擊落。另有葉門官員與武器專家根據當地發現的飛彈殘骸研判，沙國也可能首次在實戰中動用中國製彈道飛彈。",
+          "title": "沙國與青年運動交戰！F-15疑遭擊落 可能首度將中國東風-15投入實戰",
+          "url": "https://udn.com/news/story/124061/9759822"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T07:48:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "儘管沙烏地阿拉伯呼籲美國軍事介入葉門，華府迄今仍拒絕採取行動。熟悉此事的區域消息人士證實，美國外交官上周末在駐阿曼大使館與青年運動代表會面，討論紅海緊張局勢。",
+          "title": "美拒絕軍事介入葉門 傳與青年運動談判、對方稱只打沙國船隻",
+          "url": "https://udn.com/news/story/124061/9759738"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T07:39:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "獲伊朗支持的葉門武裝團體青年運動（Houthis）16日證實，在沙烏地阿拉伯戰機猛烈轟炸葉門後，其武裝人員向沙烏地城市發射無人機及飛彈。此前，青年運動迅速推進、進一步擴大德黑蘭在...",
+          "title": "聖城麥加淪目標？青年運動狂轟沙烏地 沙國單週空襲葉門450次",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576597"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "聯合新聞網",
+        "自由時報"
+      ],
+      "articleCount": 7,
+      "displayScore": 181.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 7,
+        "source_count": 3,
+        "base_score": 130.0,
+        "keyword_boost": 48.0,
+        "title_bonus": 3.0,
+        "score": 181.0,
+        "source_article_counts": {
+          "中央社": 4,
+          "聯合新聞網": 2,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 3.0,
+        "opinionated_effective_articles": 3.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5714285714285714,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "中國",
+        "美國"
+      ],
+      "selectionReason": "文章數：7；來源數：3；分數：181；基準有效篇數：3.0；立場有效篇數：3.0；跨類型加分：+16；命中重點字：中國、美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e004",
+      "date": "2026-09-17",
+      "title": "歐洲議會通過應對混合戰決議 強調借鏡台灣定期交流",
+      "summary": "歐洲議會17日呼籲對中國與香港官員祭出制裁，以抗議香港當局將3名籌辦天安門六四事件追悼集會的社運人士判刑入獄。",
+      "detailSummary": "歐洲議會17日呼籲對中國與香港官員祭出制裁，以抗議香港當局將3名籌辦天安門六四事件追悼集會的社運人士判刑入獄。 法新社報導，本月稍早，香港法院將69歲的李卓人、41歲的...",
+      "fallbackSummary": "歐洲議會17日呼籲對中國與香港官員祭出制裁，以抗議香港當局將3名籌辦天安門六四事件追悼集會的社運人士判刑入獄。",
+      "fallbackDetailSummary": "歐洲議會17日呼籲對中國與香港官員祭出制裁，以抗議香港當局將3名籌辦天安門六四事件追悼集會的社運人士判刑入獄。 法新社報導，本月稍早，香港法院將69歲的李卓人、41歲的...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170351.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577657"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T22:13:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "歐洲議會通過應對混合戰決議 強調借鏡台灣定期交流",
+          "url": "https://www.cna.com.tw/news/aopl/202609170351.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T21:43:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "歐洲議會肯定台灣因應資訊操弄 外交部：捍衛國際秩序",
+          "url": "https://www.cna.com.tw/news/aipl/202609170340.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T21:24:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "歐洲議會17日呼籲對中國與香港官員祭出制裁，以抗議香港當局將3名籌辦天安門六四事件追悼集會的社運人士判刑入獄。 法新社報導，本月稍早，香港法院將69歲的李卓人、41歲的...",
+          "title": "籌辦六四追悼會社運人士遭重判 歐洲議會籲制裁中國與香港官員",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577657"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T18:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "歐洲議會議長梅特索拉（Roberta Metsola）向歐洲新聞台（Euronews）表示，隨著理念相近國家尋求建立更緊密的關係，包括澳洲與紐西蘭等國，未來也可能追隨加拿大的...",
+          "title": "加拿大入歐效應 歐洲議會議長：澳紐有望成為歐盟「準會員國」",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577491"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T09:39:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "歐盟執委會主席馮德萊恩（Ursula von der Leyen）16日在歐洲議會發表盟情咨文時提議，讓加拿大成為歐盟第一個準會員。對此美國總統川普威脅稱，可能停止與歐盟的貿易...",
+          "title": "不滿歐盟準會員相中加拿大 川普警告恐祭重稅",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576673"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T08:47:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "歐盟盼加拿大成為準會員 川普批可笑、揚言加徵關稅",
+          "url": "https://www.cna.com.tw/news/aopl/202609170027.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T08:36:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "加拿大總理卡尼（Mark Carney）辦公室16日證實，加拿大已正式申請加入由英國主導的軍事聯盟「遠征軍聯合部隊」（Joint Expeditionary Force，JEF）...",
+          "title": "不靠美國！加拿大申請加入歐洲10國軍事聯盟 再談先進戰機合作",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576603"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T07:15:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "歐洲議會議員聲援香港民主人士 促歐盟追究相關責任",
+          "url": "https://www.cna.com.tw/news/aopl/202609170019.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T06:09:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "歐盟執委會主席馮德萊恩（Ursula von der Leyen）16日在歐洲議會發表年度「歐盟盟情咨文」（State of the European Union），針對當前...",
+          "title": "「歐洲安全理事會」寫入歐盟盟情咨文 強化韌性抗俄混合戰",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576570"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T05:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "馮德萊恩提議 卡尼支持強化主權 〔編譯管淑平／綜合報導〕歐盟執委會主席馮德萊恩十六日提議，讓加拿大成為歐盟第一個「準會員」。在美國川普政府與加國貿易戰升溫，促使加國愈加往歐洲靠近之際，歐盟這項動作格外引人注目。 馮德萊恩在歐洲議會發表「盟情咨文」，向在座的加拿大總理卡尼表",
+          "title": "歐盟第一個「準會員」相中加拿大",
+          "url": "https://news.ltn.com.tw/news/world/paper/1770937"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 10,
+      "displayScore": 177.67970000576923,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 10,
+        "source_count": 2,
+        "base_score": 126.67970000576925,
+        "keyword_boost": 48.0,
+        "title_bonus": 3.0,
+        "score": 177.67970000576923,
+        "source_article_counts": {
+          "中央社": 4,
+          "自由時報": 6
+        },
+        "baseline_effective_articles": 3.0,
+        "opinionated_effective_articles": 3.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.6,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "中國",
+        "美國"
+      ],
+      "selectionReason": "文章數：10；來源數：2；分數：178；基準有效篇數：3.0；立場有效篇數：3.6；跨類型加分：+16；命中重點字：中國、美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e061",
+      "date": "2026-09-17",
+      "title": "川習會前夕 貝森特：美方願與中國討論AI共同風險",
+      "summary": "川習會前夕，中國中共中央政治局委員、外交部長王毅17日與美國國務卿魯比歐（Marco Rubio）通電話，雙方著重就兩國高層交往進行了深入討論。",
+      "detailSummary": "川習會前夕，中國中共中央政治局委員、外交部長王毅17日與美國國務卿魯比歐（Marco Rubio）通電話，雙方著重就兩國高層交往進行了深入討論。王毅稱，雙方要籌備好下階段高層交往，管控分歧。...",
+      "fallbackSummary": "川習會前夕，中國中共中央政治局委員、外交部長王毅17日與美國國務卿魯比歐（Marco Rubio）通電話，雙方著重就兩國高層交往進行了深入討論。",
+      "fallbackDetailSummary": "川習會前夕，中國中共中央政治局委員、外交部長王毅17日與美國國務卿魯比歐（Marco Rubio）通電話，雙方著重就兩國高層交往進行了深入討論。王毅稱，雙方要籌備好下階段高層交往，管控分歧。...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577725"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170007.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T22:59:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "川習會前夕，中國中共中央政治局委員、外交部長王毅17日與美國國務卿魯比歐（Marco Rubio）通電話，雙方著重就兩國高層交往進行了深入討論。王毅稱，雙方要籌備好下階段高層交往，管控分歧。...",
+          "title": "川習會前 中國外長王毅與美國務卿魯比歐通話",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577725"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T02:25:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "川習會",
+          "title": "川習會前夕 貝森特：美方願與中國討論AI共同風險",
+          "url": "https://www.cna.com.tw/news/aopl/202609170007.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社"
+      ],
+      "articleCount": 2,
+      "displayScore": 137.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 72.0,
+        "title_bonus": 3.0,
+        "score": 137.0,
+        "source_article_counts": {
+          "自由時報": 1,
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "中國",
+        "美國",
+        "AI"
+      ],
+      "selectionReason": "文章數：2；來源數：2；分數：137；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：中國、美國、AI",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e076",
+      "date": "2026-09-17",
+      "title": "IAEA大會談非核化 金與正：北韓擁核地位不可動搖",
+      "summary": "掌握權勢的北韓領導人金正恩胞妹金與正17日表示，北韓擁核國地位「絕不可動搖」，寄望北韓放棄核武的人是「笨蛋」。",
+      "detailSummary": "掌握權勢的北韓領導人金正恩胞妹金與正17日表示，北韓擁核國地位「絕不可動搖」，寄望北韓放棄核武的人是「笨蛋」。北韓副國防部長金剛日在北京「香山論壇」上也強調，北韓核國地位是「不...",
+      "fallbackSummary": "掌握權勢的北韓領導人金正恩胞妹金與正17日表示，北韓擁核國地位「絕不可動搖」，寄望北韓放棄核武的人是「笨蛋」。",
+      "fallbackDetailSummary": "掌握權勢的北韓領導人金正恩胞妹金與正17日表示，北韓擁核國地位「絕不可動搖」，寄望北韓放棄核武的人是「笨蛋」。北韓副國防部長金剛日在北京「香山論壇」上也強調，北韓核國地位是「不...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577502"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170147.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T18:36:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "掌握權勢的北韓領導人金正恩胞妹金與正17日表示，北韓擁核國地位「絕不可動搖」，寄望北韓放棄核武的人是「笨蛋」。北韓副國防部長金剛日在北京「香山論壇」上也強調，北韓核國地位是「不...",
+          "title": "聲明擁核國地位絕不動搖 金與正：「笨蛋」才寄望北韓棄核",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577502"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T14:07:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "IAEA大會談非核化 金與正：北韓擁核地位不可動搖",
+          "url": "https://www.cna.com.tw/news/aopl/202609170147.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社"
+      ],
+      "articleCount": 2,
+      "displayScore": 89.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 89.0,
+        "source_article_counts": {
+          "自由時報": 1,
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "國防"
+      ],
+      "selectionReason": "文章數：2；來源數：2；分數：89；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：國防",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e075",
+      "date": "2026-09-17",
+      "title": "不甩美國加大制裁俄羅斯 印度：堅持多元化石油採購",
+      "summary": "美國國會議員16日通過1項新制裁法案，旨在針對侵入烏克蘭的俄羅斯施加經濟壓力。",
+      "detailSummary": "美國國會議員16日通過1項新制裁法案，旨在針對侵入烏克蘭的俄羅斯施加經濟壓力。該法案包含授權美國總統川普對俄羅斯石油與天然氣主要買家課徵最高100%的關稅，以切斷為俄羅斯戰爭提...",
+      "fallbackSummary": "美國國會議員16日通過1項新制裁法案，旨在針對侵入烏克蘭的俄羅斯施加經濟壓力。",
+      "fallbackDetailSummary": "美國國會議員16日通過1項新制裁法案，旨在針對侵入烏克蘭的俄羅斯施加經濟壓力。該法案包含授權美國總統川普對俄羅斯石油與天然氣主要買家課徵最高100%的關稅，以切斷為俄羅斯戰爭提...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577121"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170159.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T15:02:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國國會議員16日通過1項新制裁法案，旨在針對侵入烏克蘭的俄羅斯施加經濟壓力。該法案包含授權美國總統川普對俄羅斯石油與天然氣主要買家課徵最高100%的關稅，以切斷為俄羅斯戰爭提...",
+          "title": "不甩美國加大制裁俄羅斯 印度：堅持多元化石油採購",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5577121"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T14:40:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "美制裁俄法案衝擊購油變數 印度稱將保障能源安全",
+          "url": "https://www.cna.com.tw/news/aopl/202609170159.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社"
+      ],
+      "articleCount": 2,
+      "displayScore": 89.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 89.0,
+        "source_article_counts": {
+          "自由時報": 1,
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國"
+      ],
+      "selectionReason": "文章數：2；來源數：2；分數：89；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e062",
+      "date": "2026-09-17",
+      "title": "川普盼美伊戰爭近尾聲 傳下週與波灣6國領袖會商",
+      "summary": "美國、以色列2月28日發動襲擊伊朗，伊朗隨即反擊設有美軍基地的波斯灣國家，川普對美伊衝突時間表的說法不斷變化。",
+      "detailSummary": "美國、以色列2月28日發動襲擊伊朗，伊朗隨即反擊設有美軍基地的波斯灣國家，川普對美伊衝突時間表的說法不斷變化。川普16日表示，希望美伊衝突即將結束。 根據《路透》報導，美...",
+      "fallbackSummary": "美國、以色列2月28日發動襲擊伊朗，伊朗隨即反擊設有美軍基地的波斯灣國家，川普對美伊衝突時間表的說法不斷變化。",
+      "fallbackDetailSummary": "美國、以色列2月28日發動襲擊伊朗，伊朗隨即反擊設有美軍基地的波斯灣國家，川普對美伊衝突時間表的說法不斷變化。川普16日表示，希望美伊衝突即將結束。 根據《路透》報導，美...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170099.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576829"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T12:42:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "最新情勢",
+          "title": "川普盼美伊戰爭近尾聲 傳下週與波灣6國領袖會商",
+          "url": "https://www.cna.com.tw/news/aopl/202609170099.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T12:04:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國、以色列2月28日發動襲擊伊朗，伊朗隨即反擊設有美軍基地的波斯灣國家，川普對美伊衝突時間表的說法不斷變化。川普16日表示，希望美伊衝突即將結束。 根據《路透》報導，美...",
+          "title": "川普盼美伊衝突落幕 下週先找波灣國家領袖談",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576829"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 2,
+      "displayScore": 89.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 89.0,
+        "source_article_counts": {
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國"
+      ],
+      "selectionReason": "文章數：2；來源數：2；分數：89；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e056",
+      "date": "2026-09-17",
+      "title": "暖化衝擊喜馬拉雅山 尼泊爾洪災增至6150人失聯",
+      "summary": "中國與尼泊爾邊境8月26日爆發毀滅性洪災，尼泊爾持續更新災情，16日大幅上修失蹤人數，較前一天增加近千人至6150人。",
+      "detailSummary": "中國與尼泊爾邊境8月26日爆發毀滅性洪災，尼泊爾持續更新災情，16日大幅上修失蹤人數，較前一天增加近千人至6150人。 《法新社》報導，尼泊爾災害管理當局發言人馬哈特（Sh...",
+      "fallbackSummary": "中國與尼泊爾邊境8月26日爆發毀滅性洪災，尼泊爾持續更新災情，16日大幅上修失蹤人數，較前一天增加近千人至6150人。",
+      "fallbackDetailSummary": "中國與尼泊爾邊境8月26日爆發毀滅性洪災，尼泊爾持續更新災情，16日大幅上修失蹤人數，較前一天增加近千人至6150人。 《法新社》報導，尼泊爾災害管理當局發言人馬哈特（Sh...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170064.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576614"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T11:25:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "尼泊爾西藏洪災",
+          "title": "暖化衝擊喜馬拉雅山 尼泊爾洪災增至6150人失聯",
+          "url": "https://www.cna.com.tw/news/aopl/202609170064.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T08:13:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "中國與尼泊爾邊境8月26日爆發毀滅性洪災，尼泊爾持續更新災情，16日大幅上修失蹤人數，較前一天增加近千人至6150人。 《法新社》報導，尼泊爾災害管理當局發言人馬哈特（Sh...",
+          "title": "1天暴增近千人！尼泊爾洪災搜救3週 失蹤人數突上修至6150人",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576614"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 2,
+      "displayScore": 89.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 89.0,
+        "source_article_counts": {
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "中國"
+      ],
+      "selectionReason": "文章數：2；來源數：2；分數：89；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：中國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e052",
+      "date": "2026-09-17",
+      "title": "白宮幕僚長威爾斯3月確診乳癌 治療後宣布抗癌成功",
+      "summary": "美國白宮幕僚長威爾斯（Susie Wiles）3月宣布自己被診斷出患有乳癌，並持續接受治療。",
+      "detailSummary": "美國白宮幕僚長威爾斯（Susie Wiles）3月宣布自己被診斷出患有乳癌，並持續接受治療。她16日正式宣布擺脫癌症困擾，並感謝醫生和身邊的人。 根據《法新社》報導，威爾...",
+      "fallbackSummary": "美國白宮幕僚長威爾斯（Susie Wiles）3月宣布自己被診斷出患有乳癌，並持續接受治療。",
+      "fallbackDetailSummary": "美國白宮幕僚長威爾斯（Susie Wiles）3月宣布自己被診斷出患有乳癌，並持續接受治療。她16日正式宣布擺脫癌症困擾，並感謝醫生和身邊的人。 根據《法新社》報導，威爾...",
+      "why": "",
+      "category": "world",
+      "categoryLabel": "國際",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576747"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/aopl/202609170018.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T10:47:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國白宮幕僚長威爾斯（Susie Wiles）3月宣布自己被診斷出患有乳癌，並持續接受治療。她16日正式宣布擺脫癌症困擾，並感謝醫生和身邊的人。 根據《法新社》報導，威爾...",
+          "title": "美國首位女性白宮幕僚長 威爾斯宣布擺脫乳癌",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5576747"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T07:03:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "白宮幕僚長威爾斯3月確診乳癌 治療後宣布抗癌成功",
+          "url": "https://www.cna.com.tw/news/aopl/202609170018.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社"
+      ],
+      "articleCount": 2,
+      "displayScore": 89.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 2,
+        "source_count": 2,
+        "base_score": 62.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 89.0,
+        "source_article_counts": {
+          "自由時報": 1,
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國"
+      ],
+      "selectionReason": "文章數：2；來源數：2；分數：89；基準有效篇數：1.0；立場有效篇數：1.0；跨類型加分：+16；命中重點字：美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e001",
+      "date": "2026-09-17",
+      "title": "楊金龍：房市管制不能硬邦邦 鬆綁若有副作用會回頭",
+      "summary": "中央銀行17日召開第3季理監事會議，此次主要有二項鬆綁，一是放寬自然人第二戶貸款成數上限，由6成調高至7成，二是購地貸款18個月限期開工要求取消，並於9月18日起生效。",
+      "detailSummary": "中央銀行17日召開第3季理監事會議，此次主要有二項鬆綁，一是放寬自然人第二戶貸款成數上限，由6成調高至7成，二是購地貸款18個月限期開工要求取消，並於9月18日起生效。央行總裁楊金龍表示，此次調整主要考量不動產資源集中度已有顯著改善，且銀行授信品質穩定...",
+      "fallbackSummary": "中央銀行17日召開第3季理監事會議，此次主要有二項鬆綁，一是放寬自然人第二戶貸款成數上限，由6成調高至7成，二是購地貸款18個月限期開工要求取消，並於9月18日起生效。",
+      "fallbackDetailSummary": "中央銀行17日召開第3季理監事會議，此次主要有二項鬆綁，一是放寬自然人第二戶貸款成數上限，由6成調高至7成，二是購地貸款18個月限期開工要求取消，並於9月18日起生效。央行總裁楊金龍表示，此次調整主要考量不動產資源集中度已有顯著改善，且銀行授信品質穩定...",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 4,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202609170348.aspx"
+        },
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/7238/9761594"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827576"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577443"
+        }
+      ],
+      "articles": [
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T22:01:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "升息聲浪高漲央行利率不動 楊金龍解答政策考量一次看",
+          "url": "https://www.cna.com.tw/news/afe/202609170348.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T20:29:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "中央銀行17日召開第3季理監事會議，此次主要有二項鬆綁，一是放寬自然人第二戶貸款成數上限，由6成調高至7成，二是購地貸款18個月限期開工要求取消，並於9月18日起生效。央行總裁楊金龍表示，此次調整主要考量不動產資源集中度已有顯著改善，且銀行授信品質穩定...",
+          "title": "央行放寬房市信用管制 楊金龍揭未來是否再鬆綁",
+          "url": "https://udn.com/news/story/7238/9761594"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T20:13:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "英國央行利率維持3.75% 警告中東戰事若持續恐需升息",
+          "url": "https://www.cna.com.tw/news/aopl/202609170321.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T20:09:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "楊金龍：房市管制不能硬邦邦 鬆綁若有副作用會回頭",
+          "url": "https://www.cna.com.tw/news/afe/202609170319.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T19:52:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "央行17日理監事會議決議「利率連十凍、放鬆第二戶房貸至七成、解禁土融限18個月動工」，高力國際不動產業主代表服務部董事黃舒衛表示，央行利率連十凍，若未來升息，將讓商用不動產面臨收益率重新定錨。",
+          "title": "央行利率連十凍…黃舒衛：若後續升息 這件事將讓壽險投資資金轉向",
+          "url": "https://udn.com/news/story/7238/9761514"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T19:49:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "Fed升息我央行不跟進 宣布利率連十凍",
+          "url": "https://news.pts.org.tw/article/827576"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T19:15:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "景氣熱通膨破2%央行不升息 楊金龍：須考量K型經濟",
+          "url": "https://www.cna.com.tw/news/afe/202609170308.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T18:43:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "央行2方向鬆綁房市管制 房仲：第4季可望溫和回溫",
+          "url": "https://www.cna.com.tw/news/afe/202609170295.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T18:03:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "央行選擇性信用管制再鬆綁，自然人第二戶房貸成數上限從6成放寬至7成，以及解除建商購地貸款限期動工興建管制。房產業者表示，利率連10凍對房貸族有一定助益，加上第二戶房貸成數...",
+          "title": "央行再鬆綁房市管制 換屋族受惠、房產業肯定",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577443"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T17:37:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "央行決議利率維持不變 第2戶房貸成數上限放寬至7成",
+          "url": "https://news.pts.org.tw/article/827527"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T17:16:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "中央銀行今日召開理監事會議，理事同意維持現行政策利率2%不變，「連10凍」，並上修今年經濟成長率至11.48%、全年通膨率估破2%。 央行表示，今年上半年經濟成長14...",
+          "title": "利率連10凍！央行上修全年經濟成長率至11.48％ 通膨率破2％",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577383"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T17:09:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "中央銀行今日召開理監事會議，理事同意維持現行政策利率2%不變，「連10凍」，並自今年3月之後，再度放寬房市信用管制措施，將第二戶貸款成數由6成調升至7成，同時刪除購地貸款...",
+          "title": "央行鬆綁房市管制！刪除購地貸款動工期限、提升第二戶貸款成數至7成",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577362"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T15:23:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國Fed 16日召開利率決策會議，宣布升息1碼（0.25個百分點），為2023年以來首度調升利率。對此，作家趙曉慧直言，聯準會升息1碼，這對美國總統川普的期中選舉不是個好...",
+          "title": "Fed升息戳痛中基層荷包 趙曉慧：不利川普期中選情",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576934"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T11:39:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "美國總統川普16日表示，他的政府正努力結束美伊戰爭，德黑蘭「非常」希望與華府達成協議。他還表示，美伊戰爭甚至可能在期中選舉前迎來他所稱的「一個非常好的結局」。",
+          "title": "川普曝美伊戰爭可能期中選舉前結束 稱將有非常好的結局",
+          "url": "https://udn.com/news/story/124061/9760289"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T10:53:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "聯準會如市場預期升息1碼，但最新利率點陣圖顯示，多數官員預期年底前至少還會再升息1次，加上主席華許釋出偏鷹訊號，美元指數應聲飆破100大關，主要亞幣全面承壓，新台幣兌美元...",
+          "title": "Fed升息後股匯兩樣情！美元飆破100、新台幣31字頭岌岌可危",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576795"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T10:27:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息如何影響民眾財務 從房貸到卡債四大面向一次看",
+          "url": "https://www.cna.com.tw/news/aopl/202609170043.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T10:17:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息市場不埋單 華許鷹派言論引發美股挫",
+          "url": "https://www.cna.com.tw/news/aopl/202609170040.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T08:47:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國聯準會（Fed）16日宣布升息1碼，將聯邦基金利率目標區間調高至3.75％至4％，為2023年以來首次升息。元大投顧最新報告認為，此次升息比較像是先把政策往更適當的限...",
+          "title": "Fed升息1碼 元大投顧：可能跳過10月升息、12月再評估",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576658"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T08:22:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "〔財經頻道／綜合報導〕美國聯準會（Fed）週三（16日）召開利率決策會議，宣布升息1碼（0.25個百分點），為2023年以來首度調升利率。聯準會在聲明中指出，聯邦公開市場委員會（FOMC）12名...",
+          "title": "聯準會升息1碼！FOMC最新9月聲明全文一次看",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576648"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T08:20:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "美國聯準會升息1碼符合市場預期 五大重點一次看",
+          "url": "https://www.cna.com.tw/news/aopl/202609170023.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T08:18:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國聯準會（FED）為了打擊通膨，不顧美國總統川普反對，啟動近三年來首次升息，更暗示年底前可能還會升息一次，元大投顧表示，這次升息對股票與債券市場未必是壞事，對股市而言，...",
+          "title": "美國聯準會真的升息！法人最新看法來了",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576640"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T08:16:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息惹怒川普 痛批理事會「抱持敵意」",
+          "url": "https://www.cna.com.tw/news/aopl/202609170022.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T08:08:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "〔財經頻道／綜合報導〕在中東戰事推升國際油價、美國通膨仍未見緩和之際，美國聯邦準備理事會（Fed）週三召開利率決策會議，宣布升息1碼（0.25個百分點），為2023年以來首度調升利率，暗示今年底...",
+          "title": "Fed升息1碼！台指期夜盤逆漲322點",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576630"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T08:06:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "美聯準會3年來首度升息 白宮：令人遺憾的決定",
+          "url": "https://news.pts.org.tw/article/827434"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T06:37:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國對伊朗戰爭導致原油價格飆升，加劇高通膨，美國聯邦準備理事會（Fed）為抗通膨，3年多以來首度升息，市場對後續緊縮幅度的疑慮升溫，美國華爾街股市16日3大指數收低。 綜合...",
+          "title": "美股收盤》聯準會睽違3年升息！三大指數收黑 台積電ADR漲1.23％",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576595"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T06:07:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "在中東戰事推升國際油價、美國通膨仍未見緩和之際，美國聯邦準備理事會（Fed）今天召開利率決策會議，宣布升息1碼（0.25個百分點），為2023年以來首度調升利率。 美國8月消費者物...",
+          "title": "聯準會升息1碼 2023年以來首度調升利率",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576580"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T05:45:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息1碼 川普籲利率降至1%以下",
+          "url": "https://www.cna.com.tw/news/aopl/202609170016.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T05:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "今年GDP、通膨率將再上修 〔記者陳梅英／台北報導〕中央銀行今將召開第三季理監事會議，市場預期央行將再度上修今年經濟成長率及通膨率預測。在「經濟強、通膨升溫」下，隨著近期油價走升、全球利率環境轉變，外界認為央行升息條件較前一季更加成熟；不過，國內仍面臨產業發展「K型化」窘境，房市也正處於信用管制調",
+          "title": "市場關注是否「踩下油門」升息 產業K型化、房市管制 考驗央行決策",
+          "url": "https://ec.ltn.com.tw/article/paper/1770944"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T04:54:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國與以色列對伊朗的戰爭導致原油價格飆升，加劇頑固高通膨，美國聯邦準備理事會（Fed）為抗通膨，3年多以來首度升息，美股3大指數今天收低。 道瓊工業指數下跌631.21點或1.21%，收報...",
+          "title": "聯準會3年多以來首度升息 美股收低道瓊跌逾600點",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576590"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T04:24:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "華許獲川普任命仍頂住降息施壓 聯準會決定再掀波瀾",
+          "url": "https://www.cna.com.tw/news/aopl/202609170012.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T04:03:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息抗通膨頂住川普壓力 白宮批：令人遺憾",
+          "url": "https://www.cna.com.tw/news/aopl/202609170010.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T03:36:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "美國聯邦準備理事會（Fed）今天召開利率決策會議，宣布升息1碼（0.25個百分點），為2023年以來首度調升利率，主席華許表示，美國通膨「過高」的時間已持續「太久」，目前最主要關注焦點是維持...",
+          "title": "聯準會2023年以來首升息 華許：物價穩定是首要之務",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576585"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T03:32:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會2023年以來首升息 華許：物價穩定是首要之務",
+          "url": "https://www.cna.com.tw/news/aopl/202609170009.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T03:12:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "聯邦準備理事會（Fed）今天宣布升息一碼，結束3年的降息週期。華爾街金融界多預期，美伊戰爭未見終點，川普政府作為恐難有效抑制通膨，認為年底至明年中持續升息的比例顯著提高。 聯準會公開市場委...",
+          "title": "聯準會打通膨 市場預期升息至明年中",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576583"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T03:03:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會打通膨 市場預期升息至明年中",
+          "url": "https://www.cna.com.tw/news/aopl/202609170008.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T02:07:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息1碼 2023年以來首度調升利率",
+          "url": "https://www.cna.com.tw/news/aopl/202609170006.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T00:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "市場靜待美國聯邦準備理事會（Fed）公布利率決策，歐洲股市今天收高，國際油價下跌。 倫敦FTSE 100指數上揚30.34點或0.28%，收報10688.47點。 法蘭克福DAX指數揚升...",
+          "title": "市場靜待聯準會利率決策 歐股收高油價跌",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576568"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "聯合新聞網",
+        "公視新聞",
+        "自由時報"
+      ],
+      "articleCount": 37,
+      "displayScore": 360.5004681250221,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 37,
+        "source_count": 4,
+        "base_score": 285.5004681250221,
+        "keyword_boost": 72.0,
+        "title_bonus": 3.0,
+        "score": 360.5004681250221,
+        "source_article_counts": {
+          "中央社": 15,
+          "聯合新聞網": 3,
+          "公視新聞": 3,
+          "自由時報": 16
+        },
+        "baseline_effective_articles": 7.491853096329675,
+        "opinionated_effective_articles": 7.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.43243243243243246,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國",
+        "台積電",
+        "央行",
+        "物價"
+      ],
+      "selectionReason": "文章數：37；來源數：4；分數：361；基準有效篇數：7.5；立場有效篇數：7.6；跨類型加分：+16；基準來源加分：+12；命中重點字：美國、台積電、央行、物價",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e011",
+      "date": "2026-09-17",
+      "title": "聯準會升息新加坡銀行資本受矚 分析指體質穩風險可控",
+      "summary": "共有 7 則相關報導，焦點包括：聯準會升息新加坡銀行資本受矚 分析指體質穩風險可控；外資終止連5賣轉買121億元 買超友達5.3萬張居冠；美聯準會升息 新台幣由貶翻升終止連5貶。",
+      "detailSummary": "共有 7 則相關報導，焦點包括：聯準會升息新加坡銀行資本受矚 分析指體質穩風險可控；外資終止連5賣轉買121億元 買超友達5.3萬張居冠；美聯準會升息 新台幣由貶翻升終止連5貶。",
+      "fallbackSummary": "共有 7 則相關報導，焦點包括：聯準會升息新加坡銀行資本受矚 分析指體質穩風險可控；外資終止連5賣轉買121億元 買超友達5.3萬張居冠；美聯準會升息 新台幣由貶翻升終止連5貶。",
+      "fallbackDetailSummary": "共有 7 則相關報導，焦點包括：聯準會升息新加坡銀行資本受矚 分析指體質穩風險可控；外資終止連5賣轉買121億元 買超友達5.3萬張居冠；美聯準會升息 新台幣由貶翻升終止連5貶。",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202609170318.aspx"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827479"
+        }
+      ],
+      "articles": [
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T20:08:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "外資終止連5賣轉買121億元 買超友達5.3萬張居冠",
+          "url": "https://www.cna.com.tw/news/afe/202609170318.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T18:18:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "台幣匯率",
+          "title": "美聯準會升息 新台幣由貶翻升終止連5貶",
+          "url": "https://www.cna.com.tw/news/afe/202609170282.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T17:26:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息新加坡銀行資本受矚 分析指體質穩風險可控",
+          "url": "https://www.cna.com.tw/news/aopl/202609170247.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T15:04:00+08:00",
+          "source": "中央社政治",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "美國聯準會升息引關注 政院：將尊重央行決策",
+          "url": "https://www.cna.com.tw/news/aipl/202609170170.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T14:41:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "美國聯準會宣布升息1碼 亞股開盤不跌反升",
+          "url": "https://news.pts.org.tw/article/827479"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T14:24:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "聯準會升息加上房貸利率逼近7% 南加州買家縮手屋主惜售",
+          "url": "https://www.cna.com.tw/news/aopl/202609170153.aspx"
+        },
+        {
+          "category": "world",
+          "category_label": "國際",
+          "published": "2026-09-17T10:46:00+08:00",
+          "source": "中央社國際",
+          "source_group": "中央社",
+          "summary": "美國聯準會",
+          "title": "聯準會升息1碼聲明全文：經濟穩健擴張、通膨壓力仍高",
+          "url": "https://www.cna.com.tw/news/aopl/202609170049.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "公視新聞"
+      ],
+      "articleCount": 7,
+      "displayScore": 155.86917501586544,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 7,
+        "source_count": 2,
+        "base_score": 104.86917501586544,
+        "keyword_boost": 48.0,
+        "title_bonus": 3.0,
+        "score": 155.86917501586544,
+        "source_article_counts": {
+          "中央社": 6,
+          "公視新聞": 1
+        },
+        "baseline_effective_articles": 4.584962500721156,
+        "opinionated_effective_articles": 0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 0.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.8571428571428571,
+        "dominant_source_penalty": 24.0
+      },
+      "matchedInterestKeywords": [
+        "美國",
+        "央行"
+      ],
+      "selectionReason": "文章數：7；來源數：2；分數：156；基準有效篇數：4.6；立場有效篇數：0.0；基準來源加分：+12；單一來源占比86%扣分：-24；命中重點字：美國、央行",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e023",
+      "date": "2026-09-17",
+      "title": "金利食安打造台、泰雙生產基地 泰國廠產能增2.5倍",
+      "summary": "亞洲首家量產HPP無添加冷壓蔬果汁專業食品廠金利食安（7743），今天宣布與台灣蔬果輸出業同業公會簽署合作協議，確保蔬果原料供應穩定，金利食安總經理殷豪表示，泰國廠預計明...",
+      "detailSummary": "亞洲首家量產HPP無添加冷壓蔬果汁專業食品廠金利食安（7743），今天宣布與台灣蔬果輸出業同業公會簽署合作協議，確保蔬果原料供應穩定，金利食安總經理殷豪表示，泰國廠預計明...",
+      "fallbackSummary": "亞洲首家量產HPP無添加冷壓蔬果汁專業食品廠金利食安（7743），今天宣布與台灣蔬果輸出業同業公會簽署合作協議，確保蔬果原料供應穩定，金利食安總經理殷豪表示，泰國廠預計明...",
+      "fallbackDetailSummary": "亞洲首家量產HPP無添加冷壓蔬果汁專業食品廠金利食安（7743），今天宣布與台灣蔬果輸出業同業公會簽署合作協議，確保蔬果原料供應穩定，金利食安總經理殷豪表示，泰國廠預計明...",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202609173005.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577518"
+        }
+      ],
+      "articles": [
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T21:02:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "東協財經／ 臻鼎泰國子公司取得機器設備 金額約10億元",
+          "url": "https://www.cna.com.tw/news/afe/202609173005.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T19:58:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "東協財經／ 金利食安打造台泰雙生產基地 泰國廠明年量產助攻日本",
+          "url": "https://www.cna.com.tw/news/afe/202609170317.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T18:58:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "亞洲首家量產HPP無添加冷壓蔬果汁專業食品廠金利食安（7743），今天宣布與台灣蔬果輸出業同業公會簽署合作協議，確保蔬果原料供應穩定，金利食安總經理殷豪表示，泰國廠預計明...",
+          "title": "金利食安打造台、泰雙生產基地 泰國廠產能增2.5倍",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577518"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T15:15:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "偉訓旗下機殼廠富驊（5465）AI伺服器及高速網路布局逐步進入量產階段，其中高效能運算（HPC）伺服器已取得北美一線電腦品牌大廠訂單，1.6T交換器則將出貨北美一...",
+          "title": "富驊HPC、1.6T交換器明年量產 AI儲存訂單看到2029年",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5577168"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 4,
+      "displayScore": 119.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 4,
+        "source_count": 2,
+        "base_score": 92.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 119.0,
+        "source_article_counts": {
+          "中央社": 2,
+          "自由時報": 2
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 2.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "AI"
+      ],
+      "selectionReason": "文章數：4；來源數：2；分數：119；基準有效篇數：2.0；立場有效篇數：2.0；跨類型加分：+16；命中重點字：AI",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e038",
+      "date": "2026-09-17",
+      "title": "沙烏地阿拉伯靠「這招」緩解供應危機 國際油價應聲回落",
+      "summary": "〔財經頻道／綜合報導〕國際油價週三（16日）下跌，此前有報導稱，沙烏地阿拉伯正透過阿曼提供額外的原油船貨，緩解市場對中東供應中斷的部分疑慮；此外，美國原油庫存降幅小於預期，也進一步對…",
+      "detailSummary": "〔財經頻道／綜合報導〕國際油價週三（16日）下跌，此前有報導稱，沙烏地阿拉伯正透過阿曼提供額外的原油船貨，緩解市場對中東供應中斷的部分疑慮；此外，美國原油庫存降幅小於預期，也進一步對油價造成下行...",
+      "fallbackSummary": "〔財經頻道／綜合報導〕國際油價週三（16日）下跌，此前有報導稱，沙烏地阿拉伯正透過阿曼提供額外的原油船貨，緩解市場對中東供應中斷的部分疑慮；此外，美國原油庫存降幅小於預期，也進一步對…",
+      "fallbackDetailSummary": "〔財經頻道／綜合報導〕國際油價週三（16日）下跌，此前有報導稱，沙烏地阿拉伯正透過阿曼提供額外的原油船貨，緩解市場對中東供應中斷的部分疑慮；此外，美國原油庫存降幅小於預期，也進一步對油價造成下行...",
+      "why": "",
+      "category": "finance",
+      "categoryLabel": "財經／市場",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202609170347.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576745"
+        }
+      ],
+      "articles": [
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T21:58:00+08:00",
+          "source": "中央社財經",
+          "source_group": "中央社",
+          "summary": "美股",
+          "title": "國際油價回落提振市場情緒 美股開盤勁揚",
+          "url": "https://www.cna.com.tw/news/afe/202609170347.aspx"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T10:16:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "〔財經頻道／綜合報導〕國際油價週三（16日）下跌，此前有報導稱，沙烏地阿拉伯正透過阿曼提供額外的原油船貨，緩解市場對中東供應中斷的部分疑慮；此外，美國原油庫存降幅小於預期，也進一步對油價造成下行...",
+          "title": "沙烏地阿拉伯靠「這招」緩解供應危機 國際油價應聲回落",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576745"
+        },
+        {
+          "category": "finance",
+          "category_label": "財經／市場",
+          "published": "2026-09-17T05:06:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "有跡象顯示，中東近期部分供應中斷問題開始緩解，加上交易員在歷經近日急漲後調整倉位，國際油價今天回落。 紐約商品交易所西德州中級原油10月交割價下跌3.2%，收報每桶102.43美元。 倫...",
+          "title": "中東供應中斷緩解 國際油價回落",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5576591"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 3,
+      "displayScore": 97.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 2,
+        "base_score": 70.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 97.0,
+        "source_article_counts": {
+          "中央社": 1,
+          "自由時報": 2
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 2.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.6666666666666666,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "美國"
+      ],
+      "selectionReason": "文章數：3；來源數：2；分數：97；基準有效篇數：1.0；立場有效篇數：2.0；跨類型加分：+16；命中重點字：美國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e317",
+      "date": "2026-09-17",
+      "title": "AI基礎設施峰會記憶體荒成焦點 HBF、HBC新技術受矚",
+      "summary": "焦點：AI基礎設施峰會記憶體荒成焦點 HBF、HBC新技術受矚",
+      "detailSummary": "焦點：AI基礎設施峰會記憶體荒成焦點 HBF、HBC新技術受矚",
+      "fallbackSummary": "焦點：AI基礎設施峰會記憶體荒成焦點 HBF、HBC新技術受矚",
+      "fallbackDetailSummary": "焦點：AI基礎設施峰會記憶體荒成焦點 HBF、HBC新技術受矚",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/ait/202609170104.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "tech_ai",
+          "category_label": "科技／AI",
+          "published": "2026-09-17T12:48:00+08:00",
+          "source": "中央社科技",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "AI基礎設施峰會記憶體荒成焦點 HBF、HBC新技術受矚",
+          "url": "https://www.cna.com.tw/news/ait/202609170104.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "中央社"
+      ],
+      "articleCount": 1,
+      "displayScore": 33.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 1,
+        "source_count": 1,
+        "base_score": 6.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 33.0,
+        "source_article_counts": {
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 0.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 1.0,
+        "dominant_source_penalty": 24.0
+      },
+      "matchedInterestKeywords": [
+        "AI"
+      ],
+      "selectionReason": "文章數：1；來源數：1；分數：33；基準有效篇數：1.0；立場有效篇數：0.0；單一來源占比100%扣分：-24；命中重點字：AI",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e307",
+      "date": "2026-09-17",
+      "title": "Google Cloud籲企業重建資料架構 因應AI代理需求",
+      "summary": "焦點：Google Cloud籲企業重建資料架構 因應AI代理需求",
+      "detailSummary": "焦點：Google Cloud籲企業重建資料架構 因應AI代理需求",
+      "fallbackSummary": "焦點：Google Cloud籲企業重建資料架構 因應AI代理需求",
+      "fallbackDetailSummary": "焦點：Google Cloud籲企業重建資料架構 因應AI代理需求",
+      "why": "",
+      "category": "tech_ai",
+      "categoryLabel": "科技／AI",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/ait/202609170251.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "tech_ai",
+          "category_label": "科技／AI",
+          "published": "2026-09-17T17:33:00+08:00",
+          "source": "中央社科技",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "Google Cloud籲企業重建資料架構 因應AI代理需求",
+          "url": "https://www.cna.com.tw/news/ait/202609170251.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "中央社"
+      ],
+      "articleCount": 1,
+      "displayScore": 33.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 1,
+        "source_count": 1,
+        "base_score": 6.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 33.0,
+        "source_article_counts": {
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 0.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 1.0,
+        "dominant_source_penalty": 24.0
+      },
+      "matchedInterestKeywords": [
+        "AI"
+      ],
+      "selectionReason": "文章數：1；來源數：1；分數：33；基準有效篇數：1.0；立場有效篇數：0.0；單一來源占比100%扣分：-24；命中重點字：AI",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e003",
+      "date": "2026-09-17",
+      "title": "助高金素梅助理張俊傑逃亡 關鍵共犯陳威達出面投案",
+      "summary": "立委高金素梅前助理張俊傑涉共諜棄保潛逃，檢警查出竹聯幫義堂「小麥可」陳威達協助破壞電子手環，從台北一路變裝南下嘉義逃亡，檢方對張俊傑及陳威達發布通緝後，陳威達今天竟主動向警方投案，台…",
+      "detailSummary": "立委高金素梅前助理張俊傑涉共諜棄保潛逃，檢警查出竹聯幫義堂「小麥可」陳威達協助破壞電子手環，從台北一路變裝南下嘉義逃亡，檢方對張俊傑及陳威達發布通緝後，陳威達今天竟主動向警方投案，台北檢署複認為，陳威達僅是接受指令的執行者，背後有影武者未到案，有高度串滅證之虞，訊後向法院聲押禁見、併限制出境出海。",
+      "fallbackSummary": "立委高金素梅前助理張俊傑涉共諜棄保潛逃，檢警查出竹聯幫義堂「小麥可」陳威達協助破壞電子手環，從台北一路變裝南下嘉義逃亡，檢方對張俊傑及陳威達發布通緝後，陳威達今天竟主動向警方投案，台…",
+      "fallbackDetailSummary": "立委高金素梅前助理張俊傑涉共諜棄保潛逃，檢警查出竹聯幫義堂「小麥可」陳威達協助破壞電子手環，從台北一路變裝南下嘉義逃亡，檢方對張俊傑及陳威達發布通緝後，陳威達今天竟主動向警方投案，台北檢署複認為，陳威達僅是接受指令的執行者，背後有影武者未到案，有高度串滅證之虞，訊後向法院聲押禁見、併限制出境出海。",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 4,
+      "sources": [
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/7315/9761922"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/asoc/202609170355.aspx"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827570"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577540"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T23:33:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "立委高金素梅前助理張俊傑涉共諜棄保潛逃，檢警查出竹聯幫義堂「小麥可」陳威達協助破壞電子手環，從台北一路變裝南下嘉義逃亡，檢方對張俊傑及陳威達發布通緝後，陳威達今天竟主動向警方投案，台北檢署複認為，陳威達僅是接受指令的執行者，背後有影武者未到案，有高度串滅證之虞，訊後向法院聲押禁見、併限制出境出海。",
+          "title": "疑受高人指點助張俊傑棄保潛逃 竹聯幫「小麥可」陳威達聲押禁見",
+          "url": "https://udn.com/news/story/7315/9761922"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T22:35:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "張俊傑棄保潛逃案陳威達投案 北檢聲押禁見",
+          "url": "https://www.cna.com.tw/news/asoc/202609170355.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T20:22:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "坦承陪同張俊傑南下逃亡 陳威達投案晚間移送北檢",
+          "url": "https://www.cna.com.tw/news/asoc/202609170323.aspx"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T19:59:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "助高金素梅助理張俊傑逃亡 關鍵共犯陳威達出面投案",
+          "url": "https://news.pts.org.tw/article/827570"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T19:54:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "張俊傑潛逃案伍男20萬元交保 陳威達投案遭逮捕",
+          "url": "https://www.cna.com.tw/news/asoc/202609170316.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T19:11:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "立委高金素梅「大帳房」張俊傑棄保潛逃，檢警持續追查接應網絡，昨天在台南拘提涉嫌提供逃亡車輛的伍恩廷，今天移送台北地檢署複訊，依藏匿人犯罪諭知20萬元交保；而...",
+          "title": "借車助張俊傑逃亡！第8名共犯交保 竹聯幫寶和會陳威達投案警詢中",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577540"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T18:24:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "無黨籍立委高金素梅「大帳房」張俊傑棄保潛逃至今行蹤成謎，協助他破壞電子手環潛逃的竹聯幫寶和會陳威達，今天主動聯繫刑事局投案。對此，台灣青年世代共好協會理事長張育萌指出，該案還有太...",
+          "title": "「張俊傑逃亡鏈」第1棒投案！張育萌揭陳威達3大疑點",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577406"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T16:02:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "協助高金大帳房張俊傑破壞電子手環潛逃的竹聯幫寶和會陳威達，遭檢方發布通緝後，今天主動聯繫刑事警察局偵一大隊投案，也是該案至今到案的第9名共犯，刑事局經針對通緝部分簡單人別訊問後...",
+          "title": "竹聯寶和會陳威達助張俊傑逃亡 投案後帶往新店分局調查釐清",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577227"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T15:44:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "高金素梅案",
+          "title": "立委高金素梅助理張俊傑潛逃案 竹聯幫陳威達主動投案",
+          "url": "https://www.cna.com.tw/news/asoc/202609170188.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T15:23:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "高金素梅前助理張俊傑棄保潛逃 1協力者涉提供汽車遭拘提",
+          "url": "https://news.pts.org.tw/article/827477"
+        },
+        {
+          "category": "taiwan",
+          "category_label": "台灣／公共議題",
+          "published": "2026-09-17T15:12:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "立法委員高金素梅「大帳房」張俊傑、公費助理林怡君涉嫌收受中方資金在台發展組織，張潛逃、林則遭羈押。總統府前發言人Kolas Yotaka揭露，高金素梅的政治路線，就是張俊傑的政治...",
+          "title": "揭高金素梅辦公室掛「日本人砍原民人頭照」 Kolas：大吃中國史觀自助餐",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5577148"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T15:11:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "高金素梅案",
+          "title": "張俊傑棄保潛逃第8名協助者落網 疑提供車輛助逃亡",
+          "url": "https://www.cna.com.tw/news/asoc/202609170172.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T14:10:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "高金大帳房張俊傑棄保逃亡迄今下落不明，警方專案小組連日順藤摸瓜，逐一將接應逃亡的對象逮捕，已拘提陳俊瑋等8名共犯落網，而協助張俊傑在大安森林公園公廁破壞電子手環，曾一路...",
+          "title": "助張俊傑破壞電子手環逃亡 竹聯幫寶和會陳威達主動投案",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577072"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:18:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "無黨籍立委高金素梅「大帳房」張俊傑棄保潛逃迄今行蹤成謎，警政署還發布查緝專刊懸賞100萬元檢舉獎金。檢警專案小組持續追查，又有新進展，昨晚拘提一名提供車輛協助張逃亡的伍...",
+          "title": "借車供張俊傑逃亡 檢警台南逮第8名共犯",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576834"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T09:05:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "涉投資和牛綠能吸金逾6億元 北檢聲押2主嫌",
+          "url": "https://www.cna.com.tw/news/asoc/202609170030.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "聯合新聞網",
+        "中央社",
+        "公視新聞",
+        "自由時報"
+      ],
+      "articleCount": 15,
+      "displayScore": 246.54887502163467,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 15,
+        "source_count": 4,
+        "base_score": 219.54887502163467,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 246.54887502163467,
+        "source_article_counts": {
+          "聯合新聞網": 1,
+          "中央社": 6,
+          "公視新聞": 2,
+          "自由時報": 6
+        },
+        "baseline_effective_articles": 5.584962500721156,
+        "opinionated_effective_articles": 4.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.4,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "中國"
+      ],
+      "selectionReason": "文章數：15；來源數：4；分數：247；基準有效篇數：5.6；立場有效篇數：4.6；跨類型加分：+16；基準來源加分：+12；命中重點字：中國",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e005",
+      "date": "2026-09-17",
+      "title": "苗縣里長參選人涉嫌萬元行賄家戶 檢察官訊後聲押",
+      "summary": "屏東縣屏東市大同里長71歲劉鳳美是4屆資深里長，2026年底選舉爭取連任，屏東地檢署接獲線報，疑辦里民旅遊時以優惠價格吸引參加，還送牙膏給里民，涉賄選，屏檢16日搜索劉的住處帶回偵辦…",
+      "detailSummary": "屏東縣屏東市大同里長71歲劉鳳美是4屆資深里長，2026年底選舉爭取連任，屏東地檢署接獲線報，疑辦里民旅遊時以優惠價格吸引參加，還送牙膏給里民，涉賄選，屏檢16日搜索劉的住處帶回偵辦，並約談20名里民，檢方訊問後依涉選罷法聲押劉，屏東地院今17日裁定10萬元交保。",
+      "fallbackSummary": "屏東縣屏東市大同里長71歲劉鳳美是4屆資深里長，2026年底選舉爭取連任，屏東地檢署接獲線報，疑辦里民旅遊時以優惠價格吸引參加，還送牙膏給里民，涉賄選，屏檢16日搜索劉的住處帶回偵辦…",
+      "fallbackDetailSummary": "屏東縣屏東市大同里長71歲劉鳳美是4屆資深里長，2026年底選舉爭取連任，屏東地檢署接獲線報，疑辦里民旅遊時以優惠價格吸引參加，還送牙膏給里民，涉賄選，屏檢16日搜索劉的住處帶回偵辦，並約談20名里民，檢方訊問後依涉選罷法聲押劉，屏東地院今17日裁定10萬元交保。",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/7321/9761942"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/asoc/202609170358.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577710"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T23:39:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "屏東縣屏東市大同里長71歲劉鳳美是4屆資深里長，2026年底選舉爭取連任，屏東地檢署接獲線報，疑辦里民旅遊時以優惠價格吸引參加，還送牙膏給里民，涉賄選，屏檢16日搜索劉的住處帶回偵辦，並約談20名里民，檢方訊問後依涉選罷法聲押劉，屏東地院今17日裁定10萬元交保。",
+          "title": "二度對決爆賄選案 屏東資深71歲里長遭聲押法院10萬交保",
+          "url": "https://udn.com/news/story/7321/9761942"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T23:31:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "地方公職人員選舉投票接近，苗栗地檢署今天查獲首宗賄選案，頭份市一名林姓里長參選人涉嫌發放1萬元予該里具有投票權之家戶，檢察官以涉嫌重大，且有事實足認有逃亡、勾串共犯或證人之虞，向法院聲請羈押禁見，其配偶20萬元交保。",
+          "title": "苗檢查獲首宗賄選案 聲押里長參選人涉嫌1萬元向家戶買票",
+          "url": "https://udn.com/news/story/7321/9761919"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T22:49:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "苗縣里長參選人涉嫌萬元行賄家戶 檢察官訊後聲押",
+          "url": "https://www.cna.com.tw/news/asoc/202609170358.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T22:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "首次上稿 22:30更新時間 23:02 苗栗查賄開出第一槍！苗栗地檢署接獲檢舉，指苗栗縣頭份市某里長林姓參選人，涉嫌以每戶1萬元現金向里內選民買票，苗栗地檢署今（17日...",
+          "title": "頭份市里長參選人涉「每戶發1萬」買票 檢方聲押禁見",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577710"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T17:59:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "新北中和里長拚連任發百元現金涉賄選 30萬交保限制出境",
+          "url": "https://www.cna.com.tw/news/asoc/202609170266.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T16:34:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "屏東市大同里長劉鳳美爭取連任，辦理里民旅遊時涉嫌以優惠價格吸引參加，贈送牙膏組給里民，涉嫌賄選。屏東縣警局、屏東調查站獲報，搜索劉鳳美住處等地點，帶回劉鳳美，傳喚多名參加旅遊的...",
+          "title": "屏東資深里長劉鳳美涉賄選遭搜索 10萬元交保",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577297"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:32:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "辦免費按摩活動涉賄選 新北三重里長10萬元交保",
+          "url": "https://www.cna.com.tw/news/asoc/202609170067.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:23:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "新北市三重區無黨籍劉姓女里長參選人團隊，為尋求選民支持，涉於今年8月間在1處200多戶的大型社區，以免費經絡按摩活動名義，向具有選舉權的大樓居民，提供具有經濟價值（約400多元...",
+          "title": "提供免費按摩涉賄選 三重現任里長參選人10萬元交保",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576836"
+        }
+      ],
+      "sourceGroups": [
+        "聯合新聞網",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 8,
+      "displayScore": 136.54887502163467,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 8,
+        "source_count": 3,
+        "base_score": 133.54887502163467,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 136.54887502163467,
+        "source_article_counts": {
+          "聯合新聞網": 2,
+          "中央社": 3,
+          "自由時報": 3
+        },
+        "baseline_effective_articles": 2.584962500721156,
+        "opinionated_effective_articles": 4.584962500721156,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.375,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：8；來源數：3；分數：137；基準有效篇數：2.6；立場有效篇數：4.6；跨類型加分：+16",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e021",
+      "date": "2026-09-17",
+      "title": "預告勞工婚假增至14日 勞動部：預計10/1上路",
+      "summary": "共有 4 則相關報導，焦點包括：預告勞工婚假增至14日 勞動部：預計10/1上路；勞工婚假10月起增加至14天 請假QA一次看；勞工婚假擬10/1起增加至14日 雇主須照常支薪、可申…",
+      "detailSummary": "共有 4 則相關報導，焦點包括：預告勞工婚假增至14日 勞動部：預計10/1上路；勞工婚假10月起增加至14天 請假QA一次看；勞工婚假擬10/1起增加至14日 雇主須照常支薪、可申請補貼。",
+      "fallbackSummary": "共有 4 則相關報導，焦點包括：預告勞工婚假增至14日 勞動部：預計10/1上路；勞工婚假10月起增加至14天 請假QA一次看；勞工婚假擬10/1起增加至14日 雇主須照常支薪、可申…",
+      "fallbackDetailSummary": "共有 4 則相關報導，焦點包括：預告勞工婚假增至14日 勞動部：預計10/1上路；勞工婚假10月起增加至14天 請假QA一次看；勞工婚假擬10/1起增加至14日 雇主須照常支薪、可申請補貼。",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827466"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/ahel/202609170090.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T14:43:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "預告勞工婚假增至14日 勞動部：預計10/1上路",
+          "url": "https://news.pts.org.tw/article/827466"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T12:13:00+08:00",
+          "source": "中央社生活",
+          "source_group": "中央社",
+          "summary": "人口對策",
+          "title": "勞工婚假10月起增加至14天 請假QA一次看",
+          "url": "https://www.cna.com.tw/news/ahel/202609170090.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T12:03:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "勞工婚假擬10/1起增加至14日 雇主須照常支薪、可申請補貼",
+          "url": "https://news.pts.org.tw/article/827452"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T10:55:00+08:00",
+          "source": "中央社生活",
+          "source_group": "中央社",
+          "summary": "人口對策",
+          "title": "勞工婚假10/1起增至14天 10月前結婚沒休完也適用",
+          "url": "https://www.cna.com.tw/news/ahel/202609170053.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社"
+      ],
+      "articleCount": 4,
+      "displayScore": 119.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 4,
+        "source_count": 2,
+        "base_score": 116.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 119.0,
+        "source_article_counts": {
+          "公視新聞": 2,
+          "中央社": 2
+        },
+        "baseline_effective_articles": 4.0,
+        "opinionated_effective_articles": 0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 0.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：4；來源數：2；分數：119；基準有效篇數：4.0；立場有效篇數：0.0；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e018",
+      "date": "2026-09-17",
+      "title": "護理師遭二度輾壓亡今告別式 肇事駕駛未到、父出席致意",
+      "summary": "老家在彰化二林鎮的38歲陳姓護理師，8日凌晨於台中下班返家途中時，遭30歲林姓男子駕駛賓士車二度輾壓當場身亡，其告別式今天在芳苑禮儀廳舉辦。",
+      "detailSummary": "老家在彰化二林鎮的38歲陳姓護理師，8日凌晨於台中下班返家途中時，遭30歲林姓男子駕駛賓士車二度輾壓當場身亡，其告別式今天在芳苑禮儀廳舉辦。陳母送別女兒最後一程，一度哭到快...",
+      "fallbackSummary": "老家在彰化二林鎮的38歲陳姓護理師，8日凌晨於台中下班返家途中時，遭30歲林姓男子駕駛賓士車二度輾壓當場身亡，其告別式今天在芳苑禮儀廳舉辦。",
+      "fallbackDetailSummary": "老家在彰化二林鎮的38歲陳姓護理師，8日凌晨於台中下班返家途中時，遭30歲林姓男子駕駛賓士車二度輾壓當場身亡，其告別式今天在芳苑禮儀廳舉辦。陳母送別女兒最後一程，一度哭到快...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827569"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/asoc/202609170127.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577013"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T19:56:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "護理師遭二度輾壓亡今告別式 肇事駕駛未到、父出席致意",
+          "url": "https://news.pts.org.tw/article/827569"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T13:29:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "撞倒護理師折返輾斃 肇事男父親赴告別式致歉",
+          "url": "https://www.cna.com.tw/news/asoc/202609170127.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T13:28:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "老家在彰化二林鎮的38歲陳姓護理師，8日凌晨於台中下班返家途中時，遭30歲林姓男子駕駛賓士車二度輾壓當場身亡，其告別式今天在芳苑禮儀廳舉辦。陳母送別女兒最後一程，一度哭到快...",
+          "title": "遭二度輾壓護理師告別式 母親哭斷腸痛訴：司法都在保護壞人",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577013"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T09:47:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "38歲陳姓護理師8日晚間在台中市遭林姓男子駕車撞擊、迴轉、惡意輾壓，當場身亡。老家在彰化二林的護理師今天舉行的告別式，家屬一心盼望肇事者林嫌能到靈堂下跪致歉，肇事方家屬透過...",
+          "title": "惡意輾斃凶嫌老父連聲道歉 護理師弟靈堂痛哭：怕被打不敢來？",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576693"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 4,
+      "displayScore": 115.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 4,
+        "source_count": 3,
+        "base_score": 112.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 115.0,
+        "source_article_counts": {
+          "公視新聞": 1,
+          "中央社": 1,
+          "自由時報": 2
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 2.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.5,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：4；來源數：3；分數：115；基準有效篇數：2.0；立場有效篇數：2.0；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e033",
+      "date": "2026-09-17",
+      "title": "成大70年「窮理致知」牌樓遭撞 網掀拆除與封路論戰",
+      "summary": "南市東區大學路上有70年歷史的成功大學「窮理致知」紀念校門，遭「自家」校園環境整理作業的抓斗機擦撞，牌樓一角水泥剝落，所幸字體及主要結構未受損；事件曝光後，網友留言歪樓成「拆不...",
+      "detailSummary": "南市東區大學路上有70年歷史的成功大學「窮理致知」紀念校門，遭「自家」校園環境整理作業的抓斗機擦撞，牌樓一角水泥剝落，所幸字體及主要結構未受損；事件曝光後，網友留言歪樓成「拆不...",
+      "fallbackSummary": "南市東區大學路上有70年歷史的成功大學「窮理致知」紀念校門，遭「自家」校園環境整理作業的抓斗機擦撞，牌樓一角水泥剝落，所幸字體及主要結構未受損；事件曝光後，網友留言歪樓成「拆不...",
+      "fallbackDetailSummary": "南市東區大學路上有70年歷史的成功大學「窮理致知」紀念校門，遭「自家」校園環境整理作業的抓斗機擦撞，牌樓一角水泥剝落，所幸字體及主要結構未受損；事件曝光後，網友留言歪樓成「拆不...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827459"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/ahel/202609170063.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5576636"
+        }
+      ],
+      "articles": [
+        {
+          "category": "tech_ai",
+          "category_label": "科技／AI",
+          "published": "2026-09-17T12:47:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "成大70年窮理致知牌坊遭撞傷 不影響構造校方將負責修繕",
+          "url": "https://news.pts.org.tw/article/827459"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:22:00+08:00",
+          "source": "中央社生活",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "成大「窮理致知」紀念校門遭撞 南市府暫不開罰",
+          "url": "https://www.cna.com.tw/news/ahel/202609170063.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T08:36:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "南市東區大學路上有70年歷史的成功大學「窮理致知」紀念校門，遭「自家」校園環境整理作業的抓斗機擦撞，牌樓一角水泥剝落，所幸字體及主要結構未受損；事件曝光後，網友留言歪樓成「拆不...",
+          "title": "成大70年「窮理致知」牌樓遭撞 網掀拆除與封路論戰",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5576636"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 3,
+      "displayScore": 107.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 3,
+        "base_score": 104.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 107.0,
+        "source_article_counts": {
+          "公視新聞": 1,
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.3333333333333333,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：3；來源數：3；分數：107；基準有效篇數：2.0；立場有效篇數：1.0；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e032",
+      "date": "2026-09-17",
+      "title": "揭海洋酸化致烏賊大腦縮小 中研院科研引國際媒體關注",
+      "summary": "氣候變遷導致海洋吸收大量二氧化碳，造成全球海洋酸化持續加劇。",
+      "detailSummary": "氣候變遷導致海洋吸收大量二氧化碳，造成全球海洋酸化持續加劇。由中研院領軍的跨國研究團隊，發現長期暴露於酸化海水中的萊氏擬烏賊（俗稱軟絲），基本視覺仍維持正常，但視葉神經代謝網絡...",
+      "fallbackSummary": "氣候變遷導致海洋吸收大量二氧化碳，造成全球海洋酸化持續加劇。",
+      "fallbackDetailSummary": "氣候變遷導致海洋吸收大量二氧化碳，造成全球海洋酸化持續加劇。由中研院領軍的跨國研究團隊，發現長期暴露於酸化海水中的萊氏擬烏賊（俗稱軟絲），基本視覺仍維持正常，但視葉神經代謝網絡...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827559"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/ahel/202609170214.aspx"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5576844"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T20:31:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "模擬2100年海洋酸化情境 中研院研究指烏賊大腦縮小49%",
+          "url": "https://news.pts.org.tw/article/827559"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T16:35:00+08:00",
+          "source": "中央社生活",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "中研院揭海洋酸化危機 烏賊掠食力降影響生態系",
+          "url": "https://www.cna.com.tw/news/ahel/202609170214.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:30:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "氣候變遷導致海洋吸收大量二氧化碳，造成全球海洋酸化持續加劇。由中研院領軍的跨國研究團隊，發現長期暴露於酸化海水中的萊氏擬烏賊（俗稱軟絲），基本視覺仍維持正常，但視葉神經代謝網絡...",
+          "title": "揭海洋酸化致烏賊大腦縮小 中研院科研引國際媒體關注",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5576844"
+        }
+      ],
+      "sourceGroups": [
+        "公視新聞",
+        "中央社",
+        "自由時報"
+      ],
+      "articleCount": 3,
+      "displayScore": 107.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 3,
+        "base_score": 104.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 107.0,
+        "source_article_counts": {
+          "公視新聞": 1,
+          "中央社": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.3333333333333333,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：3；來源數：3；分數：107；基準有效篇數：2.0；立場有效篇數：1.0；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e030",
+      "date": "2026-09-17",
+      "title": "疑照護負擔過重 高雄19歲男持刀刺祖母後自戕",
+      "summary": "首次上稿 09-17 09:20更新時間 09-17 10:48 高雄市鳳山區驚傳長照血案！",
+      "detailSummary": "首次上稿 09-17 09:20更新時間 09-17 10:48 高雄市鳳山區驚傳長照血案！1名年僅19歲的曾姓男子，疑因長期協助照顧年邁、臥病在床的84歲黃姓祖母情緒失控，...",
+      "fallbackSummary": "首次上稿 09-17 09:20更新時間 09-17 10:48 高雄市鳳山區驚傳長照血案！",
+      "fallbackDetailSummary": "首次上稿 09-17 09:20更新時間 09-17 10:48 高雄市鳳山區驚傳長照血案！1名年僅19歲的曾姓男子，疑因長期協助照顧年邁、臥病在床的84歲黃姓祖母情緒失控，...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/asoc/202609170119.aspx"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827465"
+        },
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576679"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T13:11:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "疑不堪照護壓力 高雄男大生持刀刺傷祖母",
+          "url": "https://www.cna.com.tw/news/asoc/202609170119.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T12:45:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "疑照護負擔過重 高雄19歲男持刀刺祖母後自戕",
+          "url": "https://news.pts.org.tw/article/827465"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T10:48:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "首次上稿 09-17 09:20更新時間 09-17 10:48 高雄市鳳山區驚傳長照血案！1名年僅19歲的曾姓男子，疑因長期協助照顧年邁、臥病在床的84歲黃姓祖母情緒失控，...",
+          "title": "長照悲歌！高雄19歲孫崩潰持刀刺殺病榻84歲祖母 雙雙送醫",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576679"
+        }
+      ],
+      "sourceGroups": [
+        "中央社",
+        "公視新聞",
+        "自由時報"
+      ],
+      "articleCount": 3,
+      "displayScore": 107.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 3,
+        "base_score": 104.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 107.0,
+        "source_article_counts": {
+          "中央社": 1,
+          "公視新聞": 1,
+          "自由時報": 1
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 1.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 12.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.3333333333333333,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：3；來源數：3；分數：107；基準有效篇數：2.0；立場有效篇數：1.0；跨類型加分：+16；基準來源加分：+12",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e009",
+      "date": "2026-09-17",
+      "title": "台北動物園黑猩猩脫逃亂入 長頸鹿嚇爆奔逃畫面曝",
+      "summary": "台北市立動物園園區內兩隻黑猩猩今天下午4點55分脫逃，園方緊急疏散遊客，下午5點40分將兩隻「逃犯」緝拿到案。",
+      "detailSummary": "台北市立動物園園區內兩隻黑猩猩今天下午4點55分脫逃，園方緊急疏散遊客，下午5點40分將兩隻「逃犯」緝拿到案。有遊客目擊黑猩猩脫逃到長頸鹿區，不速之客讓長頸鹿嚇到驚慌失措。 ...",
+      "fallbackSummary": "台北市立動物園園區內兩隻黑猩猩今天下午4點55分脫逃，園方緊急疏散遊客，下午5點40分將兩隻「逃犯」緝拿到案。",
+      "fallbackDetailSummary": "台北市立動物園園區內兩隻黑猩猩今天下午4點55分脫逃，園方緊急疏散遊客，下午5點40分將兩隻「逃犯」緝拿到案。有遊客目擊黑猩猩脫逃到長頸鹿區，不速之客讓長頸鹿嚇到驚慌失措。 ...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5577665"
+        },
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/7470/9761504"
+        },
+        {
+          "source": "公視新聞",
+          "url": "https://news.pts.org.tw/article/827528"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T21:34:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "台北市立動物園園區內兩隻黑猩猩今天下午4點55分脫逃，園方緊急疏散遊客，下午5點40分將兩隻「逃犯」緝拿到案。有遊客目擊黑猩猩脫逃到長頸鹿區，不速之客讓長頸鹿嚇到驚慌失措。 ...",
+          "title": "台北動物園黑猩猩脫逃亂入 長頸鹿嚇爆奔逃畫面曝",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5577665"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T19:42:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "台北市立動物園現有今天傍晚發生2隻黑猩猩脫逃，被遊客目擊過程，園方立即啟動緊急應變機制，不只疏散遊客與現場管制，獸醫人員以吹箭麻醉後，不到1小時帶回。動物園發言人曹先紹坦言，不排除人為疏失，明天上午統一說明狀況。",
+          "title": "2隻黑猩猩脫逃…吹箭麻醉1小時內抓回 台北動物園：不排除人為疏失",
+          "url": "https://udn.com/news/story/7470/9761504"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T18:15:00+08:00",
+          "source": "公視新聞",
+          "source_group": "公視新聞",
+          "summary": "",
+          "title": "北市動物園2黑猩猩脫離活動場 園方吹箭麻醉成功帶回",
+          "url": "https://news.pts.org.tw/article/827528"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T17:59:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "台北市立動物園今天傍晚傳出2隻黑猩猩脫逃，園方追捕不到1小時，就帶回2隻黑猩猩。動物園表示，今天下午16時55分，非洲動物區發現2隻雄性黑猩猩44歲「小強」、11歲「娃智」脫離原活動場，分別在長頸鹿小活動場及黑猩猩活動場周邊活動。",
+          "title": "台北動物園黑猩猩「小強」、「娃智」脫逃 不到1小時被抓回",
+          "url": "https://udn.com/news/story/7470/9761330"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T17:51:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "首次上稿 17:26更新時間 17:51 台北市立動物園園區內2隻黑猩猩今（17）日下午驚傳脫逃。園方緊急疏散遊客，展開圍捕。園方下午5點時41分指出，2隻黑猩猩均已經帶...",
+          "title": "台北動物園2隻黑猩猩脫逃 「翻牆」落跑抓到了",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5577391"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T17:33:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "台北市立動物園今天傍晚5時傳出2隻黑猩猩脫逃，園內一名遊客目擊黑猩猩當場翻牆跑走，當時許多遊客都還沒離園。動物園發言人曹先紹證實，目前正在追捕中。",
+          "title": "台北動物園2隻黑猩猩驚傳脫逃！遊客目擊翻牆 園方證實追捕中",
+          "url": "https://udn.com/news/story/7470/9761270"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T13:48:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "台北市立動物園今年8月17日晚上出生的馬來貘寶寶（雌）在今（17）日滿月了！保育員特地準備了黃綠條紋的西瓜與目前還保有棕白條紋西瓜樣的小貘「兩瓜」相見，也提供馬來貘寶寶的吃西瓜...",
+          "title": "暱稱「嘴邊肉」！ 北市動物園馬來貘寶寶彌月 首次體驗吃西瓜",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5577038"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "聯合新聞網",
+        "公視新聞"
+      ],
+      "articleCount": 7,
+      "displayScore": 106.3594000115385,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 7,
+        "source_count": 3,
+        "base_score": 103.3594000115385,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 106.3594000115385,
+        "source_article_counts": {
+          "自由時報": 3,
+          "聯合新聞網": 3,
+          "公視新聞": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 5.169925001442312,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.42857142857142855,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：7；來源數：3；分數：106；基準有效篇數：1.0；立場有效篇數：5.2；跨類型加分：+16",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e035",
+      "date": "2026-09-17",
+      "title": "中大獲選矽光子前瞻計畫 搶攻AI晶片關鍵技術",
+      "summary": "搶攻前瞻科技！",
+      "detailSummary": "搶攻前瞻科技！中央大學獲選國科會「矽光子前瞻技術研發與應用計畫」，名列全國5所獲選大學之一，校方表示，將整合國內領先的光學工程、薄膜鈮酸鋰調制元件與光通訊等研究優勢，搶攻AI時...",
+      "fallbackSummary": "搶攻前瞻科技！",
+      "fallbackDetailSummary": "搶攻前瞻科技！中央大學獲選國科會「矽光子前瞻技術研發與應用計畫」，名列全國5所獲選大學之一，校方表示，將整合國內領先的光學工程、薄膜鈮酸鋰調制元件與光通訊等研究優勢，搶攻AI時...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5576868"
+        },
+        {
+          "source": "聯合新聞網",
+          "url": "https://udn.com/news/story/6928/9760195"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/ahel/202609170056.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:56:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "搶攻前瞻科技！中央大學獲選國科會「矽光子前瞻技術研發與應用計畫」，名列全國5所獲選大學之一，校方表示，將整合國內領先的光學工程、薄膜鈮酸鋰調制元件與光通訊等研究優勢，搶攻AI時...",
+          "title": "光學整合實力受肯定 中央大學獲選國科會矽光子前瞻計畫",
+          "url": "https://news.ltn.com.tw/news/life/breakingnews/5576868"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T11:16:00+08:00",
+          "source": "聯合新聞網",
+          "source_group": "聯合新聞網",
+          "summary": "國科會近日公布115年「矽光子前瞻技術研發與應用計畫」，國立中央大學獲選為全國五所大學之一。中大光電系講座教授孫慶成說，AI晶片運算速度不斷提升，晶片與子系統間的資料傳輸卻逐漸成為瓶頸，台灣在晶片製造、AI伺服器具備完整的產業生態，若進一步結合光連結與先進封裝，可望建立新的產業聚落。",
+          "title": "光學整合實力獲肯定 中央大學獲選國科會矽光子前瞻計畫",
+          "url": "https://udn.com/news/story/6928/9760195"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T10:55:00+08:00",
+          "source": "中央社生活",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "中大獲選矽光子前瞻計畫 搶攻AI晶片關鍵技術",
+          "url": "https://www.cna.com.tw/news/ahel/202609170056.aspx"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "聯合新聞網",
+        "中央社"
+      ],
+      "articleCount": 3,
+      "displayScore": 105.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 3,
+        "source_count": 3,
+        "base_score": 78.0,
+        "keyword_boost": 24.0,
+        "title_bonus": 3.0,
+        "score": 105.0,
+        "source_article_counts": {
+          "自由時報": 1,
+          "聯合新聞網": 1,
+          "中央社": 1
+        },
+        "baseline_effective_articles": 1.0,
+        "opinionated_effective_articles": 2.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.3333333333333333,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [
+        "AI"
+      ],
+      "selectionReason": "文章數：3；來源數：3；分數：105；基準有效篇數：1.0；立場有效篇數：2.0；跨類型加分：+16；命中重點字：AI",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    },
+    {
+      "id": "2026-09-17-e014",
+      "date": "2026-09-17",
+      "title": "累犯！毒駕男三灣撞死路人被起訴 最重可處無期徒刑",
+      "summary": "台中曾是鉛球比賽冠軍的詹朱姓男子（25歲），不滿曾擔任儀隊的詹姓女友（18歲）提分手，去年5月以歸還寵物鼠，誘出詹女談判求復合，卻持刀猛刺詹女2刀致死，國民法官法庭今天宣判，認...",
+      "detailSummary": "台中曾是鉛球比賽冠軍的詹朱姓男子（25歲），不滿曾擔任儀隊的詹姓女友（18歲）提分手，去年5月以歸還寵物鼠，誘出詹女談判求復合，卻持刀猛刺詹女2刀致死，國民法官法庭今天宣判，認...",
+      "fallbackSummary": "台中曾是鉛球比賽冠軍的詹朱姓男子（25歲），不滿曾擔任儀隊的詹姓女友（18歲）提分手，去年5月以歸還寵物鼠，誘出詹女談判求復合，卻持刀猛刺詹女2刀致死，國民法官法庭今天宣判，認...",
+      "fallbackDetailSummary": "台中曾是鉛球比賽冠軍的詹朱姓男子（25歲），不滿曾擔任儀隊的詹姓女友（18歲）提分手，去年5月以歸還寵物鼠，誘出詹女談判求復合，卻持刀猛刺詹女2刀致死，國民法官法庭今天宣判，認...",
+      "why": "",
+      "category": "society_life",
+      "categoryLabel": "社會／生活",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "source": "自由時報",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577750"
+        },
+        {
+          "source": "中央社",
+          "url": "https://www.cna.com.tw/news/asoc/202609170190.aspx"
+        }
+      ],
+      "articles": [
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T23:57:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "台中曾是鉛球比賽冠軍的詹朱姓男子（25歲），不滿曾擔任儀隊的詹姓女友（18歲）提分手，去年5月以歸還寵物鼠，誘出詹女談判求復合，卻持刀猛刺詹女2刀致死，國民法官法庭今天宣判，認...",
+          "title": "鉛球冠軍當街刺死18歲儀隊前女友 國民法官重判無期徒刑理由曝",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577750"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T16:41:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "林姓男子5月施用毒品後騎機車，毒駕在苗栗縣三灣鄉撞上行人李姓男子，李男傷重不治，苗栗縣警察局頭份分局員警據報到場，以現行犯逮捕林男，苗栗地檢署依毒駕致死將林男提起公訴，林男10...",
+          "title": "累犯！毒駕男三灣撞死路人被起訴 最重可處無期徒刑",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5577306"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T15:45:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "國民法官",
+          "title": "涉毒殺前女友、妻子判2無期 張書源二審全盤否認",
+          "url": "https://www.cna.com.tw/news/asoc/202609170190.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T12:55:00+08:00",
+          "source": "中央社社會",
+          "source_group": "中央社",
+          "summary": "",
+          "title": "台中男藉口還寵物鼠約出前女友殺害 國民法庭一審判無期",
+          "url": "https://www.cna.com.tw/news/asoc/202609170111.aspx"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T12:23:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "台中身材壯碩曾是鉛球比賽冠軍的詹朱姓男子（25歲），不滿曾是儀隊的詹姓女友（18歲）提分手，去年5月以歸還寵物鼠，誘出詹女南下台中談判求復合，卻持刀猛刺詹女3刀，接著刺自己自殘...",
+          "title": "鉛球冠軍還寵物鼠刺死18歲儀隊前女友 一審重判無期徒刑",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576935"
+        },
+        {
+          "category": "society_life",
+          "category_label": "社會／生活",
+          "published": "2026-09-17T06:50:00+08:00",
+          "source": "自由時報",
+          "source_group": "自由時報",
+          "summary": "首次上稿 09-16 23:27更新時間 09-17 06:50 台中市25歲詹朱姓男子不滿18歲詹姓前女友提分手，竟異想天開想靠假冒「英雄救美」挽回感情，先上網找情感修復師...",
+          "title": "鉛球冠軍殺前女友內幕！6萬情感修復師嫌貴 曾想找8+9演英雄救美",
+          "url": "https://news.ltn.com.tw/news/society/breakingnews/5576546"
+        }
+      ],
+      "sourceGroups": [
+        "自由時報",
+        "中央社"
+      ],
+      "articleCount": 6,
+      "displayScore": 103.0,
+      "scoreComponents": {
+        "mode": "balanced",
+        "article_count": 6,
+        "source_count": 2,
+        "base_score": 100.0,
+        "keyword_boost": 0.0,
+        "title_bonus": 3.0,
+        "score": 103.0,
+        "source_article_counts": {
+          "自由時報": 4,
+          "中央社": 2
+        },
+        "baseline_effective_articles": 2.0,
+        "opinionated_effective_articles": 3.0,
+        "other_effective_articles": 0,
+        "cross_type_bonus": 16.0,
+        "baseline_pair_bonus": 0.0,
+        "opinionated_only_penalty": 0.0,
+        "dominant_source_ratio": 0.6666666666666666,
+        "dominant_source_penalty": 0.0
+      },
+      "matchedInterestKeywords": [],
+      "selectionReason": "文章數：6；來源數：2；分數：103；基準有效篇數：2.0；立場有效篇數：3.0；跨類型加分：+16",
+      "pinned": false,
+      "fromDigest": false,
+      "fromEvents": true,
+      "summarySource": "fallback"
+    }
+  ]
+}
